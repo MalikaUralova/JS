@@ -1007,12 +1007,12 @@
 // let main = "*".repeat(carta.length - 4);
 // console.log(main + number);
 
-let i = 1
 
-do{
-    console.log(i);
-    i++;
-}while (i >=5);
+
+
+for (let i = 0; i < array.length; i++) {
+    
+}
 
 
 
