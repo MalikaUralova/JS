@@ -1007,13 +1007,12 @@
 // let main = "*".repeat(carta.length - 4);
 // console.log(main + number);
 
+let i = 2
+
+do{
+    console.log(i);
+    i++;
+}while (i <= 5);
 
 
-let a = 1;
-while (a <= 20) {
-    console.log(a);
-    a+=2;
-}
 
-
-let console
