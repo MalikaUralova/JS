@@ -1021,6 +1021,7 @@
 
 
 //2-misol
+let str = "banana";
 
 
 
