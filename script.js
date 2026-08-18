@@ -1009,10 +1009,10 @@
 
 
 
-for (let i = 5; i <= 50; i++) {
-    console.log(i);
+for (let i = 0; i <=5; i++) {
+    let row
+    
 }
-
 
 
     
