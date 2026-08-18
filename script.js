@@ -927,32 +927,32 @@
 
 
 
-//1-misol
-let name = "malika"
-console.log(name.toUpperCase() , name.length);
+// //1-misol
+// let name = "malika"
+// console.log(name.toUpperCase() , name.length);
 
 
 
-//2-misol
-let str = "  salom dunyo  ";
-console.log(str.trim())
-console.log( str.includes("S"))
+// //2-misol
+// let str = "  salom dunyo  ";
+// console.log(str.trim())
+// console.log( str.includes("S"))
 
 
-//3-misol
-let str = "JavaScript juda zo'r til";
-console.log(str.indexOf("juda"));
+// //3-misol
+// let str = "JavaScript juda zo'r til";
+// console.log(str.indexOf("juda"));
 
 
-//4-misol
-let str = "apple,banan,grape,mango";
-console.log(str.split(","));
+// //4-misol
+// let str = "apple,banan,grape,mango";
+// console.log(str.split(","));
 
 
 
-//5-misol
-let str = "Programming";
-console.log(str.substring(3,6));
+// //5-misol
+// let str = "Programming";
+// console.log(str.substring(3,6));
 
 
 //6-misol
@@ -1006,3 +1006,11 @@ console.log(str.substring(3,6));
 // let number = carta.slice(-4);
 // let main = "*".repeat(carta.length - 4);
 // console.log(main + number);
+
+
+
+let a = 2;
+while (a <= 20) {
+    console.log(a);
+    a++;
+}
