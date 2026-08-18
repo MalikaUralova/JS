@@ -1007,7 +1007,7 @@
 // let main = "*".repeat(carta.length - 4);
 // console.log(main + number);
 
-let i = 2
+let i = 1
 
 do{
     console.log(i);
