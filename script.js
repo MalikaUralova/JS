@@ -1009,8 +1009,11 @@
 
 
 
-let a = 2;
+let a = 1;
 while (a <= 20) {
     console.log(a);
-    a++;
+    a+=2;
 }
+
+
+let console
