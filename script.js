@@ -1052,14 +1052,10 @@
 
 //4-misol
 
-s = "abc123xyz456"
-yigindi = 0
+//4-misol
 
-for belgi in s:
-    if belgi.isdigit():
-        yigindi += int(belgi)
 
-print(yigindi)  
+
 
 
 
