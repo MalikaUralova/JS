@@ -1061,6 +1061,7 @@ for (let i = 3; i < str.length; i++) {
         continue
     }
     console.log(str[i]); 
+    console.log(`${i+i}`); 
 }
 
 
