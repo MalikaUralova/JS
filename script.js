@@ -1059,20 +1059,28 @@
 
 
 //5-misol
-let str = "hello world";
-let result = "";
+// let str = "hello world";
+// let result = "";
 
-for (let i = 0; i < str.length; i++) {
-    if (i === 0) {
-        result += str[i].replaceAll("h", "H");
-    } else {
-        result += str[i];
-    }
-}
+// for (let i = 0; i < str.length; i++) {
+//     if (i === 0) {
+//         result += str[i].replaceAll("h", "H");
+//     } else {
+//         result += str[i];
+//     }
+// }
 
-console.log(result);
+// console.log(result);
 
 
+
+
+
+//6-misol
+//-----
+
+
+//7-misol
 
 
 
