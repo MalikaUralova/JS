@@ -1038,7 +1038,13 @@
 let str = "abc123xyz456";
 for (let i = 0; i < str.length; i++) {
     if (str[i]==="1") {
-        continue
+    
+        if (str[i]==="2") {
+        
+            if (str[i]==="3") {
+                
+            }
+        }
     }
     console.log(str[i]); 
 }
