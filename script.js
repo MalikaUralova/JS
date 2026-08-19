@@ -1036,8 +1036,8 @@
 
 //3-misol
 let str = "abc123xyz456";
-for (let i = 0; i < str.length; i--) {
-    if (str[i]==="123456") {
+for (let i = 0; i <=123456; i--) {
+    if (str[i]==="") {
         continue
     }
     console.log(str[i]); 
