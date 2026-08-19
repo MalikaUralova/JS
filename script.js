@@ -1052,7 +1052,14 @@
 
 //4-misol
 
+s = "abc123xyz456"
+yigindi = 0
 
+for belgi in s:
+    if belgi.isdigit():
+        yigindi += int(belgi)
+
+print(yigindi)  
 
 
 
