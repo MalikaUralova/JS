@@ -1052,9 +1052,15 @@
 
 //4-misol
 let str = "abc123xyz456";
-for (let i = 0; i < str.length; i++) {
-  
-    
+for (let i = 3; i < str.length; i++) {
+    if (str[i]==="x") {
+        continue
+    }    if (str[i]==="y") {
+        continue
+    }    if (str[i]==="z") {
+        continue
+    }
+    console.log(str[i]); 
 }
 
 
