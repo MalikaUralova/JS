@@ -1051,7 +1051,11 @@
 
 
 //4-misol
-
+let str = "abc123xyz456";
+for (let i = 0; i < str.length; i++) {
+  
+    
+}
 
 
 
