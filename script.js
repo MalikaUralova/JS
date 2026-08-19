@@ -1060,7 +1060,7 @@ for (let i = 3; i < str.length; i++) {
     }    if (str[i]==="z") {
         continue
     }
-    console.log(str[i]); 
+    // console.log(str[i]); 
     console.log(`${i+i}`); 
 }
 
