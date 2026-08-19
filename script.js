@@ -1060,12 +1060,17 @@
 
 //5-misol
 let str = "hello world";
-for (let i = 0; i < str.includes("H"); i++) {
-    if (str[i]==="H") {
-        // continue
+let result = "";
+
+for (let i = 0; i < str.length; i++) {
+    if (i === 0) {
+        result += str[i].replaceAll("h", "H");
+    } else {
+        result += str[i];
     }
-    console.log(str[i]); 
 }
+
+console.log(result);
 
 
 
