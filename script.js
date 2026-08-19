@@ -1050,10 +1050,22 @@
 
 
 
-//4-misol
+
 
 //4-misol
+//------------
 
+
+
+
+//5-misol
+let str = "hello world";
+for (let i = 0; i < str.includes("H"); i++) {
+    if (str[i]==="H") {
+        // continue
+    }
+    console.log(str[i]); 
+}
 
 
 
