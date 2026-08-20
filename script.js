@@ -1065,16 +1065,18 @@
 
 
 // 5-misol
-let str = "hello world";
-let result = "";
-for (let i = 0; i < str.length; i++) {
-    if (i === 0) {
-        result += str[i].replaceAll("h", "H");
-    } else {
-        result += str[i];
-    }
-}
-console.log(result);
+// let str = "hello world";
+// let result = "";
+// for (let i = 0; i < str.length; i++) {
+//     if (i === 0) {
+//         result += str[i].replaceAll("h", "H");
+//     } else {
+//         result += str[i];
+//     }
+// }
+// console.log(result);
+
+
 
 
 
