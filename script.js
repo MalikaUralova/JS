@@ -1142,8 +1142,7 @@
 
 
 
-let  name = 12;
-let  name = 12;
+
 
 
 
