@@ -1082,9 +1082,6 @@ console.log(result);
 
 
 
-
-
-
 //6-misol
 //-----
 
