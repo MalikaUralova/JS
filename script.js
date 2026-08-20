@@ -1142,7 +1142,7 @@
 
 
 
-let  name 
+let  name = 12;
 
 
 
