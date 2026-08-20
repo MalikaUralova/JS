@@ -980,7 +980,7 @@
 
 
 //10-misol
-//-----
+// -----
 // let str= "aabbcccddee";
 // console.log(str.substring(1,3),str.substring());
 
