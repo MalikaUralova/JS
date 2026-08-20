@@ -1063,9 +1063,6 @@
 //------------
 
 
-let name =123;
-let namd = 123;
-let name = 12;
 
 // 5-misol
 let str = "hello world";
