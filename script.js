@@ -966,23 +966,23 @@
 
 
 //8-misol
-// let str = "firstname:Ali , lastname:Valiyev , age:20";
-// console.log(str)
-// console.log(str.substring(10, 13))
+let str = "firstname:Ali , lastname:Valiyev , age:20";
+console.log(str)
+console.log(str.substring(10, 13))
 
 
 
 //9-misol
-// let str = "salom dunyo";
-// console.log(str.replaceAll("s", "S").replace("d", "D"));
+let str = "salom dunyo";
+console.log(str.replaceAll("s", "S").replace("d", "D"));
 
 
 
 
 //10-misol
 // -----
-// let str= "aabbcccddee";
-// console.log(str.substring(1,3),str.substring());
+let str= "aabbcccddee";
+console.log(str.substring(1,3),str.substring());
 
  
 
