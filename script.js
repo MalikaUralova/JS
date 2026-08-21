@@ -955,6 +955,8 @@
 // console.log(str.substring(3,6));
 
 
+
+
 //6-misol
 // let str = "hello world";
 // console.log(str.replaceAll("l", "*"));
