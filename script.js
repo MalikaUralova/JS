@@ -983,7 +983,6 @@ console.log(str.replaceAll("s", "S").replace("d", "D"));
 // -----
 // let str= "aabbcccddee";
 // console.log(str.substring(1,3),str.substring());
-
  
 
 
