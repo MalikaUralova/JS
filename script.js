@@ -982,9 +982,9 @@ console.log(str.replaceAll("s", "S").replace("d", "D"));
 
 //10-misol
 // -----
-let str= "aabbcccddee";
-console.log(str.substring(1,3),str.substring());
-console.log(console.log());
+// let str= "aabbcccddee";
+// console.log(str.substring(1,3),str.substring());
+// console.log(console.log());
 
 
 
