@@ -968,9 +968,9 @@
 
 
 //8-misol
-let str = "firstname:Ali , lastname:Valiyev , age:20";
-console.log(str)
-console.log(str.substring(10, 13))
+// let str = "firstname:Ali , lastname:Valiyev , age:20";
+// console.log(str)
+// console.log(str.substring(10, 13))
 
 
 //9-misol
