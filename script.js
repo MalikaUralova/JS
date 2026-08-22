@@ -974,8 +974,8 @@ console.log(str.substring(10, 13))
 
 
 //9-misol
-let str = "salom dunyo";
-console.log(str.replaceAll("s", "S").replace("d", "D"));
+// let str = "salom dunyo";
+// console.log(str.replaceAll("s", "S").replace("d", "D"));
 
 
 
