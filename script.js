@@ -935,11 +935,7 @@
 
 // //1-misol
 // let name = "malika"
-// console.log(name.toUpperCase() , name.length);
-
-
-
-// //2-misol
+// console.log(name.toUpperCase() , name.lengt\\\\\\\\\\\\\\\\\\\\\
 // let str = "  salom dunyo  ";
 // console.log(str.trim())
 // console.log( str.includes("S"))
