@@ -1150,9 +1150,9 @@
 
 
 
-let mevalar = ["olma","banan","olcha"] ;
-mevalar.shift();
-console.log(mevalar);
+// let mevalar = ["olma","banan","olcha"] ;
+// mevalar.shift();
+// console.log(mevalar);
 
 
 
