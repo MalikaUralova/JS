@@ -1092,11 +1092,7 @@
 
 
 
-//6-misol
-//-----
-
-
-//7-misol
+let mava = ["olma","banan","anor"]
 
 
 
