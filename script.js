@@ -1112,11 +1112,11 @@
 
 
 
-let mevalar = ["olma","banan","olcha"] ;
-mevalar.push("tarvuz");
-mevalar.push("qovun");
-mevalar.push("gilos");
-console.log(mevalar);
+// let mevalar = ["olma","banan","olcha"] ;
+// mevalar.push("tarvuz");
+// mevalar.push("qovun");
+// mevalar.push("gilos");
+// console.log(mevalar);
 
 
 
