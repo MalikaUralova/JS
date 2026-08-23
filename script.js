@@ -1211,16 +1211,10 @@
 
 
 
-let fruits = ["apple","banan"];
-let vegetables = ["carrot","broccoli"];
-let result = fruits.concat(vegetables);
-console.log(result);
-
-
-
-
-
-
+// let fruits = ["apple","banan"];
+// let vegetables = ["carrot","broccoli"];
+// let result = fruits.concat(vegetables);
+// console.log(result);
 
 
 
@@ -1242,3 +1236,12 @@ console.log(result);
 
 
     
+
+
+
+
+
+
+//1-misol
+// let str = [1,2,3,4,5,6,8];
+// console.log(str.length);
