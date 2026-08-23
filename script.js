@@ -1346,13 +1346,13 @@
 //14-misol
 
 
-let date = [1, 2, 3, 4];
-date.push(5)
-if (Array.isArray(date)) {
-    console.log(`bu massiv ${date} `);
-} else {
-    console.log("bu massiv emas");
-}
+// let date = [1, 2, 3, 4];
+// date.push(5)
+// if (Array.isArray(date)) {
+//     console.log(`bu massiv ${date} `);
+// } else {
+//     console.log("bu massiv emas");
+// }
 
 
 
