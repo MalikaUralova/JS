@@ -1306,3 +1306,18 @@
 // console.log(number.slice(1, -1));
 
 
+
+
+//10-misol
+// let num1 = [1,2,3,4,5];
+// let num2 = [6,7,8,9];
+// let result = num1.concat(num2);
+// console.log(result.slice(-1));
+
+
+
+//11-misol
+let arr = [10, 20, 30, 40, 50];
+console.log(arr.includes(50));
+
+
