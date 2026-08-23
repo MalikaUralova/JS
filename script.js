@@ -1257,3 +1257,10 @@
 //3-misol
 // let str = ["olma","banan","olcha"];
 // console.log(str.at(0));
+
+
+
+
+//4-misol
+let num = [1,2];
+console.log(Array.isArray(num));
