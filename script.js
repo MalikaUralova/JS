@@ -1164,8 +1164,10 @@
 
 
 
-let arr = ["malika","mahliyo","asila"];
+let arr = [];
 arr .unshift("safina")
+arr .unshift("mahliyo")
+arr .unshift("malika")
 console.log(arr);
 
 
