@@ -1317,7 +1317,16 @@
 
 
 //11-misol
-let arr = [10, 20, 30, 40, 50];
-console.log(arr.includes(50));
+// let arr = [10, 20, 30, 40, 50];
+// console.log(arr.includes(50));
 
 
+
+
+//12-misol
+// let name = ["malika", "sevinch"];
+// let search = "a";
+// let searchResult = name.filter(product =>
+//     product.toLowerCase().includes(search.toLocaleLowerCase())
+// );
+// console.log(searchResult);
