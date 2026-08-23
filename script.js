@@ -1290,3 +1290,10 @@
 // let result = str.at(2);
 // str.pop();
 // console.log(result);
+
+
+
+//8-misol
+// let price = [100, 200, 300];
+// let result = price.map(num => num * 2)
+// console.log(result);
