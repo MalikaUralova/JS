@@ -1201,7 +1201,8 @@
 // console.log(num.at(0));
 
 
-
+//  let num = [12,23,34]
+// console.log(num.at(-1));
 
 
 
