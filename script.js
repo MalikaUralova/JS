@@ -1089,6 +1089,10 @@
 
 
 let num = [1,2,3,4];
+console.log(num);
+num.push(6)
+num.push(6 )
+num.push(6)
 num.push(6)
 console.log(num);
 
