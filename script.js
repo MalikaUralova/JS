@@ -1248,6 +1248,12 @@
 
 
 //2-misol
-let num = [1,2,3,4,5,6,7,8,9] ;
-num.push(10);
-console.log(num);
+// let num = [1,2,3,4,5,6,7,8,9] ;
+// num.push(10);
+// console.log(num);
+
+
+
+//3-misol
+// let str = ["olma","banan","olcha"];
+// console.log(str.at(0));
