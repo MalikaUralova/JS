@@ -1030,7 +1030,7 @@
 //homework
 // let str = "hello";
 // for (let i = str.length-1; i >=0; i--) {
-//     console.log(str[i]);  
+//     console.log(str[i]);
 // }
 
 
@@ -1044,7 +1044,7 @@
 //     if (str[i]==="a") {
 //         continue
 //     }
-//     console.log(str[i]); 
+//     console.log(str[i]);
 // }
 
 
@@ -1062,7 +1062,7 @@
 //     }    if (str[i]==="z") {
 //         continue
 //     }
-//     console.log(str[i]); 
+//     console.log(str[i]);
 // }
 
 
@@ -1297,3 +1297,12 @@
 // let price = [100, 200, 300];
 // let result = price.map(num => num * 2)
 // console.log(result);
+
+
+
+
+//9-misol
+// let number = [10, 20, 30, 40, 50,];
+// console.log(number.slice(1, -1));
+
+
