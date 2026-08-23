@@ -1330,3 +1330,12 @@
 //     product.toLowerCase().includes(search.toLocaleLowerCase())
 // );
 // console.log(searchResult);
+
+
+
+
+//13-misol
+let str = ["olma", "anor"];
+str.unshift("olcha");
+str.unshift("banan");
+console.log(str);
