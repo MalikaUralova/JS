@@ -1351,3 +1351,8 @@
 // } else {
 //     console.log("bu massiv emas");
 // }
+
+
+
+
+//15-misol
