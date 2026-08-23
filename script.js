@@ -1191,9 +1191,15 @@
 
 
 
-let num = 1;
-console.log(Array.isArray(num));
-console.log(num);
+// let num = 1;
+// console.log(Array.isArray(num));
+// console.log(num);
+
+
+
+// let num = [12,23,34]
+// console.log(num.at(0));
+
 
 
 
