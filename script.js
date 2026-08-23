@@ -1245,3 +1245,9 @@
 //1-misol
 // let str = [1,2,3,4,5,6,8];
 // console.log(str.length);
+
+
+//2-misol
+let num = [1,2,3,4,5,6,7,8,9] ;
+num.push(10);
+console.log(num);
