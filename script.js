@@ -1098,9 +1098,12 @@
 //                    ARRAY                  //
 // ───────────────────────────────────────── //
 
-let mevalar = ["olma","banan","olcha"] ;
-mevalar.push("tarvuz");
-console.log(mevalar);
+// let mevalar = ["olma","banan","olcha"] ;
+// mevalar.push("tarvuz");
+// console.log(mevalar);
+
+
+
 
 
 
