@@ -1157,14 +1157,16 @@
 
 
 
+// let arr = ["malika","mahliyo","asila"];
+// arr .unshift("safina")
+// console.log(arr);
+
+
+
+
 let arr = ["malika","mahliyo","asila"];
 arr .unshift("safina")
 console.log(arr);
-
-
-
-
-
 
 
 
