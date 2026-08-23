@@ -1191,6 +1191,10 @@
 
 
 
+let num = 1;
+console.log(Array.isArray(num));
+console.log(num);
+
 
 
 
