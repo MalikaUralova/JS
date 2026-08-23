@@ -1183,6 +1183,12 @@
 
 
 
+// let arr = [];
+// arr .shift("safina")
+// arr .unshift("mahliyo")
+// arr .unshift("malika")
+// console.log(arr);
+
 
 
 
