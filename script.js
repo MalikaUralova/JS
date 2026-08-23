@@ -1092,8 +1092,9 @@
 
 
 
-let mava = ["olma","banan","anor"]
+let meva = ["olma","banan","anor"]
 
+console.log(meva);
 
 
 
