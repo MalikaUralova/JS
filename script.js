@@ -1205,7 +1205,8 @@
 // console.log(num.at(-1));
 
 
-
+ let num = "malika"
+console.log(num.at(-1));
 
 
 
