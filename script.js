@@ -1105,6 +1105,10 @@
 
 
 
+let mevalar = ["olma","banan","olcha"] ;
+mevalar.pop();
+console.log(mevalar);
+
 
 
 
