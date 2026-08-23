@@ -1132,13 +1132,13 @@
 
 
 
-let mevalar = [] ;
-mevalar.push("tarvuz");
-console.log(mevalar);
-mevalar.push("qovun");
-console.log(mevalar);
-mevalar.push("gilos");
-console.log(mevalar);
+// let mevalar = [] ;
+// mevalar.push("tarvuz");
+// console.log(mevalar);
+// mevalar.push("qovun");
+// console.log(mevalar);
+// mevalar.push("gilos");
+// console.log(mevalar);
 
 
 
