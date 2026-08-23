@@ -1143,14 +1143,16 @@
 
 
 
+// let arr = [1,2,3];
+// arr .unshift(0)
+// console.log(arr);
 
 
-let arr = [1,2,3];
-arr .unshift(0)
-console.log(arr);
 
 
-
+let mevalar = ["olma","banan","olcha"] ;
+mevalar.shift();
+console.log(mevalar);
 
 
 
