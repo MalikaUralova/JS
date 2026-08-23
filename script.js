@@ -1269,6 +1269,15 @@
 
 
 //5-misol
-let fruits = ["banana", "apple", "kiwi", "cherry"];
-let lenth = fruits.filter(fruits => fruits.length > 5);
-console.log(lenth);
+// let fruits = ["banana", "apple", "kiwi", "cherry"];
+// let lenth = fruits.filter(fruits => fruits.length > 5);
+// console.log(lenth);
+
+
+
+
+//6-misol
+// let price = [100, 200, 300];
+// let result = price.map(num => num * 0.9)
+// console.log(result);
+
