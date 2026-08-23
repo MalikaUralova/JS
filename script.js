@@ -1157,6 +1157,11 @@
 
 
 
+let arr = ["malika","mahliyo","asila"];
+arr .unshift("safina")
+console.log(arr);
+
+
 
 
 
