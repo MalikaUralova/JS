@@ -1211,10 +1211,10 @@
 
 
 
-// let fruits = ["apple","banan"];
-// let vegetables = ["carrot","broccoli"];
-// let result = fruits.concat(vegetables);
-// console.log(result);
+let fruits = ["apple","banan"];
+let vegetables = ["carrot","broccoli"];
+let result = fruits.concat(vegetables);
+console.log(result);
 
 
 
@@ -1225,7 +1225,7 @@
 
 
 
-
+  
 
 
 
