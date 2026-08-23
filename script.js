@@ -1088,10 +1088,20 @@
 // console.log(result);
 
 
-let num = [1,2,3,4];
-num.pop()
-num.push(5)
-console.log(num);
+
+
+
+
+
+
+// ───────────────────────────────────────── //
+//                    ARRAY                  //
+// ───────────────────────────────────────── //
+
+let mevalar = ["olma","banan","olcha"] ;
+mevalar.push("tarvuz");
+console.log(mevalar);
+
 
 
 
