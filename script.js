@@ -1092,7 +1092,7 @@
 
 
 
-let meva = ["olma","banan","anor"]
+let meva = ["olma","banan","anor" ,1212 ,232321,true,null,undefined,boolean]
 
 console.log(meva);
 
