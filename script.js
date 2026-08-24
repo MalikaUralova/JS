@@ -1411,3 +1411,8 @@
 // arr.push(5);
 // arr2.push(5);
 // console.log(arr, arr2);
+
+
+
+
+//22-misol
