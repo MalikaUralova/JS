@@ -1365,7 +1365,26 @@
 // console.log(found);
 
 
+
+
 //16-misol
-let body = ["hand", "nose", "lip", "hair"];
-body.sort();
-console.log(body);
+// let body = ["hand", "nose", "lip", "hair"];
+// body.sort();
+// console.log(body);
+
+
+
+
+//17-misol
+// let numbers = [5, 8, 3, 9, 4, 2, 7, 1, 6, 10];
+// numbers.sort();
+// console.log(numbers);
+
+
+
+
+//18-misol
+// let numbers = ["o", "l", "m", "a"];
+// numbers.forEach((num) => {
+//     console.log(num);
+// })
