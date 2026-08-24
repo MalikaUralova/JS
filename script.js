@@ -1405,6 +1405,9 @@
 
 
 
+
+
+
 //21-misol
 // const arr = Array.of(1, 2, 3, 4);
 // const arr2 = new Array(1, 2, 3, 4);
@@ -1416,6 +1419,9 @@
 
 
 //22-misol
+
+
+
 
 
 
