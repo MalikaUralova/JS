@@ -1427,3 +1427,13 @@
 
 
 
+
+//24-misol
+// let numbers = [20, 30, 10, 50];
+// numbers.forEach((num) => {
+//     console.log(`${num * 2}`);
+// });
+
+
+
+
