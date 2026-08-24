@@ -1343,9 +1343,11 @@
 
 
 
+
+
+
+
 //14-misol
-
-
 // let date = [1, 2, 3, 4];
 // date.push(5)
 // if (Array.isArray(date)) {
@@ -1358,3 +1360,6 @@
 
 
 //15-misol
+// let numbers = [11, 17, 13, 20, 15];
+// let found = numbers.find((num) => num > 18);
+// console.log(found);
