@@ -1419,10 +1419,10 @@
 
 
 //23-misol
-let num1 = ["oysha", "asal", "sabina", "ilhom", "mahroj", "zokir"];
-let num2 = ["madina", "gulmira", "nafosat", "sardor", "og'abek", "otabek", "temur"];
-let result = num1.concat(num2);
-console.log(result);
+// let num1 = ["oysha", "asal", "sabina", "ilhom", "mahroj", "zokir"];
+// let num2 = ["madina", "gulmira", "nafosat", "sardor", "og'abek", "otabek", "temur"];
+// let result = num1.concat(num2);
+// console.log(result);
 
 
 
