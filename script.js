@@ -1395,3 +1395,19 @@
 // let str = ["olxo'ri","olcha"];
 // str.shift();
 // console.log(str);
+
+
+
+//20-misol
+// let num = [1, 2, 3, 4, 5, 6];
+// console.log(num.at(4));
+
+
+
+
+//21-misol
+// const arr = Array.of(1, 2, 3, 4);
+// const arr2 = new Array(1, 2, 3, 4);
+// arr.push(5);
+// arr2.push(5);
+// console.log(arr, arr2);
