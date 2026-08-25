@@ -1440,7 +1440,7 @@
 
 
 //15-dars
-
+//OBJECT YARATISH USULI .1.
 // let user = {
 //     name: "malika",
 //     surname: "uralova",
@@ -1448,6 +1448,16 @@
 //     isDeveloper: true
 // }
 // console.log(user);
+
+
+
+
+
+//OBJECT YARATISH USULI .2.
+let user = new Object()
+console.log(user);
+
+
 
 
 
