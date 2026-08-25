@@ -1567,6 +1567,19 @@
 
 
 
-let students = {
-     
-}
+let students = [
+    {
+        name: "malika",
+        score: [90, 70, 95, 100]
+    },
+    {
+        name: "malika",
+        score: [60, 70, 85, 20]
+    },
+    {
+        name: "malika",
+        score: [90, 100, 95, 110]
+    }
+]
+
+
