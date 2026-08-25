@@ -1628,9 +1628,9 @@
 //     } 
 // ] 
 
-// products.map(item => {
-//     console.log(`${item.name} mahsulotiga 10% chegirma beriladi: ${item.price >= 2500000 ? item.price * 0.9 : item.price}`);
-// })
+products.map(item => {
+    console.log(`${item.name} mahsulotiga 10% chegirma beriladi: ${item.price >= 2500000 ? item.price * 0.9 : item.price}`);
+})
 
 
 
