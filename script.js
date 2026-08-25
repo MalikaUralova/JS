@@ -1439,4 +1439,17 @@
 
 
 
+//15-dars
+
+let user = {
+    name: "malika",
+    surname: "uralova",
+    age: 16,
+    isDeveloper: true
+}
+
+
+
+
+
 
