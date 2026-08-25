@@ -1533,6 +1533,7 @@
 
 
 
+
 //AMALIY MASHQLAR
 //1-do'kondagi mahsulotlarni qo'shish
 
@@ -1566,7 +1567,7 @@
 
 
 
-
+//umumiy ball
 // let students = [
 //     {
 //         name: "malika",
