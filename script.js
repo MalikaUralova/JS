@@ -1510,5 +1510,5 @@ let user = {
     age: 16,
     isDeveloper: true,
 };
-// delete user.age;
+delete user.age;
 console.log(user);
