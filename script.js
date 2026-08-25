@@ -1597,14 +1597,14 @@
 // }
 // console.log(arr);
 
-let totalScore = 0
-arr.map((item) => {
-    if (item > totalScore) {
-        totalScore = 0
-        totalScore += item
-    }
-})
-console.log(totalScore);
+// let totalScore = 0
+// arr.map((item) => {
+//     if (item > totalScore) {
+//         totalScore = 0
+//         totalScore += item
+//     }
+// })
+// console.log(totalScore);
 
 
 
