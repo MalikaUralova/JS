@@ -1579,6 +1579,10 @@ let students = [
     {
         name: "malika",
         score: [90, 100, 95, 110]
+    },
+    {
+        name: "malika",
+        score: [100, 100, 100, 100]
     }
 ]
 let arr = [];
@@ -1588,8 +1592,15 @@ for (let i = 0; i < students.length; i++) {
         count += students[i].score[j]
     }
     arr.push(count / students[i].score.length)
-    count = 0 
+    count = 0
 }
 console.log(arr);
 
-let totalScore
+let totalScore = 0
+arr.map((item) => {
+    if (item > totalScore) {
+        totalScore = 0
+        totalScore += item
+    }
+})
+console.log(totalScore);
