@@ -1549,7 +1549,7 @@ const store = [
     {
         name: "pomidor",
         massa: 20,
-        price: 5000,
+        price: 7000,
     }
 ]
 let count = 0
@@ -1558,6 +1558,5 @@ store.map((item) => {
     count += totalPrice
     return console.log(totalPrice);
 
-})
-
+});
 console.log(count);
