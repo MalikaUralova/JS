@@ -1612,8 +1612,8 @@
 
 
 
-//chegirma narx
-// let products = [
+chegirma narx
+let products = [
     {
         name: "TV",
         price: 5000000,
