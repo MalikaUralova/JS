@@ -1567,40 +1567,40 @@
 
 
 
-let students = [
-    {
-        name: "malika",
-        score: [90, 70, 95, 100]
-    },
-    {
-        name: "malika",
-        score: [60, 70, 85, 20]
-    },
-    {
-        name: "malika",
-        score: [90, 100, 95, 110]
-    },
-    {
-        name: "malika",
-        score: [100, 100, 100, 100]
-    }
-]
-let arr = [];
-for (let i = 0; i < students.length; i++) {
-    let count = 0;
-    for (let j = 0; j < students[i].score.length; j++) {
-        count += students[i].score[j]
-    }
-    arr.push(count / students[i].score.length)
-    count = 0
-}
-console.log(arr);
+// let students = [
+//     {
+//         name: "malika",
+//         score: [90, 70, 95, 100]
+//     },
+//     {
+//         name: "malika",
+//         score: [60, 70, 85, 20]
+//     },
+//     {
+//         name: "malika",
+//         score: [90, 100, 95, 110]
+//     },
+//     {
+//         name: "malika",
+//         score: [100, 100, 100, 100]
+//     }
+// ]
+// let arr = [];
+// for (let i = 0; i < students.length; i++) {
+//     let count = 0;
+//     for (let j = 0; j < students[i].score.length; j++) {
+//         count += students[i].score[j]
+//     }
+//     arr.push(count / students[i].score.length)
+//     count = 0
+// }
+// console.log(arr);
 
-let totalScore = 0
-arr.map((item) => {
-    if (item > totalScore) {
-        totalScore = 0
-        totalScore += item
-    }
-})
-console.log(totalScore);
+// let totalScore = 0
+// arr.map((item) => {
+//     if (item > totalScore) {
+//         totalScore = 0
+//         totalScore += item
+//     }
+// })
+// console.log(totalScore);
