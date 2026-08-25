@@ -1504,11 +1504,11 @@
 
 //OBJECTNING QIYMATLARINI O'CHIRISH
 //DELETE OPERATORI ORQALI
-let user = {
-    name: "malika",
-    surname: "uralova",
-    age: 16,
-    isDeveloper: true,
-};
-delete user.age;
-console.log(user);
+// let user = {
+//     name: "malika",
+//     surname: "uralova",
+//     age: 16,
+//     isDeveloper: true,
+// };
+// delete user.age;
+// console.log(user);
