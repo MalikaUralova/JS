@@ -1512,3 +1512,17 @@
 // };
 // delete user.age;
 // console.log(user);
+
+
+
+
+
+//OBJECT ICHIDA MASSIV YOZISH
+let person = {
+    name: "malika",
+    skills: ["HTML", "CSS", "JavaScript"],
+    address: {
+        city: "Tashkent",
+        country: "Uzbekistan"
+    }
+}
