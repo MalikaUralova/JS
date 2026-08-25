@@ -1454,10 +1454,10 @@
 
 
 //OBJECT YARATISH USULI .2.
-let user = new Object()
-user.name = "malika";
-user.surname = "uralova";
-console.log(user);
+// let user = new Object()
+// user.name = "malika";
+// user.surname = "uralova";
+// console.log(user);
 
 
 
