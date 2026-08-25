@@ -1498,3 +1498,16 @@
 // person.age = 17;
 // console.log(person);
 
+
+
+
+
+//OBJECTNING QIYMATLARINI O'CHIRISH
+//DELETE OPERATORI ORQALI
+// let user = {
+//     name: "malika",
+//     surname: "uralova",
+//     age: 16,
+//     isDeveloper: true,
+// }
+// console.log(user["age"]);
