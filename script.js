@@ -1464,15 +1464,22 @@
 
 
 //OBJECTDAN QIYMAT OLISH USULI
-//1.
-let user = {
-    name: "malika",
-    surname: "uralova",
-    age: 16,
-    isDeveloper: true
-}
-console.log(user.isDeveloper);
+//1-nuqta orqali ( . ) DOT NOTATIONS
+// let user = {
+//     name: "malika",
+//     surname: "uralova",
+//     age: 16,
+//     isDeveloper: true
+// }
+// console.log(user.isDeveloper);
 
 
 
-
+//2-qavs orqali [ ] BRACKET NOTATIONS
+// let user = {
+//     name: "malika",
+//     surname: "uralova",
+//     age: 16,
+//     isDeveloper: true
+// }
+// console.log(user.isDeveloper);
