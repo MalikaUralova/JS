@@ -1581,5 +1581,12 @@ let students = [
         score: [90, 100, 95, 110]
     }
 ]
+let arr = [];
+for (let i = 0; i < students.length; i++) {
+    let count = 0;
+    for (let j = 0; j < students[i].score.length; j++) {
+        count += students[i].score[j]
+    }
 
+}
 
