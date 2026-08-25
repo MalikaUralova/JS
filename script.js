@@ -1441,12 +1441,13 @@
 
 //15-dars
 
-let user = {
-    name: "malika",
-    surname: "uralova",
-    age: 16,
-    isDeveloper: true
-}
+// let user = {
+//     name: "malika",
+//     surname: "uralova",
+//     age: 16,
+//     isDeveloper: true
+// }
+// console.log(user);
 
 
 
