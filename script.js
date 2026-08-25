@@ -1463,6 +1463,16 @@
 
 
 
+//OBJECTDAN QIYMAT OLISH USULI
+//1.
+let user = {
+    name: "malika",
+    surname: "uralova",
+    age: 16,
+    isDeveloper: true
+}
+console.log(user.isDeveloper);
+
 
 
 
