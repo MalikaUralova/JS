@@ -1465,13 +1465,13 @@
 
 //OBJECTDAN QIYMAT OLISH USULI
 //1-nuqta orqali ( . ) DOT NOTATIONS
-let user = {
-    name: "malika",
-    surname: "uralova",
-    age: 16,
-    isDeveloper: true
-}
-console.log(user.isDeveloper);
+// let user = {
+//     name: "malika",
+//     surname: "uralova",
+//     age: 16,
+//     isDeveloper: true
+// }
+// console.log(user.name);
 
 
 
@@ -1485,4 +1485,16 @@ console.log(user.isDeveloper);
 // console.log(user["age"]);
 
 
+
+
+
+
+//OBJECTGA ELEMENT QO'SHISH YOKI O'ZGARTIRISH
+let person = {
+    name: "malika",
+    age: "16"
+};
+person.isDeveloper = true;
+person.age = 17;
+console.log(person);
 
