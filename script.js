@@ -1526,3 +1526,6 @@ let person = {
         country: "Uzbekistan"
     }
 }
+
+console.log(person.skills[1]);
+console.log(person.skills[1]);
