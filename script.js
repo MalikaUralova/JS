@@ -1475,7 +1475,7 @@
 
 
 
-//2-qavs orqali [ ] BRACKET NOTATIONS
+//2-qavs va qo'shtirnoq orqali [""] BRACKET NOTATIONS
 // let user = {
 //     name: "malika",
 //     surname: "uralova",
@@ -1483,3 +1483,6 @@
 //     isDeveloper: true,
 // }
 // console.log(user["age"]);
+
+
+
