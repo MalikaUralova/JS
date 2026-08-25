@@ -1529,3 +1529,21 @@
 // console.log(person.name);
 // console.log(person.skills[1]);
 // console.log(person.address.city);
+
+
+
+
+
+
+const store = [
+    {
+        name: "olma",
+        massa: 15,
+        price: 10000,
+    },
+    {
+        name: "pomidor",
+        massa: 20,
+        price: 5000,
+    }
+]
