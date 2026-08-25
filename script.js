@@ -1490,11 +1490,11 @@
 
 
 //OBJECTGA ELEMENT QO'SHISH YOKI O'ZGARTIRISH
-let person = {
-    name: "malika",
-    age: "16"
-};
-person.isDeveloper = true;
-person.age = 17;
-console.log(person);
+// let person = {
+//     name: "malika",
+//     age: "16"
+// };
+// person.isDeveloper = true;
+// person.age = 17;
+// console.log(person);
 
