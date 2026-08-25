@@ -1587,6 +1587,9 @@ for (let i = 0; i < students.length; i++) {
     for (let j = 0; j < students[i].score.length; j++) {
         count += students[i].score[j]
     }
-
+    arr.push(count / students[i].score.length)
+    count = 0 
 }
+console.log(arr);
 
+let totalScore
