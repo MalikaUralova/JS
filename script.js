@@ -1664,7 +1664,7 @@
 //     console.log(`${bekat.nomi}da ${bekat.chiqqan} kishi chiqdi, ${bekat.kirgan} kishi chiqdi`)
 // })
 
-console.log(`Avtobusda qolgan yo'lovchilar soni: ${yolovchilar}`)
+// console.log(`Avtobusda qolgan yo'lovchilar soni: ${yolovchilar}`)
 
 // b) har bir bekatda o'rtacha nechta odam chiqqan
 // let umumiyChiqqan = bekatlar.reduce((sum, bekat) => sum + bekat.chiqqan, 0)
