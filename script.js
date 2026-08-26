@@ -1650,11 +1650,11 @@
 //         chiqqan: 3,
 //         kirgan: 2
 //     },
-    {
-        nomi: "3-bekat",
-        chiqqan: 6,
-        kirgan: 4
-    },
+    // {
+    //     nomi: "3-bekat",
+    //     chiqqan: 6,
+    //     kirgan: 4
+    // },
 // ]
 
 // let yolovchilar = 20 // avtobusdagi boshlang'ich yo'lovchilar soni
