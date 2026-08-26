@@ -1687,11 +1687,11 @@ let savat = [
         narxi: 8000,
         soni: 1
     },
-    {
-        nomi: "Tuxum",
-        narxi: 15000,
-        soni: 2
-    }
+    // {
+    //     nomi: "Tuxum",
+    //     narxi: 15000,
+    //     soni: 2
+    // }
 ]
 
 let umumiyNarx = savat.reduce((sum, mahsulot) => sum + mahsulot.narxi * mahsulot.soni, 0)
