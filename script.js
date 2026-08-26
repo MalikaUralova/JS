@@ -1673,6 +1673,9 @@
 
 
 
+
+
+
 let savat = [
     {
         nomi: "Non",
@@ -1694,7 +1697,6 @@ let savat = [
 
 let umumiyNarx = savat.reduce((sum, mahsulot) => sum + mahsulot.narxi * mahsulot.soni, 0)
 console.log(`Savatning umumiy narxi: ${umumiyNarx} so'm`)
-
 
 let pul = 20000
 savat.forEach(mahsulot => {
