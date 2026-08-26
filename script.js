@@ -1659,10 +1659,10 @@
 
 // let yolovchilar = 20 // avtobusdagi boshlang'ich yo'lovchilar soni
 
-bekatlar.forEach(bekat => {
-    yolovchilar = yolovchilar - bekat.chiqqan + bekat.kirgan
-    console.log(`${bekat.nomi}da ${bekat.chiqqan} kishi chiqdi, ${bekat.kirgan} kishi chiqdi`)
-})
+// bekatlar.forEach(bekat => {
+//     yolovchilar = yolovchilar - bekat.chiqqan + bekat.kirgan
+//     console.log(`${bekat.nomi}da ${bekat.chiqqan} kishi chiqdi, ${bekat.kirgan} kishi chiqdi`)
+// })
 
 // console.log(`Avtobusda qolgan yo'lovchilar soni: ${yolovchilar}`)
 
