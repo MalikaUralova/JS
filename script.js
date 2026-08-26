@@ -1703,4 +1703,4 @@ savat.forEach(mahsulot => {
     console.log(`${mahsulot.nomi}: ${jamiNarx <= pul ? "sotib olish mumkin" : "pul yetmaydi"}`)
 });
 
-
+localStorage
