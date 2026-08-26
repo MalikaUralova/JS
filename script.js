@@ -1638,3 +1638,32 @@
 
 
 
+
+//MAHSULOTLAR NARXI
+let products = [
+    {
+        name: "olma",
+        name: "olcha",
+        name: "banan",
+    },
+    {
+        name: "olma",
+        name: "olcha",
+        name: "banan",
+    },
+    {
+        name: "olma",
+        name: "olcha",
+        name: "banan",
+    },
+    {
+        name: "olma",
+        name: "olcha",
+        name: "banan",
+    },
+]
+
+
+
+
+
