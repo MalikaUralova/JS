@@ -1691,16 +1691,16 @@ let savat = [
     }
 ]
 
-// a) savatning umumiy narxi
+
 let umumiyNarx = savat.reduce((sum, mahsulot) => sum + mahsulot.narxi * mahsulot.soni, 0)
 console.log(`Savatning umumiy narxi: ${umumiyNarx} so'm`)
 
-// b) 20000 so'mga qaysi mahsulotni sotib olish mumkin
-// let pul = 20000
-// savat.forEach(mahsulot => {
-//     let jamiNarx = mahsulot.narxi * mahsulot.soni
-//     console.log(`${mahsulot.nomi}: ${jamiNarx <= pul ? "sotib olish mumkin" : "pul yetmaydi"}`)
-// })
+
+let pul = 20000
+savat.forEach(mahsulot => {
+    let jamiNarx = mahsulot.narxi * mahsulot.soni
+    console.log(`${mahsulot.nomi}: ${jamiNarx <= pul ? "sotib olish mumkin" : "pul yetmaydi"}`)
+})
 
 
 
