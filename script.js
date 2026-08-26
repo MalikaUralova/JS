@@ -1675,7 +1675,7 @@
 
 
 
-
+//MAHSUOLT NAXLARI
 let savat = [
     {
         nomi: "Non",
