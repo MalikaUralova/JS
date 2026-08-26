@@ -1642,25 +1642,20 @@
 //MAHSULOTLAR NARXI
 let products = [
     {
-        name: "olma",
-        name: "olcha",
-        name: "banan",
+        name: "apple",
+        name: "cherry",
+        name: "banana",
     },
     {
-        name: "olma",
-        name: "olcha",
-        name: "banan",
+        name: "carrot",
+        name: "tomato",
+        name: "cucumber",
     },
     {
-        name: "olma",
-        name: "olcha",
-        name: "banan",
-    },
-    {
-        name: "olma",
-        name: "olcha",
-        name: "banan",
-    },
+        name: "chocolate",
+        name: "sugar",
+        name: "salt",
+    }
 ]
 
 
