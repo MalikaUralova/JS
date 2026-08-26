@@ -1677,11 +1677,11 @@
 
 //MAHSUOLT NAXLARI
 let savat = [
-    // {
-    //     nomi: "Non",
-    //     narxi: 3000,
-    //     soni: 2
-    // },
+    {
+        nomi: "Non",
+        narxi: 3000,
+        soni: 2
+    },
     {
         nomi: "Sut",
         narxi: 8000,
