@@ -1682,11 +1682,11 @@ let savat = [
         narxi: 3000,
         soni: 2
     },
-    {
-        nomi: "Sut",
-        narxi: 8000,
-        soni: 1
-    },
+    // {
+    //     nomi: "Sut",
+    //     narxi: 8000,
+    //     soni: 1
+    // },
     // {
     //     nomi: "Tuxum",
     //     narxi: 15000,
