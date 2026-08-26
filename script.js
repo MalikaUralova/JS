@@ -1639,38 +1639,68 @@
 
 
 
-let bekatlar = [
+// let bekatlar = [
+//     {
+//         nomi: "1-bekat",
+//         chiqqan: 5,
+//         kirgan: 8
+//     },
+//     {
+//         nomi: "2-bekat",
+//         chiqqan: 3,
+//         kirgan: 2
+//     },
+//     {
+//         nomi: "3-bekat",
+//         chiqqan: 6,
+//         kirgan: 4
+//     },
+// ]
+
+// let yolovchilar = 20 // avtobusdagi boshlang'ich yo'lovchilar soni
+
+// bekatlar.forEach(bekat => {
+//     yolovchilar = yolovchilar - bekat.chiqqan + bekat.kirgan
+//     console.log(`${bekat.nomi}da ${bekat.chiqqan} kishi chiqdi, ${bekat.kirgan} kishi chiqdi`)
+// })
+
+// console.log(`Avtobusda qolgan yo'lovchilar soni: ${yolovchilar}`)
+
+// // b) har bir bekatda o'rtacha nechta odam chiqqan
+// let umumiyChiqqan = bekatlar.reduce((sum, bekat) => sum + bekat.chiqqan, 0)
+// let ortacha = umumiyChiqqan / bekatlar.length
+// console.log(`Har bir bekatda o'rtacha chiqqan odam: ${ortacha}`)
+
+
+
+let savat = [
     {
-        nomi: "1-bekat",
-        chiqqan: 5,
-        kirgan: 8
+        nomi: "Non",
+        narxi: 3000,
+        soni: 2
     },
     {
-        nomi: "2-bekat",
-        chiqqan: 3,
-        kirgan: 2
+        nomi: "Sut",
+        narxi: 8000,
+        soni: 1
     },
     {
-        nomi: "3-bekat",
-        chiqqan: 6,
-        kirgan: 4
-    },
+        nomi: "Tuxum",
+        narxi: 15000,
+        soni: 1
+    }
 ]
 
-let yolovchilar = 20 // avtobusdagi boshlang'ich yo'lovchilar soni
+// a) savatning umumiy narxi
+let umumiyNarx = savat.reduce((sum, mahsulot) => sum + mahsulot.narxi * mahsulot.soni, 0)
+console.log(`Savatning umumiy narxi: ${umumiyNarx} so'm`)
 
-bekatlar.forEach(bekat => {
-    yolovchilar = yolovchilar - bekat.chiqqan + bekat.kirgan
-    console.log(`${bekat.nomi}da ${bekat.chiqqan} kishi chiqdi, ${bekat.kirgan} kishi chiqdi`)
-})
-
-console.log(`Avtobusda qolgan yo'lovchilar soni: ${yolovchilar}`)
-
-// b) har bir bekatda o'rtacha nechta odam chiqqan
-let umumiyChiqqan = bekatlar.reduce((sum, bekat) => sum + bekat.chiqqan, 0)
-let ortacha = umumiyChiqqan / bekatlar.length
-console.log(`Har bir bekatda o'rtacha chiqqan odam: ${ortacha}`)
-
+// b) 20000 so'mga qaysi mahsulotni sotib olish mumkin
+// let pul = 20000
+// savat.forEach(mahsulot => {
+//     let jamiNarx = mahsulot.narxi * mahsulot.soni
+//     console.log(`${mahsulot.nomi}: ${jamiNarx <= pul ? "sotib olish mumkin" : "pul yetmaydi"}`)
+// })
 
 
 
