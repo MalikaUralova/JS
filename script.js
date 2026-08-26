@@ -1666,10 +1666,10 @@
 
 // console.log(`Avtobusda qolgan yo'lovchilar soni: ${yolovchilar}`)
 
-// // b) har bir bekatda o'rtacha nechta odam chiqqan
-// let umumiyChiqqan = bekatlar.reduce((sum, bekat) => sum + bekat.chiqqan, 0)
-// let ortacha = umumiyChiqqan / bekatlar.length
-// console.log(`Har bir bekatda o'rtacha chiqqan odam: ${ortacha}`)
+// b) har bir bekatda o'rtacha nechta odam chiqqan
+let umumiyChiqqan = bekatlar.reduce((sum, bekat) => sum + bekat.chiqqan, 0)
+let ortacha = umumiyChiqqan / bekatlar.length
+console.log(`Har bir bekatda o'rtacha chiqqan odam: ${ortacha}`)
 
 
 
