@@ -1738,8 +1738,6 @@ const teams = [
     }
 ];
 
-
-
 let count = 0;
 let scores = []
 
@@ -1748,14 +1746,10 @@ for (let i = 0; i < teams.length; i++) {
     scores.push(count)   
 }
 
-
 let count2 = 0;
-
 
 for (let j = 0; j < scores.length; j++) {
    count=scores[j]
    console.log(`${scores[j] >  count ? count2 = scores[j] : count2 = count}`);
 }
-
-
 console.log(count2);
