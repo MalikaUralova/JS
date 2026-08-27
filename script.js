@@ -1434,10 +1434,10 @@
 
 
 //25-misol
-let str = ["Malika", "uralova"];
-str.pop();
-str.push("Akmalovna")
-console.log(str);
+// let str = ["Malika", "uralova"];
+// str.pop();
+// str.push("Akmalovna")
+// console.log(str);
 
 
 
