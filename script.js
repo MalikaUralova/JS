@@ -1638,36 +1638,36 @@
 
 
 
+//BEKATLAR
+// let station = [
+//     {
+//         name: "1-bekat",
+//         cameOut: 5,
+//         entered: 8
+//     },
+//     {
+//         name: "2-bekat",
+//         cameOut: 4,
+//         entered: 2
+//     },
+//     {
+//         name: "3-bekat",
+//         cameOut: 6,
+//         entered: 4
+//     },
+// ]
 
-let station = [
-    {
-        name: "1-bekat",
-        cameOut: 5,
-        entered: 8
-    },
-    {
-        name: "2-bekat",
-        cameOut: 4,
-        entered: 2
-    },
-    {
-        name: "3-bekat",
-        cameOut: 6,
-        entered: 4
-    },
-]
+// let passenger = 20
 
-let passenger = 20
+// station.forEach(station2 => {
+//     passenger = passenger - station2.cameOut + station2.entered
+// });
 
-station.forEach(station2 => {
-    passenger = passenger - station2.cameOut + station2.entered
-})
+// console.log(`Avtobusda qolgan yo'lovchilar soni: ${passenger}`);
 
-console.log(`Avtobusda qolgan yo'lovchilar soni: ${passenger}`);
-
-let generalOutput = station.reduce((sum, station2) => sum + station2.cameOut, 0);
-let average = generalOutput / station.length
-console.log(`Har bir bekatda o'rtacha chiqqan odam: ${average}`);
+// let generalOutput = station.reduce((sum, station2) => sum + station2.cameOut, 0);
+// let average = generalOutput / station.length
+// console.log(`Har bir bekatda o'rtacha chiqqan odam: ${average}`);
 
 
 
@@ -1709,7 +1709,7 @@ console.log(`Har bir bekatda o'rtacha chiqqan odam: ${average}`);
 
 
 
-//FOTBOOL REYTING 
+//FOTBOOL REYTING
 // const teams = [
 //     {
 //         name: "Arsenal",
@@ -1748,7 +1748,7 @@ console.log(`Har bir bekatda o'rtacha chiqqan odam: ${average}`);
 
 // for (let i = 0; i < teams.length; i++) {
 //     count = (teams[i].win * 3) + (teams[i].tie * 1) + (teams[i].lose * 0);
-//     scores.push(count)   
+//     scores.push(count)
 // }
 
 // let count2 = 0;
