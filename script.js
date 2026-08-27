@@ -1752,3 +1752,10 @@ for (let i = 0; i < teams.length; i++) {
 let count2 = 0;
 
 
+for (let j = 0; j < scores.length; j++) {
+   count=scores[j]
+   console.log(`${scores.j >  count ? count2 = scores[j] : count = count}`);
+}
+
+
+console.log(count2);
