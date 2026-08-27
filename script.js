@@ -1036,8 +1036,6 @@
 
 
 
-
-
 //2-misol
 // let str = "banana";
 // for (let i = 0; i < str.length; i++) {
@@ -1046,8 +1044,6 @@
 //     }
 //     console.log(str[i]);
 // }
-
-
 
 
 
@@ -1070,12 +1066,8 @@
 
 
 
-//4-misol
-//------------
 
-
-
-// 5-misol
+// 4-misol
 // let str = "hello world";
 // let result = "";
 // for (let i = 0; i < str.length; i++) {
