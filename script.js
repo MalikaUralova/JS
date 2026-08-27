@@ -1639,37 +1639,37 @@
 
 
 
-// let bekatlar = [
-//     {
-//         nomi: "1-bekat",
-//         chiqqan: 5,
-//         kirgan: 8
-//     },
-//     {
-//         nomi: "2-bekat",
-//         chiqqan: 3,
-//         kirgan: 2
-//     },
-//     {
-//         nomi: "3-bekat",
-//         chiqqan: 6,
-//         kirgan: 4
-//     },
-// ]
+let station = [
+    {
+        nomi: "1-bekat",
+        chiqqan: 5,
+        kirgan: 8
+    },
+    {
+        nomi: "2-bekat",
+        chiqqan: 4,
+        kirgan: 2
+    },
+    {
+        nomi: "3-bekat",
+        chiqqan: 6,
+        kirgan: 4
+    },
+]
 
-// let yolovchilar = 20 // avtobusdagi boshlang'ich yo'lovchilar soni
+let yolovchilar = 20 // avtobusdagi boshlang'ich yo'lovchilar soni
 
-// bekatlar.forEach(bekat => {
-//     yolovchilar = yolovchilar - bekat.chiqqan + bekat.kirgan
-//     console.log(`${bekat.nomi}da ${bekat.chiqqan} kishi chiqdi, ${bekat.kirgan} kishi chiqdi`)
-// })
+station.forEach(bekat => {
+    yolovchilar = yolovchilar - bekat.chiqqan + bekat.kirgan
+    // console.log(`${bekat.nomi}da ${bekat.chiqqan} kishi chiqdi, ${bekat.kirgan} kishi chiqdi`)
+})
 
-// console.log(`Avtobusda qolgan yo'lovchilar soni: ${yolovchilar}`)
+console.log(`Avtobusda qolgan yo'lovchilar soni: ${yolovchilar}`)
 
 // b) har bir bekatda o'rtacha nechta odam chiqqan
-// let umumiyChiqqan = bekatlar.reduce((sum, bekat) => sum + bekat.chiqqan, 0)
-// let ortacha = umumiyChiqqan / bekatlar.length
-// console.log(`Har bir bekatda o'rtacha chiqqan odam: ${ortacha}`)
+let umumiyChiqqan = station.reduce((sum, bekat) => sum + bekat.chiqqan, 0)
+let ortacha = umumiyChiqqan / station.length
+console.log(`Har bir bekatda o'rtacha chiqqan odam: ${ortacha}`)
 
 
 
