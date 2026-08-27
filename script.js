@@ -1754,7 +1754,7 @@ let count2 = 0;
 
 for (let j = 0; j < scores.length; j++) {
    count=scores[j]
-   console.log(`${scores[j] >  count ? count2 = scores[j] : count = count}`);
+   console.log(`${scores[j] >  count ? count2 = scores[j] : count2 = count}`);
 }
 
 
