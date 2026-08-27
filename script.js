@@ -932,7 +932,6 @@
 //homework
 
 
-
 // //1-misol
 // let name = "malika"
 // console.log(name.toUpperCase() , name.lengt)
