@@ -1714,20 +1714,26 @@ const items = [
     },
     {
         name: "Monaco",
-        win: 3,
-        lose: 2,
-        tie: 1
+        win: 7,
+        lose: 3,
+        tie: 2
     },
     {
         name: "Barcelona",
-        win: 3,
-        lose: 2,
-        tie: 1
+        win: 8,
+        lose: 5,
+        tie: 2
     },
     {
         name: "Real Madrid",
-        win: 3,
-        lose: 2,
-        tie: 1
+        win: 5,
+        lose: 3,
+        tie: 2
+    },
+    {
+        name: "Manchester City",
+        win: 10,
+        lose: 7,
+        tie: 0
     }
-]
+];
