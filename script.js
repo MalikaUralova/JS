@@ -1678,29 +1678,29 @@
 //MAHSUOLT NAXLARI
 let basket = [
     {
-        nomi: "Non",
-        narxi: 3000,
-        soni: 2
+        name: "Non",
+        price: 3000,
+        num: 2
     },
     {
-        nomi: "Sut",
-        narxi: 8000,
-        soni: 1
+        name: "Sut",
+        price: 8000,
+        num: 1
     },
     {
-        nomi: "Tuxum",
-        narxi: 15000,
-        soni: 2
+        name: "Tuxum",
+        price: 15000,
+        num: 2
     }
 ]
 
-let umumiyNarx = basket.reduce((sum, mahsulot) => sum + mahsulot.narxi * mahsulot.soni, 0)
-console.log(`Savatning umumiy narxi: ${umumiyNarx} so'm`)
+let generalPrice = basket.reduce((sum, mahsulot) => sum + mahsulot.price * mahsulot.num, 0)
+console.log(`Savatning umumiy narxi: ${generalPrice} so'm`)
 
-let pul = 20000
-basket.forEach(mahsulot => {
-    let jamiNarx = mahsulot.narxi * mahsulot.soni
-    console.log(`${mahsulot.nomi}: ${jamiNarx <= pul ? "sotib olish mumkin" : "pul yetmaydi"}`)
+let money = 20000
+basket.forEach(product => {
+    let mainPrice = product.price * product.num
+    console.log(`${product.name}: ${mainPrice <= money ? "sotib olish mumkin" : "pul yetmaydi"}`)
 });
 
 
