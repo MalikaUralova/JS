@@ -1676,32 +1676,32 @@
 
 
 //MAHSUOLT NAXLARI
-// let savat = [
-//     {
-//         nomi: "Non",
-//         narxi: 3000,
-//         soni: 2
-//     },
-//     {
-//         nomi: "Sut",
-//         narxi: 8000,
-//         soni: 1
-//     },
-//     {
-//         nomi: "Tuxum",
-//         narxi: 15000,
-//         soni: 2
-//     }
-// ]
+let basket = [
+    {
+        nomi: "Non",
+        narxi: 3000,
+        soni: 2
+    },
+    {
+        nomi: "Sut",
+        narxi: 8000,
+        soni: 1
+    },
+    {
+        nomi: "Tuxum",
+        narxi: 15000,
+        soni: 2
+    }
+]
 
-// let umumiyNarx = savat.reduce((sum, mahsulot) => sum + mahsulot.narxi * mahsulot.soni, 0)
-// console.log(`Savatning umumiy narxi: ${umumiyNarx} so'm`)
+let umumiyNarx = basket.reduce((sum, mahsulot) => sum + mahsulot.narxi * mahsulot.soni, 0)
+console.log(`Savatning umumiy narxi: ${umumiyNarx} so'm`)
 
-// let pul = 20000
-// savat.forEach(mahsulot => {
-//     let jamiNarx = mahsulot.narxi * mahsulot.soni
-//     console.log(`${mahsulot.nomi}: ${jamiNarx <= pul ? "sotib olish mumkin" : "pul yetmaydi"}`)
-// });
+let pul = 20000
+basket.forEach(mahsulot => {
+    let jamiNarx = mahsulot.narxi * mahsulot.soni
+    console.log(`${mahsulot.nomi}: ${jamiNarx <= pul ? "sotib olish mumkin" : "pul yetmaydi"}`)
+});
 
 
 
