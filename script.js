@@ -1641,33 +1641,33 @@
 
 let station = [
     {
-        nomi: "1-bekat",
-        chiqqan: 5,
-        kirgan: 8
+        name: "1-bekat",
+        cameOut: 5,
+        entered: 8
     },
     {
-        nomi: "2-bekat",
-        chiqqan: 4,
-        kirgan: 2
+        name: "2-bekat",
+        cameOut: 4,
+        entered: 2
     },
     {
-        nomi: "3-bekat",
-        chiqqan: 6,
-        kirgan: 4
+        name: "3-bekat",
+        cameOut: 6,
+        entered: 4
     },
 ]
 
-let yolovchilar = 20
+let passenger = 20
 
-station.forEach(bekat => {
-    yolovchilar = yolovchilar - bekat.chiqqan + bekat.kirgan
+station.forEach(station2 => {
+    passenger = passenger - station2.cameOut + station2.entered
 })
 
-console.log(`Avtobusda qolgan yo'lovchilar soni: ${yolovchilar}`);
+console.log(`Avtobusda qolgan yo'lovchilar soni: ${passenger}`);
 
-let umumiyChiqqan = station.reduce((sum, bekat) => sum + bekat.chiqqan, 0);
-let ortacha = umumiyChiqqan / station.length
-console.log(`Har bir bekatda o'rtacha chiqqan odam: ${ortacha}`);
+let generalOutput = station.reduce((sum, station2) => sum + station2.cameOut, 0);
+let average = generalOutput / station.length
+console.log(`Har bir bekatda o'rtacha chiqqan odam: ${average}`);
 
 
 
