@@ -1747,3 +1747,8 @@ for (let i = 0; i < teams.length; i++) {
     count = (teams[i].win * 3) * (teams[i].tie * 1) * (teams[i].lose * 0);
     scores.push(count)   
 }
+
+
+let count2 = 0;
+
+
