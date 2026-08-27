@@ -1705,7 +1705,7 @@
 
 
 
-const items = [
+const teams = [
     {
         name: "Arsenal",
         win: 3,
@@ -1737,3 +1737,13 @@ const items = [
         tie: 0
     }
 ];
+
+
+
+let count = 0;
+let scores = []
+
+for (let i = 0; i < teams.length; i++) {
+    count = (teams[i].win * 3) * ()
+    
+}
