@@ -934,13 +934,12 @@
 
 
 // //1-misol
-// let name = "malika"
-// console.log(name.toUpperCase() , name.lengt\\\\\\\\\\\\\\\\\\\\\
-// let str = "  salom dunyo  ";
-// console.log(str.trim())
+let name = "malika"
+console.log(name.toUpperCase() , name.lengt)
+let str = "  salom dunyo  ";
+console.log(str.trim())
 
-
-// console.log( str.includes("S"))
+console.log( str.includes("S"))
 
 
 // //3-misol
@@ -990,9 +989,6 @@
 // let str= "aabbcccddee";
 // console.log(str.substring(1,3),str.substring());
 // console.log(console.log());
-
-
-
 
 
 
