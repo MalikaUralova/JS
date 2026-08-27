@@ -1705,51 +1705,58 @@
 
 
 
-const teams = [
-    {
-        name: "Arsenal",
-        win: 3,
-        lose: 2,
-        tie: 1
-    },
-    {
-        name: "Monaco",
-        win: 7,
-        lose: 3,
-        tie: 2
-    },
-    {
-        name: "Barcelona",
-        win: 8,
-        lose: 5,
-        tie: 2
-    },
-    {
-        name: "Real Madrid",
-        win: 5,
-        lose: 3,
-        tie: 2
-    },
-    {
-        name: "Manchester City",
-        win: 10,
-        lose: 7,
-        tie: 0
-    }
-];
 
-let count = 0;
-let scores = []
 
-for (let i = 0; i < teams.length; i++) {
-    count = (teams[i].win * 3) + (teams[i].tie * 1) + (teams[i].lose * 0);
-    scores.push(count)   
-}
 
-let count2 = 0;
 
-for (let j = 0; j < scores.length; j++) {
-   count=scores[j]
-   console.log(`${scores[j] >  count ? count2 = scores[j] : count2 = count}`);
-}
-console.log(count2);
+
+
+//FOTBOOL REYTING 
+// const teams = [
+//     {
+//         name: "Arsenal",
+//         win: 3,
+//         lose: 2,
+//         tie: 1
+//     },
+//     {
+//         name: "Monaco",
+//         win: 7,
+//         lose: 3,
+//         tie: 2
+//     },
+//     {
+//         name: "Barcelona",
+//         win: 8,
+//         lose: 5,
+//         tie: 2
+//     },
+//     {
+//         name: "Real Madrid",
+//         win: 5,
+//         lose: 3,
+//         tie: 2
+//     },
+//     {
+//         name: "Manchester City",
+//         win: 10,
+//         lose: 7,
+//         tie: 0
+//     }
+// ];
+
+// let count = 0;
+// let scores = []
+
+// for (let i = 0; i < teams.length; i++) {
+//     count = (teams[i].win * 3) + (teams[i].tie * 1) + (teams[i].lose * 0);
+//     scores.push(count)   
+// }
+
+// let count2 = 0;
+
+// for (let j = 0; j < scores.length; j++) {
+//    count=scores[j]
+//    console.log(`${scores[j] >  count ? count2 = scores[j] : count2 = count}`);
+// }
+// console.log(count2);
