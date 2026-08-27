@@ -1345,8 +1345,6 @@
 
 
 
-
-
 //14-misol
 // let date = [1, 2, 3, 4];
 // date.push(5)
@@ -1407,7 +1405,6 @@
 
 
 
-
 //21-misol
 // const arr = Array.of(1, 2, 3, 4);
 // const arr2 = new Array(1, 2, 3, 4);
@@ -1435,6 +1432,12 @@
 // });
 
 
+
+//25-misol
+let str = ["Malika", "uralova"];
+str.pop();
+str.push("Akmalovna")
+console.log(str);
 
 
 
@@ -1626,8 +1629,8 @@
 //     {
 //         name: "phone",
 //         price: 4000000,
-//     } 
-// ] 
+//     }
+// ]
 
 // products.map(item => {
 //     console.log(`${item.name} mahsulotiga 10% chegirma beriladi: ${item.price >= 2500000 ? item.price * 0.9 : item.price}`);
@@ -1668,6 +1671,8 @@
 // let generalOutput = station.reduce((sum, station2) => sum + station2.cameOut, 0);
 // let average = generalOutput / station.length
 // console.log(`Har bir bekatda o'rtacha chiqqan odam: ${average}`);
+
+
 
 
 
