@@ -1718,14 +1718,14 @@ const items = [
         lose: 2,
         tie: 1
     },
-        {
-        name: "Arsenal",
+    {
+        name: "Barcelona",
         win: 3,
         lose: 2,
         tie: 1
     },
-        {
-        name: "Arsenal",
+    {
+        name: "Real Madrid",
         win: 3,
         lose: 2,
         tie: 1
