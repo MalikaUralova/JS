@@ -1779,7 +1779,7 @@
 
 
 
-
+//AMALIY MASHQ
 // let people = [
 //     {
 //         name: "malika",
