@@ -1703,17 +1703,19 @@
 
 
 //OYLIK HARAJAT
-let str = [
-    {
-        monday: 50000
-    },
-    {
-       tuesday: 30000
-    },
-    {
-        wednesday: 80000
-    }
-]
+let str = {
+    monday: 50000,
+    wednesday: 80000,
+    tuesday: 30000
+}
+
+
+
+
+for (const i in str) {
+    console.log();
+
+}
 
 
 
