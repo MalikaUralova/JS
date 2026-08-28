@@ -1780,51 +1780,51 @@
 
 
 
-let people = [
-    {
-        name: "malika",
-        email: "malika123@gmail.com",
-        age: 16
-    },
-    {
-        name: "asal",
-        email: "asal123@gmail.com",
-        age: 13
-    },
-    {
-        name: "sevinch",
-        email: "sevinch23@gmail.com",
-        age: 18
-    }
-]
+// let people = [
+//     {
+//         name: "malika",
+//         email: "malika123@gmail.com",
+//         age: 16
+//     },
+//     {
+//         name: "asal",
+//         email: "asal123@gmail.com",
+//         age: 13
+//     },
+//     {
+//         name: "sevinch",
+//         email: "sevinch23@gmail.com",
+//         age: 18
+//     }
+// ]
 
-const newArr = [];
+// const newArr = [];
 
-const addUser = user => {
-    people.push(user)
-}
+// const addUser = user => {
+//     people.push(user)
+// }
 
-const deleteUser = email => {
-    people.map(item => {
-        if (item.email !== email) {
-            newArr.push(item)
-        }
-    })
-}
+// const deleteUser = email => {
+//     people.map(item => {
+//         if (item.email !== email) {
+//             newArr.push(item)
+//         }
+//     })
+// }
 
-const updateUser = (email, newData) => {
-    people.map((item) => {
-        if (item.email !== email) {
-            newArr.push(item)
-        }else{
-            newArr.push(newData)
-        }
-    })
-}
+// const updateUser = (email, newData) => {
+//     people.map((item) => {
+//         if (item.email !== email) {
+//             newArr.push(item)
+//         }else{
+//             newArr.push(newData)
+//         }
+//     })
+// }
 
-console.log(newArr);
+// console.log(newArr);
 
-const listUser = () => {
-    return console.log(people);
-}
-console.log(people);
+// const listUser = () => {
+//     return console.log(people);
+// }
+// console.log(people);
