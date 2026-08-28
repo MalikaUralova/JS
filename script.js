@@ -1687,7 +1687,7 @@
 
 
 
-
+//FOYDALANUVCHIDAN MALUMOT CHIQARISH
 // let student = {
 //     name: "Malika",
 //     age: 16,
@@ -1698,6 +1698,22 @@
 // }
 
 
+
+
+
+
+//OYLIK HARAJAT
+let str = [
+    {
+        monday: 50000
+    },
+    {
+       tuesday: 30000
+    },
+    {
+        wednesday: 80000
+    }
+]
 
 
 
