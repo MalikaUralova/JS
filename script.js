@@ -1882,11 +1882,17 @@
 
 
 
-const name = ["Anvar", "Dilnoza", "Ali", "Shahzod", "Bobur"];
-for (const i of name) {
-  if (i.length > 5) {
-    console.log(i);
-  }
-}
+
+
+//ISM UZUNLIGI
+// const name = ["Anvar", "Dilnoza", "Ali", "Shahzod", "Bobur"];
+// for (const i of name) {
+//   if (i.length > 5) {
+//     console.log(i);
+//   }
+// }
+
+
+
 
 
