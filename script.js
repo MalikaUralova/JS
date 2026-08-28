@@ -1828,3 +1828,19 @@
 //     return console.log(people);
 // }
 // console.log(people);
+
+
+
+
+
+
+//MALUMOT CHIQARISH
+let str = {
+    name: "malika",
+    age: 16,
+    city: "Qarshi"
+}
+
+for (const i in str) {
+    console.log(i, str[i]);
+}
