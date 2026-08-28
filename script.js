@@ -1703,19 +1703,17 @@
 
 
 //OYLIK HARAJAT
-let str = {
-    monday: 50000,
-    wednesday: 80000,
-    tuesday: 30000
-}
+// let str = {
+//     monday: 50000,
+//     wednesday: 80000,
+//     tuesday: 30000
+// }
 
 
 
-
-for (const i in str) {
-    console.log();
-
-}
+// for (const i in str) {
+//     console.log(str); 
+// }
 
 
 
@@ -1776,3 +1774,57 @@ for (const i in str) {
 // console.log(count2);
 
 
+
+
+
+
+
+
+let people = [
+    {
+        name: "malika",
+        email: "malika123@gmail.com",
+        age: 16
+    },
+    {
+        name: "asal",
+        email: "asal123@gmail.com",
+        age: 13
+    },
+    {
+        name: "sevinch",
+        email: "sevinch23@gmail.com",
+        age: 18
+    }
+]
+
+const newArr = [];
+
+const addUser = user => {
+    people.push(user)
+}
+
+const deleteUser = email => {
+    people.map(item => {
+        if (item.email !== email) {
+            newArr.push(item)
+        }
+    })
+}
+
+const updateUser = (email, newData) => {
+    people.map((item) => {
+        if (item.email !== email) {
+            newArr.push(item)
+        }else{
+            newArr.push(newData)
+        }
+    })
+}
+
+console.log(newArr);
+
+const listUser = () => {
+    return console.log(people);
+}
+console.log(people);
