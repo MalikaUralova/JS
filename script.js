@@ -1074,21 +1074,21 @@
 // ───────────────────────────────────────── //
 //                    ARRAY                  //
 // ───────────────────────────────────────── //
-
+//1-misool
 // let mevalar = ["olma","banan","olcha"] ;
 // mevalar.push("tarvuz");
 // console.log(mevalar);
 
 
 
-
+//2-misol
 // let mevalar = ["olma","banan","olcha"] ;
 // mevalar.pop();
 // console.log(mevalar);
 
 
 
-
+//3-misol
 // let mevalar = ["olma","banan","olcha"] ;
 // mevalar.push("tarvuz");
 // mevalar.push("qovun");
@@ -1097,7 +1097,7 @@
 
 
 
-
+//4-misol
 // let date = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31] ;
 // date.pop();
 // console.log(date);
@@ -1105,7 +1105,7 @@
 
 
 
-
+//5-misol
 // let mevalar = [] ;
 // mevalar.push("tarvuz");
 // console.log(mevalar);
@@ -1119,28 +1119,28 @@
 
 
 
-
+//6-misol
 // let arr = [1,2,3];
 // arr .unshift(0)
 // console.log(arr);
 
 
 
-
+//7-misol
 // let mevalar = ["olma","banan","olcha"] ;
 // mevalar.shift();
 // console.log(mevalar);
 
 
 
-
+//8-misol
 // let arr = ["malika","mahliyo","asila"];
 // arr .unshift("safina")
 // console.log(arr);
 
 
 
-
+//9-misol
 // let arr = [];
 // arr .unshift("safina")
 // arr .unshift("mahliyo")
@@ -1148,7 +1148,7 @@
 // console.log(arr);
 
 
-
+//10=misol
 // let mevalar = [] ;
 // mevalar.unshift("tarvuz");
 // console.log(mevalar);
@@ -1159,7 +1159,7 @@
 
 
 
-
+//11-misol
 // let arr = [];
 // arr .shift("safina")
 // arr .unshift("mahliyo")
@@ -1167,27 +1167,30 @@
 // console.log(arr);
 
 
-
+//12-misol
 // let num = 1;
 // console.log(Array.isArray(num));
 // console.log(num);
 
 
-
+//13misol
 // let num = [12,23,34]
 // console.log(num.at(0));
 
 
+//14-misol
 //  let num = [12,23,34]
 // console.log(num.at(-1));
 
 
+
+//15-misol
 //  let num = "malika"
 // console.log(num.at(-1));
 
 
 
-
+//6-misol
 // let fruits = ["apple","banan"];
 // let vegetables = ["carrot","broccoli"];
 // let result = fruits.concat(vegetables);
@@ -1200,7 +1203,7 @@
 
 
 
-
+//7-misol
 // for (let i = 0; i <=30; i++) {//
 //     let row = '       ';
 //     for (let j = 0; j <=i; j++) {//
@@ -1208,8 +1211,10 @@
 
 //     }
 //     console.log(row);//
+// }
 
-// }//
+
+
 
 
 
@@ -1708,9 +1713,6 @@
 //     wednesday: 80000,
 //     tuesday: 30000
 // }
-
-
-
 // for (const i in str) {
 //     console.log(str); 
 // }
@@ -1891,8 +1893,5 @@
 //     console.log(i);
 //   }
 // }
-
-
-
 
 
