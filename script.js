@@ -1688,6 +1688,22 @@
 
 
 
+let student = {
+    name: "Malika",
+    age: 16,
+    city: "Qarshi"
+};
+for (const i in student) {
+    console.log(i,student[i]);
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -1740,3 +1756,5 @@
 //    console.log(`${scores[j] >  count ? count2 = scores[j] : count2 = count}`);
 // }
 // console.log(count2);
+
+
