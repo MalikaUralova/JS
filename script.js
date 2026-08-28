@@ -1688,14 +1688,14 @@
 
 
 
-let student = {
-    name: "Malika",
-    age: 16,
-    city: "Qarshi"
-};
-for (const i in student) {
-    console.log(i,student[i]);
-}
+// let student = {
+//     name: "Malika",
+//     age: 16,
+//     city: "Qarshi"
+// };
+// for (const i in student) {
+//     console.log(i,student[i]);
+// }
 
 
 
