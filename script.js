@@ -1644,15 +1644,15 @@
 
 // let passenger = 20
 
-// station.forEach(station2 => {
-//     passenger = passenger - station2.cameOut + station2.entered
-// });
+station.forEach(station2 => {
+    passenger = passenger - station2.cameOut + station2.entered
+});
 
-// console.log(`Avtobusda qolgan yo'lovchilar soni: ${passenger}`);
+console.log(`Avtobusda qolgan yo'lovchilar soni: ${passenger}`);
 
-// let generalOutput = station.reduce((sum, station2) => sum + station2.cameOut, 0);
-// let average = generalOutput / station.length
-// console.log(`Har bir bekatda o'rtacha chiqqan odam: ${average}`);
+let generalOutput = station.reduce((sum, station2) => sum + station2.cameOut, 0);
+let average = generalOutput / station.length
+console.log(`Har bir bekatda o'rtacha chiqqan odam: ${average}`);
 
 
 
@@ -1670,22 +1670,22 @@
 //     {
 //         name: "Sut",
 //         price: 8000,
-        num: 1
-    },
-    {
-        name: "Tuxum",
-        price: 15000,
-        num: 2
-    }
-]
+//         num: 1
+//     },
+//     {
+//         name: "Tuxum",
+//         price: 15000,
+//         num: 2
+//     }
+// ]
 
-let generalPrice = basket.reduce((sum, mahsulot) => sum + mahsulot.price * mahsulot.num, 0)
-console.log(`Savatning umumiy narxi: ${generalPrice} so'm`)
+// let generalPrice = basket.reduce((sum, mahsulot) => sum + mahsulot.price * mahsulot.num, 0)
+// console.log(`Savatning umumiy narxi: ${generalPrice} so'm`)
 
-let money = 20000
-basket.forEach(product => {
-    let mainPrice = product.price * product.num
-    console.log(`${product.name}: ${mainPrice <= money ? "sotib olish mumkin" : "pul yetmaydi"}`)
+// let money = 20000
+// basket.forEach(product => {
+//     let mainPrice = product.price * product.num
+//     console.log(`${product.name}: ${mainPrice <= money ? "sotib olish mumkin" : "pul yetmaydi"}`)
 // });
 
 
