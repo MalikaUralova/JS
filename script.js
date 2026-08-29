@@ -1644,15 +1644,15 @@
 
 // let passenger = 20
 
-station.forEach(station2 => {
-    passenger = passenger - station2.cameOut + station2.entered
-});
+// station.forEach(station2 => {
+//     passenger = passenger - station2.cameOut + station2.entered
+// });
 
-console.log(`Avtobusda qolgan yo'lovchilar soni: ${passenger}`);
+// console.log(`Avtobusda qolgan yo'lovchilar soni: ${passenger}`);
 
-let generalOutput = station.reduce((sum, station2) => sum + station2.cameOut, 0);
-let average = generalOutput / station.length
-console.log(`Har bir bekatda o'rtacha chiqqan odam: ${average}`);
+// let generalOutput = station.reduce((sum, station2) => sum + station2.cameOut, 0);
+// let average = generalOutput / station.length
+// console.log(`Har bir bekatda o'rtacha chiqqan odam: ${average}`);
 
 
 
