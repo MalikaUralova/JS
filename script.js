@@ -1503,18 +1503,18 @@
 
 
 
-//OBJECT ICHIDA MASSIV YOZISH
-// let person = {
-//     name: "malika",
-//     skills: ["HTML", "CSS", "JavaScript"],
-//     address: {
-//         city: "Tashkent",
-//         country: "Uzbekistan"
-//     }
-// }
-// console.log(person.name);
-// console.log(person.skills[1]);
-// console.log(person.address.city);
+OBJECT ICHIDA MASSIV YOZISH
+let person = {
+    name: "malika",
+    skills: ["HTML", "CSS", "JavaScript"],
+    address: {
+        city: "Tashkent",
+        country: "Uzbekistan"
+    }
+}
+console.log(person.name);
+console.log(person.skills[1]);
+console.log(person.address.city);
 
 
 
@@ -1539,15 +1539,15 @@
 //         massa: 20,
 //         price: 7000,
 //     }
-]
-let count = 0
-store.map((item) => {
-    let totalPrice = item.massa * item.price;
-    count += totalPrice
-    return console.log(totalPrice);
+// ]
+// let count = 0
+// store.map((item) => {
+//     let totalPrice = item.massa * item.price;
+//     count += totalPrice
+//     return console.log(totalPrice);
 
-});
-console.log(count);
+// });
+// console.log(count);
 
 
 
