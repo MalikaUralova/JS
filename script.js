@@ -1425,14 +1425,14 @@
 
 
 //15-dars
-OBJECT YARATISH USULI .1.
-let user = {
-    name: "malika",
-    surname: "uralova",
-    age: 16,
-    isDeveloper: true
-}
-console.log(user);
+// OBJECT YARATISH USULI .1.
+// let user = {
+//     name: "malika",
+//     surname: "uralova",
+//     age: 16,
+//     isDeveloper: true
+// }
+// console.log(user);
 
 
 
