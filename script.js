@@ -1631,18 +1631,18 @@
 //         entered: 8
 //     },
 //     {
-//         name: "2-bekat",
-//         cameOut: 4,
-//         entered: 2
-//     },
-//     {
-//         name: "3-bekat",
-//         cameOut: 6,
-//         entered: 4
-//     },
-// ]
+        name: "2-bekat",
+        cameOut: 4,
+        entered: 2
+    },
+    {
+        name: "3-bekat",
+        cameOut: 6,
+        entered: 4
+    },
+]
 
-// let passenger = 20
+let passenger = 20
 
 station.forEach(station2 => {
     passenger = passenger - station2.cameOut + station2.entered
