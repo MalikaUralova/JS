@@ -1475,7 +1475,7 @@
 
 
 
-//OBJECTGA ELEMENT QO'SHISH YOKI O'ZGARTIRISH
+// OBJECTGA ELEMENT QO'SHISH YOKI O'ZGARTIRISH
 // let person = {
 //     name: "malika",
 //     age: "16"
