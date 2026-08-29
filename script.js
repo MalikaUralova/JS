@@ -1708,14 +1708,14 @@
 
 
 //OYLIK HARAJAT
-let str = {
-    monday: 50000,
-    wednesday: 80000,
-    tuesday: 30000
-}
-for (const i in str) {
-    console.log(str); 
-}
+// let str = {
+//     monday: 50000,
+//     wednesday: 80000,
+//     tuesday: 30000
+// }
+// for (const i in str) {
+//     console.log(str); 
+// }
 
 
 
@@ -1725,12 +1725,12 @@ for (const i in str) {
 
 
 
-//FOTBOOL REYTING
-// const teams = [
-//     {
-//         name: "Arsenal",
-//         win: 3,
-//         lose: 2,
+FOTBOOL REYTING
+const teams = [
+    {
+        name: "Arsenal",
+        win: 3,
+        lose: 2,
 //         tie: 1
 //     },
 //     {
