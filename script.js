@@ -1328,29 +1328,29 @@
 
 
 //14-misol
-let date = [1, 2, 3, 4];
-date.push(5)
-if (Array.isArray(date)) {
-    console.log(`bu massiv ${date} OK`);
-} else {
-    console.log("bu massiv emas");
-}
+// let date = [1, 2, 3, 4];
+// date.push(5)
+// if (Array.isArray(date)) {
+//     console.log(`bu massiv ${date} OK`);
+// } else {
+//     console.log("bu massiv emas");
+// }
 
 
 
 
-15-misol
-let numbers = [11, 17, 13, 20, 15];
-let found = numbers.find((num) => num > 18);
-console.log(found);
+// 15-misol
+// let numbers = [11, 17, 13, 20, 15];
+// let found = numbers.find((num) => num > 18);
+// console.log(found);
 
 
 
 
-16-misol
-let body = ["hand", "nose", "lip", "hair"];
-body.sort();
-console.log(body);
+// 16-misol
+// let body = ["hand", "nose", "lip", "hair"];
+// body.sort();
+// console.log(body);
 
 
 
