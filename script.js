@@ -1302,12 +1302,12 @@
 
 
 //12-misol
-let name = ["malika", "sevinch"];
-let search = "a";
-let searchResult = name.filter(product =>
-    product.toLowerCase().includes(search.toLocaleLowerCase())
-);
-console.log(searchResult);
+// let name = ["malika", "sevinch"];
+// let search = "a";
+// let searchResult = name.filter(product =>
+//     product.toLowerCase().includes(search.toLocaleLowerCase())
+// );
+// console.log(searchResult);
 
 
 
