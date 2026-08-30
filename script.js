@@ -1244,15 +1244,15 @@
 
 
 //4-misol
-let num = [1, 2];
-console.log(Array.isArray(num));
+// let num = [1, 2];
+// console.log(Array.isArray(num));
 
 
 
 
 //5-misol
-let fruits = ["banana", "apple", "kiwi", "cherry"];
-let lenth = fruits.filter(fruits => fruits.length > 5);
+// let fruits = ["banana", "apple", "kiwi", "cherry"];
+// let lenth = fruits.filter(fruits => fruits.length > 5);
 // console.log(lenth);
 
 
