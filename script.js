@@ -1150,11 +1150,11 @@
 
 //10=misol
 // let mevalar = [] ;
-mevalar.unshift("tarvuz");
-console.log(mevalar);
-mevalar.unshift("qovun");
-console.log(mevalar);
-mevalar.unshift("gilos");
+// mevalar.unshift("tarvuz");
+// console.log(mevalar);
+// mevalar.unshift("qovun");
+// console.log(mevalar);
+// mevalar.unshift("gilos");
 // console.log(mevalar);
 
 
