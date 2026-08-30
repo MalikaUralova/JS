@@ -1387,10 +1387,10 @@
 
 
 
-//21-misol
-// const arr = Array.of(1, 2, 3, 4);
-// const arr2 = new Array(1, 2, 3, 4);
-// arr.push(5);
+21-misol
+const arr = Array.of(1, 2, 3, 4);
+const arr2 = new Array(1, 2, 3, 4);
+arr.push(5);
 // arr2.push(5);
 // console.log(arr, arr2);
 
@@ -1398,10 +1398,10 @@
 
 
 //23-misol
-// let num1 = ["oysha", "asal", "sabina", "ilhom", "mahroj", "zokir"];
-// let num2 = ["madina", "gulmira", "nafosat", "sardor", "og'abek", "otabek", "temur"];
-// let result = num1.concat(num2);
-// console.log(result);
+let num1 = ["oysha", "asal", "sabina", "ilhom", "mahroj", "zokir"];
+let num2 = ["madina", "gulmira", "nafosat", "sardor", "og'abek", "otabek", "temur"];
+let result = num1.concat(num2);
+console.log(result);
 
 
 
@@ -1415,10 +1415,10 @@
 
 
 
-25-misol
-let str = ["Malika", "uralova"];
-str.pop();
-str.push("Akmalovna")
+// 25-misol
+// let str = ["Malika", "uralova"];
+// str.pop();
+// str.push("Akmalovna")
 // console.log(str);
 
 
