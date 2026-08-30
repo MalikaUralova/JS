@@ -1168,18 +1168,18 @@
 
 
 //12-misol
-let num = 1;
-console.log(Array.isArray(num));
-console.log(num);
+// let num = 1;
+// console.log(Array.isArray(num));
+// console.log(num);
 
 
-13misol
-let num = [12,23,34]
-console.log(num.at(0));
+//13misol
+// let num = [12,23,34]
+// console.log(num.at(0));
 
 
-14-misol
- let num = [12,23,34]
+//14-misol
+//  let num = [12,23,34]
 // console.log(num.at(-1));
 
 
