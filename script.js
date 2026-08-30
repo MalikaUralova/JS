@@ -1160,11 +1160,11 @@
 
 
 //11-misol
-let arr = [];
-arr .shift("safina")
-arr .unshift("mahliyo")
-arr .unshift("malika")
-console.log(arr);
+// let arr = [];
+// arr .shift("safina")
+// arr .unshift("mahliyo")
+// arr .unshift("malika")
+// console.log(arr);
 
 
 //12-misol
