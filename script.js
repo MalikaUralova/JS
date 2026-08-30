@@ -1127,28 +1127,28 @@
 
 
 //7-misol
-// let mevalar = ["olma","banan","olcha"] ;
-// mevalar.shift();
-// console.log(mevalar);
+let mevalar = ["olma","banan","olcha"] ;
+mevalar.shift();
+console.log(mevalar);
 
 
 
-//8-misol
-// let arr = ["malika","mahliyo","asila"];
-// arr .unshift("safina")
-// console.log(arr);
+8-misol
+let arr = ["malika","mahliyo","asila"];
+arr .unshift("safina")
+console.log(arr);
 
 
 
 //9-misol
-// let arr = [];
-// arr .unshift("safina")
-// arr .unshift("mahliyo")
-// arr .unshift("malika")
-// console.log(arr);
+let arr = [];
+arr .unshift("safina")
+arr .unshift("mahliyo")
+arr .unshift("malika")
+console.log(arr);
 
 
-//10=misol
+10=misol
 // let mevalar = [] ;
 // mevalar.unshift("tarvuz");
 // console.log(mevalar);
