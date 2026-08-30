@@ -1356,25 +1356,25 @@
 
 
 //17-misol
-// let numbers = [5, 8, 3, 9, 4, 2, 7, 1, 6, 10];
-// numbers.sort();
-// console.log(numbers);
+let numbers = [5, 8, 3, 9, 4, 2, 7, 1, 6, 10];
+numbers.sort();
+console.log(numbers);
 
 
 
 
-//18-misol
-// let numbers = ["o", "l", "m", "a"];
-// numbers.forEach((num) => {
-//     console.log(num);
+18-misol
+let numbers = ["o", "l", "m", "a"];
+numbers.forEach((num) => {
+    console.log(num);
 // })
 
 
 
-//19-misol
-// let str = ["olxo'ri","olcha"];
-// str.shift();
-// console.log(str);
+19-misol
+let str = ["olxo'ri","olcha"];
+str.shift();
+console.log(str);
 
 
 
