@@ -1290,13 +1290,13 @@
 
 
 
-// update
 
 
 
-11-misol
-let arr = [10, 20, 30, 40, 50];
-console.log(arr.includes(50));
+
+// 11-misol
+// let arr = [10, 20, 30, 40, 50];
+// console.log(arr.includes(50));
 
 
 
