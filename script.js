@@ -1290,11 +1290,7 @@
 
 
 
-10-misol
-let num1 = [1,2,3,4,5];
-let num2 = [6,7,8,9];
-let result = num1.concat(num2);
-console.log(result.slice(-1));
+// update
 
 
 
