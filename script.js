@@ -1133,10 +1133,10 @@
 
 
 
-8-misol
-let arr = ["malika","mahliyo","asila"];
-arr .unshift("safina")
-console.log(arr);
+//8-misol
+// let arr = ["malika","mahliyo","asila"];
+// arr .unshift("safina")
+// console.log(arr);
 
 
 
