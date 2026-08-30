@@ -1150,21 +1150,21 @@
 
 //10=misol
 // let mevalar = [] ;
-// mevalar.unshift("tarvuz");
-// console.log(mevalar);
-// mevalar.unshift("qovun");
-// console.log(mevalar);
-// mevalar.unshift("gilos");
+mevalar.unshift("tarvuz");
+console.log(mevalar);
+mevalar.unshift("qovun");
+console.log(mevalar);
+mevalar.unshift("gilos");
 // console.log(mevalar);
 
 
 
 //11-misol
-// let arr = [];
-// arr .shift("safina")
-// arr .unshift("mahliyo")
-// arr .unshift("malika")
-// console.log(arr);
+let arr = [];
+arr .shift("safina")
+arr .unshift("mahliyo")
+arr .unshift("malika")
+console.log(arr);
 
 
 //12-misol
