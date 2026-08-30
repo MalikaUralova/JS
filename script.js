@@ -1150,36 +1150,36 @@
 
 //10=misol
 // let mevalar = [] ;
-// mevalar.unshift("tarvuz");
-// console.log(mevalar);
-// mevalar.unshift("qovun");
-// console.log(mevalar);
-// mevalar.unshift("gilos");
-// console.log(mevalar);
+mevalar.unshift("tarvuz");
+console.log(mevalar);
+mevalar.unshift("qovun");
+console.log(mevalar);
+mevalar.unshift("gilos");
+console.log(mevalar);
 
 
 
-//11-misol
-// let arr = [];
-// arr .shift("safina")
-// arr .unshift("mahliyo")
-// arr .unshift("malika")
-// console.log(arr);
+11-misol
+let arr = [];
+arr .shift("safina")
+arr .unshift("mahliyo")
+arr .unshift("malika")
+console.log(arr);
 
 
 //12-misol
-// let num = 1;
-// console.log(Array.isArray(num));
-// console.log(num);
+let num = 1;
+console.log(Array.isArray(num));
+console.log(num);
 
 
-//13misol
-// let num = [12,23,34]
-// console.log(num.at(0));
+13misol
+let num = [12,23,34]
+console.log(num.at(0));
 
 
-//14-misol
-//  let num = [12,23,34]
+14-misol
+ let num = [12,23,34]
 // console.log(num.at(-1));
 
 
