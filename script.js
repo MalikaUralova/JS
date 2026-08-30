@@ -1141,14 +1141,14 @@
 
 
 //9-misol
-let arr = [];
-arr .unshift("safina")
-arr .unshift("mahliyo")
-arr .unshift("malika")
-console.log(arr);
+// let arr = [];
+// arr .unshift("safina")
+// arr .unshift("mahliyo")
+// arr .unshift("malika")
+// console.log(arr);
 
 
-10=misol
+//10=misol
 // let mevalar = [] ;
 // mevalar.unshift("tarvuz");
 // console.log(mevalar);
