@@ -1258,20 +1258,20 @@
 
 
 
-6-misol
-let price = [100, 200, 300];
-let result = price.map(num => num * 0.9)
+// 6-misol
+// let price = [100, 200, 300];
+// let result = price.map(num => num * 0.9)
 // console.log(result);
 
 
 
 
 
-7-misol
-let str = ["olma", "banan", "olcha"];
-let result = str.at(2);
-str.pop();
-console.log(result);
+// 7-misol
+// let str = ["olma", "banan", "olcha"];
+// let result = str.at(2);
+// str.pop();
+// console.log(result);
 
 
 
