@@ -877,19 +877,19 @@
 
 
 // let str = 'malaika'
-// console.log(str.lastIndexOf('a'));
+console.log(str.lastIndexOf('a'));
 
 
-// let text = "JavaScript is awesome!"
-// console.log(text.includes('  '));
-// console.log(text.includes('Java'));
+let text = "JavaScript is awesome!"
+console.log(text.includes('  '));
+console.log(text.includes('Java'));
 
 
 
 
-// let text ='hello world'
-// console.log(text.startsWith("hello"));
-// console.log(text.startsWith("world"));
+let text ='hello world'
+console.log(text.startsWith("hello"));
+console.log(text.startsWith("world"));
 
 
 
