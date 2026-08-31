@@ -936,18 +936,18 @@
 // let name = "malika"
 // console.log(name.toUpperCase() , name.lengt)
 // let str = "  salom dunyo  ";
-// console.log(str.trim())
-// console.log( str.includes("S"))
+console.log(str.trim())
+console.log( str.includes("S"))
 
 
-// //3-misol
-// let str = "JavaScript juda zo'r til";
-// console.log(str.indexOf("juda"));oo
+//3-misol
+let str = "JavaScript juda zo'r til";
+console.log(str.indexOf("juda"));oo
 
 
-// //4-misol
-// let str = "apple,banan,grape,mango";
-// console.log(str.split(","));
+//4-misol
+let str = "apple,banan,grape,mango";
+console.log(str.split(","));
 
 
 
