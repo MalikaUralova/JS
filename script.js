@@ -813,22 +813,22 @@
 
 
 
-───────────────────────────────────────── //
-             Bahoni aniqlash              //
-───────────────────────────────────────── //
-const checkGrade = (ball) => (ball > 50 ? "O'tdi" : "Yiqildi");
-console.log(checkGrade(51));
+// ───────────────────────────────────────── //
+//              Bahoni aniqlash              //
+// ───────────────────────────────────────── //
+// const checkGrade = (ball) => (ball > 50 ? "O'tdi" : "Yiqildi");
+// console.log(checkGrade(51));
 
 
 
-───────────────────────────────────────── //
-       Sonning musbat yoki manfiyligi     //
-───────────────────────────────────────── //
-const checkSign = (number) => {
-  if (number > 0) return "Musbat";
-  if (number < 0) return "Manfiy";
-  return "Nol";
-};
+// ───────────────────────────────────────── //
+//        Sonning musbat yoki manfiyligi     //
+// ───────────────────────────────────────── //
+// const checkSign = (number) => {
+//   if (number > 0) return "Musbat";
+//   if (number < 0) return "Manfiy";
+//   return "Nol";
+// };
 // console.log(checkSign(3));
 
 
