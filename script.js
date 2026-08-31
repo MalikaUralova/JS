@@ -1024,14 +1024,14 @@
 
 
 
-//2-misol
-// let str = "banana";
-// for (let i = 0; i < str.length; i++) {
-//     if (str[i]==="a") {
-//         continue
-//     }
-//     console.log(str[i]);
-// }
+2-misol
+let str = "banana";
+for (let i = 0; i < str.length; i++) {
+    if (str[i]==="a") {
+        continue
+    }
+    console.log(str[i]);
+}
 
 
 
