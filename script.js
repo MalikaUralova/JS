@@ -757,10 +757,10 @@
 //           Kvadratini hisoblash            //
 // ───────────────────────────────────────── //
 
-const getSquare = (num) => num * num;
+// const getSquare = (num) => num * num;
 
-console.log(getSquare(5));
-console.log(getSquare(9));
+// console.log(getSquare(5));
+// console.log(getSquare(9));
 
 
 
