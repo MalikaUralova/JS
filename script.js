@@ -1015,23 +1015,23 @@
 
 
 
-//homework
-// let str = "hello";
-// for (let i = str.length-1; i >=0; i--) {
-//     console.log(str[i]);
-// }
-
-
-
-
-2-misol
-let str = "banana";
-for (let i = 0; i < str.length; i++) {
-    if (str[i]==="a") {
-        continue
-    }
+homework
+let str = "hello";
+for (let i = str.length-1; i >=0; i--) {
     console.log(str[i]);
 }
+
+
+
+
+// 2-misol
+// let str = "banana";
+// for (let i = 0; i < str.length; i++) {
+//     if (str[i]==="a") {
+//         continue
+//     }
+//     console.log(str[i]);
+// }
 
 
 
