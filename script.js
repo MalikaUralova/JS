@@ -994,17 +994,17 @@
 
 //11-misol
 // let user = "malika@gmail.com";
-console.log(user.includes("@"));
-console.log(user.includes("a"));
+// console.log(user.includes("@"));
+// console.log(user.includes("a"));
 
 
 
 
-14-misol
-let carta = "1234567890123456";
-let number = carta.slice(-4);
-let main = "*".repeat(carta.length - 4);
-console.log(main + number);
+// 14-misol
+// let carta = "1234567890123456";
+// let number = carta.slice(-4);
+// let main = "*".repeat(carta.length - 4);
+// console.log(main + number);
 
 
 
