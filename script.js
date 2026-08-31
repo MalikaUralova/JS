@@ -736,16 +736,16 @@
 
 
 // ───────────────────────────────────────── //
-//           Salomlashish funksiyasi         //
-// ───────────────────────────────────────── //
-// const greetUser = function(name){
-//     return `Salom, ${name}! Bugungi darsga xush kelibsiz.`
-// }
+          Salomlashish funksiyasi         //
+───────────────────────────────────────── //
+const greetUser = function(name){
+    return `Salom, ${name}! Bugungi darsga xush kelibsiz.`
+}
 
-// console.log(
+console.log(
 
-//     greetUser(`malika`)
-// );
+    greetUser(`malika`)
+);
 
 
 
