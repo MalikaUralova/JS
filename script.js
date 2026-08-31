@@ -899,21 +899,21 @@
 
 
 
-// const sentence = "I love JavaScript."
-// console.log(sentence .replace("JavaScript", "malika"));
+const sentence = "I love JavaScript."
+console.log(sentence .replace("JavaScript", "malika"));
 
 
-// const sentence = "I love JavaScript."
-// console.log(sentence .split(""));
+const sentence = "I love JavaScript."
+console.log(sentence .split(""));
 
 
 
-// const sentence = "   I love JavaScript.   "
-// console.log(sentence.trim());
+const sentence = "   I love JavaScript.   "
+console.log(sentence.trim());
 
 
-// const sentence = "   I love JavaScript.   "
-// console.log(sentence.repeat(3));
+const sentence = "   I love JavaScript.   "
+console.log(sentence.repeat(3));
 
 
 
