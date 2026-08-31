@@ -952,16 +952,16 @@
 
 
 
-// //5-misol
-// let str = "Programming";
-// console.log(str.substring(3,6));
+//5-misol
+let str = "Programming";
+console.log(str.substring(3,6));
 
 
 
 
-//6-misol
-// let str = "hello world";
-// console.log(str.replaceAll("l", "*"));
+6-misol
+let str = "hello world";
+console.log(str.replaceAll("l", "*"));
 
 
 // 7-misol
@@ -969,24 +969,24 @@
 
 
 
-8-misol
-let str = "firstname:Ali , lastname:Valiyev , age:20";
-console.log(str)
-console.log(str.substring(10, 13))
+//8-misol
+// let str = "firstname:Ali , lastname:Valiyev , age:20";
+// console.log(str)
+// console.log(str.substring(10, 13))
 
 
-9-misol
-let str = "salom dunyo";
-console.log(str.replaceAll("s", "S").replace("d", "D"));
+//9-misol
+// let str = "salom dunyo";
+// console.log(str.replaceAll("s", "S").replace("d", "D"));
 
 
 
 
-10-misol
------
-let str= "aabbcccddee";
-console.log(str.substring(1,3),str.substring());
-console.log(console.log());
+//10-misol
+// -----
+// let str= "aabbcccddee";
+// console.log(str.substring(1,3),str.substring());
+// console.log(console.log());
 
 
 
