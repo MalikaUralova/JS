@@ -710,23 +710,23 @@
 
 // ───────────────────────────────────────── //
 //                 Challange3                //
-// ───────────────────────────────────────── //
+───────────────────────────────────────── //
 
-// const average = (score1, score2, score3) => (score1 + score2 + score3);
-// const scoreDolphins = average(40, 20, 70);
-// const scoreKoalas = average(120, 40, 100);
-// const check = (dolphins, koalas) => {
-//     if (dolphins >= koalas * 2) {
-//         console.log("G'olib: Dolphins");
-//     } else if (koalas >= dolphins * 2) {
-//         console.log("G'olib: Koalas");
-//     } else {
-//         console.log("No team wins...");
-//     }
-// };
+const average = (score1, score2, score3) => (score1 + score2 + score3);
+const scoreDolphins = average(40, 20, 70);
+const scoreKoalas = average(120, 40, 100);
+const check = (dolphins, koalas) => {
+    if (dolphins >= koalas * 2) {
+        console.log("G'olib: Dolphins");
+    } else if (koalas >= dolphins * 2) {
+        console.log("G'olib: Koalas");
+    } else {
+        console.log("No team wins...");
+    }
+};
 
-// console.log("Dolphins:", scoreDolphins, "| Koalas:", scoreKoalas);
-// check(scoreDolphins, scoreKoalas);
+console.log("Dolphins:", scoreDolphins, "| Koalas:", scoreKoalas);
+check(scoreDolphins, scoreKoalas);
 
 
 
