@@ -1413,7 +1413,7 @@
 
 // 25-misol
 // let str = ["Malika", "uralova"];
-// str.pop();
+`// str.pop();
 // str.push("Akmalovna")
 // console.log(str);
 
@@ -1897,7 +1897,10 @@
 
 
 
-console.log(document);
+
+
+// log
+// console.log(document);
 
 
 
