@@ -1526,24 +1526,24 @@
 //         price: 10000,
 //     },
 //     {
-        name: "pomidor",
-        massa: 20,
-        price: 5000,
-    },
-    {
-        name: "pomidor",
-        massa: 20,
-        price: 7000,
-    }
-]
-let count = 0
-store.map((item) => {
-    let totalPrice = item.massa * item.price;
-    count += totalPrice
-    return console.log(totalPrice);
+//         name: "pomidor",
+//         massa: 20,
+//         price: 5000,
+//     },
+//     {
+//         name: "pomidor",
+//         massa: 20,
+//         price: 7000,
+//     }
+// ]
+// let count = 0
+// store.map((item) => {
+//     let totalPrice = item.massa * item.price;
+//     count += totalPrice
+//     return console.log(totalPrice);
 
-});
-console.log(count);
+// });
+// console.log(count);
 
 
 
