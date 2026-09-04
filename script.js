@@ -1895,7 +1895,41 @@
 
 
 
-const str = document.getElementById("container")
-console.log(str);
+let count = 0;
+let today = 0;
+let total = 0;
+
+let countText = document.getElementById("count");
+let todayText = document.getElementById("today");
+let totalText = document.getElementById("total");
+
+function addCount() {
+  count = count + 1;
+  today = today + 1;
+  total = total + 1;
+  updateText();
+}
+
+function minusCount() {
+  if (count > 0) {
+    count = count - 1;
+  }
+  updateText();
+}
+
+function updateText() {
+  countText.innerHTML = count;
+  todayText.innerHTML = today;
+  totalText.innerHTML = total;
+}
+
+document.getElementById("circleBtn").addEventListener("click", addCount);
+document.getElementById("minusBtn").addEventListener("click", minusCount);
+
+document.addEventListener("keydown", function(e) {
+  if (e.code === "Space") {
+    addCount();
+  }
+});
 
 
