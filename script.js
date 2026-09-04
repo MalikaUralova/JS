@@ -1895,19 +1895,7 @@
 
 
 
-
-
-
 const str = document.getElementById("container")
-
-
 console.log(str);
-
-
-
-
-
-
-
 
 
