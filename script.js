@@ -1847,18 +1847,18 @@
 
 
 
-HARAJATNI HISOBLASH
-let cost = {
-    monday: 20000,
-    tuesday: 30000,
-    wednesday: 40000
-}
+//HARAJATNI HISOBLASH
+// let cost = {
+//     monday: 20000,
+//     tuesday: 30000,
+//     wednesday: 40000
+// }
 
-let total = 0
-for (const i in cost) {
-    total += cost[i]
-}
-console.log(`Umumiy xarajat ${total}`);
+// let total = 0
+// for (const i in cost) {
+//     total += cost[i]
+// }
+// console.log(`Umumiy xarajat ${total}`);
 
 
 
