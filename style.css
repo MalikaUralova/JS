@@ -12,6 +12,8 @@ body {
   padding: 20px;
 }
 
+
+
 .top-panel {
   display: flex;
   justify-content: space-between;
@@ -30,6 +32,8 @@ body {
   gap: 5px;
   font-size: 14px;
 }
+
+
 
 #count {
   font-size: 90px;
@@ -63,12 +67,16 @@ body {
   padding: 10px 20px;
 }
 
+
+
 .bottom-panel p {
   display: flex;
   align-items: center;
   gap: 6px;
   font-size: 14px;
 }
+
+
 
 .bottom-panel button {
   background: none;
@@ -83,6 +91,8 @@ body {
   justify-content: center;
 }
 
+
+
 .stats {
   display: flex;
   justify-content: space-around;
@@ -91,10 +101,12 @@ body {
   margin-top: 15px;
 }
 
+
 .stats p {
   font-size: 18px;
   margin: 0;
 }
+
 
 .stats span {
   font-size: 12px;
