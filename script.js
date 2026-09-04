@@ -1810,14 +1810,14 @@
 //     })
 // }
 
-// const updateUser = (email, newData) => {
-//     people.map((item) => {
-//         if (item.email !== email) {
-//             newArr.push(item)
-//         }else{
-//             newArr.push(newData)
-//         }
-//     })
+const updateUser = (email, newData) => {
+    people.map((item) => {
+        if (item.email !== email) {
+            newArr.push(item)
+        }else{
+            newArr.push(newData)
+        }
+    })
 // }
 
 // console.log(newArr);
