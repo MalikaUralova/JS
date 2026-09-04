@@ -1822,10 +1822,10 @@
 
 // console.log(newArr);
 
-const listUser = () => {
-    return console.log(people);
-}
-console.log(people);
+// const listUser = () => {
+//     return console.log(people);
+// }
+// console.log(people);
 
 
 
