@@ -1899,13 +1899,13 @@ let count = 0;
 let today = 0;
 let total = 0;
 
-// let countText = document.getElementById("count");
-// // let todayText = document.getElementById("today");
-// // let totalText = document.getElementById("total");
+let countText = document.getElementById("count");
+let todayText = document.getElementById("today");
+let totalText = document.getElementById("total");
 
-// // function addCount() {
-// //   count = count + 1;
-// //   today = today + 1;
+function addCount() {
+  count = count + 1;
+  today = today + 1;
   total = total + 1;
   updateText();
 }
