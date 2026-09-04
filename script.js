@@ -1866,15 +1866,15 @@
 
 
 
-//MUSBAT SONLAR YIG'INDISI
-// const arr = [12, -5, 8, -3, 20, 0];
-// let num = 0;
-// for (const i of arr) {
-//     if (i > 0) {
-//         num += i;
+MUSBAT SONLAR YIG'INDISI
+const arr = [12, -5, 8, -3, 20, 0];
+let num = 0;
+for (const i of arr) {
+    if (i > 0) {
+        num += i;
 //     }
 // }
-console.log(`Musbat sonlar yig'indisi: ${num}`); 
+// console.log(`Musbat sonlar yig'indisi: ${num}`); 
 
 
 
