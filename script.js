@@ -1442,7 +1442,7 @@
 // console.log(user);
 
 
-
+ const ContentVisibilityAutoStateChangeEvent = 12;
 
 
 // OBJECTDAN QIYMAT OLISH USULI
@@ -1898,11 +1898,10 @@
 
 
 
-
-// log
-// console.log(document);
+const str = document.getElementById("container")
 
 
+console.log(str);
 
 
 
