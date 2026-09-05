@@ -1383,12 +1383,12 @@
 
 
 
-21-misol
-const arr = Array.of(1, 2, 3, 4);
-const arr2 = new Array(1, 2, 3, 4);
-arr.push(5);
-arr2.push(5);
-console.log(arr, arr2);
+//21-misol
+// const arr = Array.of(1, 2, 3, 4);
+// const arr2 = new Array(1, 2, 3, 4);
+// arr.push(5);
+// arr2.push(5);
+// console.log(arr, arr2);
 
 
 
