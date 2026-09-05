@@ -1535,12 +1535,12 @@
 //         massa: 20,
 //         price: 7000,
 //     }
-// ]
-// let count = 0
-// store.map((item) => {
-//     let totalPrice = item.massa * item.price;
-//     count += totalPrice
-//     return console.log(totalPrice);
+]
+let count = 0
+store.map((item) => {
+    let totalPrice = item.massa * item.price;
+    count += totalPrice
+    return console.log(totalPrice);
 
 // });
 // console.log(count);
