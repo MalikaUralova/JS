@@ -1656,24 +1656,24 @@
 
 
 
-//MAHSUOLT NAXLARI
-// let basket = [
-//     {
-//         name: "Non",
-//         price: 3000,
-//         num: 2
-//     },
-//     {
-//         name: "Sut",
-//         price: 8000,
-//         num: 1
-//     },
-//     {
-//         name: "Tuxum",
-//         price: 15000,
-//         num: 2
-//     }
-// ]
+MAHSUOLT NAXLARI
+let basket = [
+    {
+        name: "Non",
+        price: 3000,
+        num: 2
+    },
+    {
+        name: "Sut",
+        price: 8000,
+        num: 1
+    },
+    {
+        name: "Tuxum",
+        price: 15000,
+        num: 2
+    }
+]
 
 // let generalPrice = basket.reduce((sum, mahsulot) => sum + mahsulot.price * mahsulot.num, 0)
 // console.log(`Savatning umumiy narxi: ${generalPrice} so'm`)
