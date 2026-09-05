@@ -1367,10 +1367,10 @@
 
 
 
-// 19-misol
-// let str = ["olxo'ri","olcha"];
-// str.shift();
-// console.log(str);
+19-misol
+let str = ["olxo'ri","olcha"];
+str.shift();
+console.log(str);
 
 
 
