@@ -1343,10 +1343,10 @@
 
 
 
-16-misol
-let body = ["hand", "nose", "lip", "hair"];
-body.sort();
-console.log(body);
+// 16-misol
+// let body = ["hand", "nose", "lip", "hair"];
+// body.sort();
+// console.log(body);
 
 
 
