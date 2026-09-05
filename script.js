@@ -1594,21 +1594,21 @@
 
 
 
-// chegirma narx
-// let products = [
-//     {
-//         name: "TV",
-//         price: 5000000,
-//     },
-//     {
-//         name: "laptop",
-//         price: 7000000,
-//     },
-//     {
-//         name: "phone",
-//         price: 4000000,
-//     }
-// ]
+chegirma narx
+let products = [
+    {
+        name: "TV",
+        price: 5000000,
+    },
+    {
+        name: "laptop",
+        price: 7000000,
+    },
+    {
+        name: "phone",
+        price: 4000000,
+    }
+]
 
 // products.map(item => {
 //    console.log(`${item.name} mahsulotiga 10% chegirma beriladi: ${item.price >= 2500000 ? item.price * 0.9 : item.price}`);//
