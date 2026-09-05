@@ -1283,9 +1283,9 @@
 
 
 
-//9-misol
-// let number = [10, 20, 30, 40, 50,];
-// console.log(number.slice(1, -1));
+9-misol
+let number = [10, 20, 30, 40, 50,];
+console.log(number.slice(1, -1));
 
 
 
