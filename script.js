@@ -1499,17 +1499,17 @@
 
 
 
-//OBJECT ICHIDA MASSIV YOZISH
-// let person = {
-//     name: "malika",
-//     skills: ["HTML", "CSS", "JavaScript"],
-//     address: {
-//         city: "Tashkent",
-//         country: "Uzbekistan"
-//     }
-// }
-// console.log(person.name);
-// console.log(person.skills[1]);
+OBJECT ICHIDA MASSIV YOZISH
+let person = {
+    name: "malika",
+    skills: ["HTML", "CSS", "JavaScript"],
+    address: {
+        city: "Tashkent",
+        country: "Uzbekistan"
+    }
+}
+console.log(person.name);
+console.log(person.skills[1]);
 // console.log(person.address.city);
 
 
