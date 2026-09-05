@@ -1675,8 +1675,8 @@
 //     }
 // ]
 
-let generalPrice = basket.reduce((sum, mahsulot) => sum + mahsulot.price * mahsulot.num, 0)
-console.log(`Savatning umumiy narxi: ${generalPrice} so'm`)
+// let generalPrice = basket.reduce((sum, mahsulot) => sum + mahsulot.price * mahsulot.num, 0)
+// console.log(`Savatning umumiy narxi: ${generalPrice} so'm`)
 
 // let money = 20000
 // basket.forEach(product => {
