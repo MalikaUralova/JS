@@ -1619,7 +1619,7 @@
 
 
 
-//BEKATLAR
+// BEKATLAR
 // let station = [
 //     {
 //         name: "1-bekat",
