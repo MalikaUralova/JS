@@ -1335,10 +1335,10 @@
 
 
 
-// 15-misol
-// let numbers = [11, 17, 13, 20, 15];
-// let found = numbers.find((num) => num > 18);
-// console.log(found);
+15-misol
+let numbers = [11, 17, 13, 20, 15];
+let found = numbers.find((num) => num > 18);
+console.log(found);
 
 
 
