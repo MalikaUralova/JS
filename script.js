@@ -1944,14 +1944,13 @@
 
 
 
-const container =document.getElementById("container");
-const title =document.getElementById("title");
+// const container =document.getElementById("container");
+// const title =document.getElementById("title");
 
-title.textContent = "monika";
-title.style.color = "#836565"
+// title.textContent = "monika";
+// title.style.color = "#836565"
 
-console.log(container);
-
+// console.log(container);
 
 
 
