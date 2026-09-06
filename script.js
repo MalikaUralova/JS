@@ -1949,9 +1949,12 @@ const title =document.getElementById("title");
 
 
 title.textContent = "monikaaaaaaaaaaa"
-
+title.style.color = "#836565"
 
 console.log(container);
+
+
+
 
 
 
