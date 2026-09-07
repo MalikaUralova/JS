@@ -1456,14 +1456,14 @@
 
 
 
-2-qavs va qo'shtirnoq orqali [""] BRACKET NOTATIONS
-let user = {
-    name: "malika",
-    surname: "uralova",
-    age: 16,
-    isDeveloper: true,
-}
-console.log(user["age"]);
+// 2-qavs va qo'shtirnoq orqali [""] BRACKET NOTATIONS
+// let user = {
+//     name: "malika",
+//     surname: "uralova",
+//     age: 16,
+//     isDeveloper: true,
+// }
+// console.log(user["age"]);
 
 
 
