@@ -1618,24 +1618,24 @@
 
 
 
-BEKATLAR
-let station = [
-    {
-        name: "1-bekat",
-        cameOut: 5,
-        entered: 8
-    },
-    {
-        name: "2-bekat",
-        cameOut: 4,
-        entered: 2
-    },
-    {
-        name: "3-bekat",
-        cameOut: 6,
-        entered: 4
-    },
-]
+// BEKATLAR
+// let station = [
+//     {
+//         name: "1-bekat",
+//         cameOut: 5,
+//         entered: 8
+//     },
+//     {
+//         name: "2-bekat",
+//         cameOut: 4,
+//         entered: 2
+//     },
+//     {
+//         name: "3-bekat",
+//         cameOut: 6,
+//         entered: 4
+//     },
+// ]
 
 // let passenger = 20
 
