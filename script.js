@@ -1834,16 +1834,16 @@
 
 
 
-//MALUMOT CHIQARISH
-// let str = {
-//     name: "malika",
-//     age: 16,
-//     city: "Qarshi"
-// }
+MALUMOT CHIQARISH
+let str = {
+    name: "malika",
+    age: 16,
+    city: "Qarshi"
+}
 
-// for (const i in str) {
-//     console.log(i, str[i]);
-// }
+for (const i in str) {
+    console.log(i, str[i]);
+}
 
 
 
