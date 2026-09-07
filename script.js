@@ -1779,24 +1779,24 @@
 
 
 
-AMALIY MASHQ
-let people = [
-    {
-        name: "malika",
-        email: "malika123@gmail.com",
-        age: 16
-    },
-    {
-        name: "asal",
-        email: "asal123@gmail.com",
-        age: 13
-    },
-    {
-        name: "sevinch",
-        email: "sevinch23@gmail.com",
-        age: 18
-    }
-]
+//AMALIY MASHQ
+// let people = [
+//     {
+//         name: "malika",
+//         email: "malika123@gmail.com",
+//         age: 16
+//     },
+//     {
+//         name: "asal",
+//         email: "asal123@gmail.com",
+//         age: 13
+//     },
+//     {
+//         name: "sevinch",
+//         email: "sevinch23@gmail.com",
+//         age: 18
+//     }
+// ]
 
 // const newArr = [];
 
