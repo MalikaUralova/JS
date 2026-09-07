@@ -1469,7 +1469,6 @@ console.log(user["age"]);
 
 
 
-
 // OBJECTGA ELEMENT QO'SHISH YOKI O'ZGARTIRISH
 // let person = {
 //     name: "malika",
