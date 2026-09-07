@@ -1815,19 +1815,19 @@
 // const updateUser = (email, newData) => {
 //     people.map((item) => {
 //         if (item.email !== email) {
-//             newArr.push(item)
-//         }else{
-//             newArr.push(newData)
-//         }
-//     })
-// }
+            newArr.push(item)
+        }else{
+            newArr.push(newData)
+        }
+    })
+}
 
-// console.log(newArr);
+console.log(newArr);
 
-// const listUser = () => {
-//     return console.log(people);
-// }
-// console.log(people);
+const listUser = () => {
+    return console.log(people);
+}
+console.log(people);
 
 
 
