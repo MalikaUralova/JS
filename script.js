@@ -1762,13 +1762,13 @@
 //     scores.push(count)
 // }
 
-// let count2 = 0;
+let count2 = 0;
 
-// for (let j = 0; j < scores.length; j++) {
-//    count=scores[j]
-//    console.log(`${scores[j] >  count ? count2 = scores[j] : count2 = count}`);
-// }
-// console.log(count2);
+for (let j = 0; j < scores.length; j++) {
+   count=scores[j]
+   console.log(`${scores[j] >  count ? count2 = scores[j] : count2 = count}`);
+}
+console.log(count2);
 
 
 
