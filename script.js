@@ -1670,18 +1670,18 @@
 //     {
 //         name: "Tuxum",
 //         price: 15000,
-//         num: 2
-//     }
-// ]
+        num: 2
+    }
+]
 
-let generalPrice = basket.reduce((sum, mahsulot) => sum + mahsulot.price * mahsulot.num, 0)
-console.log(`Savatning umumiy narxi: ${generalPrice} so'm`)
+// let generalPrice = basket.reduce((sum, mahsulot) => sum + mahsulot.price * mahsulot.num, 0)
+// console.log(`Savatning umumiy narxi: ${generalPrice} so'm`)
 
-let money = 20000
-basket.forEach(product => {
-    let mainPrice = product.price * product.num
-    console.log(`${product.name}: ${mainPrice <= money ? "sotib olish mumkin" : "pul yetmaydi"}`)
-});
+// let money = 20000
+// basket.forEach(product => {
+//     let mainPrice = product.price * product.num
+//     console.log(`${product.name}: ${mainPrice <= money ? "sotib olish mumkin" : "pul yetmaydi"}`)
+// });
 
 
 
