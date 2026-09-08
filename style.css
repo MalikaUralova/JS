@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #050807;
   font-family: Arial, sans-serif;
   color: white;
@@ -111,4 +111,91 @@ body {
 .stats span {
   font-size: 12px;
   color: #39ff9d;
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6b7280;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.modal {
+  width: 90%;
+  max-width: 480px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 800;
+  color: #1e1b2e;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 28px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  font-weight: 700;
+  font-size: 15px;
+  color: #1e1b2e;
+  margin-bottom: 8px;
+}
+
+.form input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 22px;
+  font-size: 15px;
+  color: #1e1b2e;
+  background-color: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  outline: none;
+}
+
+.form input::placeholder {
+  color: #9ca3af;
+}
+
+.form input:focus {
+  border-color: #4f46e5;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 16px;
+  background-color: #4f46e5;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submitBtn:hover {
+  background-color: #4338ca;
 }
