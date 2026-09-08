@@ -1900,6 +1900,29 @@
 
 
 
+
+
+
+
+
+const circleBtn = document.getElementById("circleBtn");
+const count = document.getElementById("count");
+const minusBtn = document.getElementById("minusBtn");
+
+let count2 = 0;
+circleBtn.addEventListener("click", () => {  
+    count2++
+    count.textContent = count2
+})
+
+
+minusBtn.addEventListener("click", () => {  
+    count2++
+    count.textContent = count2
+})
+
+
+
 // let count = 0;
 // let today = 0;
 // let total = 0;
