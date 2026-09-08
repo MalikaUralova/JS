@@ -1469,6 +1469,19 @@
 
 
 
+console.log(main main);
+console.log(main
+    main,
+);
+
+console.log();
+console.log();
+
+
+
+
+
+
 // OBJECTGA ELEMENT QO'SHISH YOKI O'ZGARTIRISH
 // let person = {
 //     name: "malika",
