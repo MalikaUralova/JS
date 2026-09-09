@@ -1806,13 +1806,13 @@
 //     people.push(user)
 // }
 
-const deleteUser = email => {
-    people.map(item => {
-        if (item.email !== email) {
-            newArr.push(item)
-        }
-    })
-}
+// const deleteUser = email => {
+//     people.map(item => {
+//         if (item.email !== email) {
+//             newArr.push(item)
+//         }
+//     })
+// }
 
 // const updateUser = (email, newData) => {
 //     people.map((item) => {
