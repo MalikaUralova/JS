@@ -1820,16 +1820,16 @@
 //             newArr.push(item)
 //         }else{
 //             newArr.push(newData)
-//         }
-//     })
-// }
+        }
+    })
+}
 
-// console.log(newArr);
+console.log(newArr);
 
-// const listUser = () => {
-//     return console.log(people);
-// }
-// console.log(people);
+const listUser = () => {
+    return console.log(people);
+}
+console.log(people);
 
 
 
