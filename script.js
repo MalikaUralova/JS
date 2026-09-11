@@ -1989,14 +1989,14 @@ function closeModal() {
 }
 
 openModalBtn.addEventListener("click", openModal);
-// closeModalBtn.addEventListener("click", closeModal);
-// overlay.addEventListener("click", closeModal);
+closeModalBtn.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
 
-// registerForm.addEventListener("submit", function (e) {
-//   e.preventDefault();
-//   closeModal();
-//   registerForm.reset();
-// });
+registerForm.addEventListener("submit", function (e) {
+  e.preventDefault();
+  closeModal();
+  registerForm.reset();
+});
 
 
 
