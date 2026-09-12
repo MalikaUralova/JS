@@ -1800,11 +1800,11 @@
 //     }
 // ]
 
-const newArr = [];
+// const newArr = [];
 
-const addUser = user => {
-    people.push(user)
-}
+// const addUser = user => {
+//     people.push(user)
+// }
 
 // const deleteUser = email => {
 //     people.map(item => {
