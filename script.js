@@ -1637,9 +1637,9 @@
 //         cameOut: 6,
 //         entered: 4
 //     },
-]
+// ]
 
-let passenger = 20
+// let passenger = 20
 
 station.forEach(station2 => {
     passenger = passenger - station2.cameOut + station2.entered
