@@ -1550,14 +1550,14 @@
 
 
 
-//umumiy ball
-// let students = [
-//     {
-//         name: "malika",
-//         score: [90, 70, 95, 100]
-//     },
-//     {
-//         name: "malika",
+umumiy ball
+let students = [
+    {
+        name: "malika",
+        score: [90, 70, 95, 100]
+    },
+    {
+        name: "malika",
 //         score: [60, 70, 85, 20]
 //     },
 //     {
