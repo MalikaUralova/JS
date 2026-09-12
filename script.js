@@ -1722,14 +1722,14 @@
 
 
 
-// FOTBOOL REYTING
-// const teams = [
-//     {
-//         name: "Arsenal",
-//         win: 3,
-//         lose: 2,
-//         tie: 1
-//     },
+FOTBOOL REYTING
+const teams = [
+    {
+        name: "Arsenal",
+        win: 3,
+        lose: 2,
+        tie: 1
+    },
 //     {
 //         name: "Monaco",
 //         win: 7,
@@ -1776,7 +1776,6 @@
 
 
 
-log update .lo
 
 
 
