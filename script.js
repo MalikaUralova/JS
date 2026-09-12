@@ -1793,12 +1793,12 @@
 //         email: "asal123@gmail.com",
 //         age: 13
 //     },
-//     {
-//         name: "sevinch",
-//         email: "sevinch23@gmail.com",
-//         age: 18
-//     }
-// ]
+    {
+        name: "sevinch",
+        email: "sevinch23@gmail.com",
+        age: 18
+    }
+]
 
 // const newArr = [];
 
