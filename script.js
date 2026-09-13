@@ -1997,10 +1997,6 @@
 
 
 
-const [kitob, qalam, daftar] = sumka;
-console.log(sumka);
-console.log();
-
 
 
 
