@@ -1969,35 +1969,38 @@
 
 
 
-const openModalBtn = document.getElementById("openModalBtn");
-const closeModalBtn = document.getElementById("closeModalBtn");
-const overlay = document.getElementById("overlay");
-const modal = document.getElementById("modal");
-const registerForm = document.getElementById("registerForm");
+// const openModalBtn = document.getElementById("openModalBtn");
+// const closeModalBtn = document.getElementById("closeModalBtn");
+// const overlay = document.getElementById("overlay");
+// const modal = document.getElementById("modal");
+// const registerForm = document.getElementById("registerForm");
 
-function openModal() {
-  overlay.classList.add("active");
-  modal.classList.add("active");
-}
+// function openModal() {
+//   overlay.classList.add("active");
+//   modal.classList.add("active");
+// }
 
-function closeModal() {
-  overlay.classList.remove("active");
-  modal.classList.remove("active");
-}
+// function closeModal() {
+//   overlay.classList.remove("active");
+//   modal.classList.remove("active");
+// }
 
-openModalBtn.addEventListener("click", openModal);
-closeModalBtn.addEventListener("click", closeModal);
-overlay.addEventListener("click", closeModal);
+// openModalBtn.addEventListener("click", openModal);
+// closeModalBtn.addEventListener("click", closeModal);
+// overlay.addEventListener("click", closeModal);
 
-registerForm.addEventListener("submit", function (e) {
-  e.preventDefault();
-  closeModal();
-  registerForm.reset();
-});
+// registerForm.addEventListener("submit", function (e) {
+//   e.preventDefault();
+//   closeModal();
+//   registerForm.reset();
+// });
 
 
 
-lo
+const [kitob, qalam, daftar] = sumka;
+console.log(sumka);
+
+
 
 
 
