@@ -2010,6 +2010,16 @@ console.log(sumka);
 
 
 
+console.log(
+
+
+
+
+
+
+    
+);
+
 
 
 
