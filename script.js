@@ -1996,16 +1996,7 @@
 // });
 
 
-console.log);
-
-
-
-
-
-
-
-
-
+console.log
 
 
 
