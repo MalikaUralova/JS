@@ -2006,10 +2006,13 @@
 
 
 localStorage.setItem("name","malika")
+localStorage.setItem("age","malika")
+localStorage.setItem("mali","malikjgg")
 
 
 
 
+localStorage.clear()
 
 
 
