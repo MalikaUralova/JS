@@ -2012,7 +2012,7 @@ localStorage.setItem("mali","malikjgg")
 
 
 
-localStorage.clear()
+// localStorage.clear()
 
 
 
