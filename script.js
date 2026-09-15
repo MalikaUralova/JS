@@ -1795,6 +1795,7 @@
 //         email: "sevinch23@gmail.com",
 //         age: 18
 //     }
+
 // ]
 
 
@@ -2004,9 +2005,7 @@
 
 
 
-
-
-
+localStorage.setItem("name","malika")
 
 
 
