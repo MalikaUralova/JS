@@ -1,0 +1,277 @@
+/* ====== Tokens ====== */
+:root {
+    --bg: #F5F6F8;
+    --surface: #FFFFFF;
+    --ink: #1B1B1F;
+    --ink-soft: #6B7280;
+    --blue: #2F4FE0;
+    --blue-dark: #2440C4;
+    --star: #F5A623;
+    --star-empty: #D9DCE3;
+
+    --font: "Poppins", -apple-system, "Segoe UI", sans-serif;
+
+    --radius-card: 16px;
+    --radius-btn: 10px;
+    --shadow: 0 4px 20px rgba(17, 24, 39, 0.07);
+    --shadow-lift: 0 10px 30px rgba(17, 24, 39, 0.13);
+}
+
+/* ====== Reset ====== */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font);
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* ====== Layout ====== */
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.books-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 32px;
+}
+
+/* ====== Card ====== */
+.book-card {
+    background: var(--surface);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.book-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-lift);
+}
+
+.book-card .cover {
+    aspect-ratio: 4 / 3;
+    background: #EEF0F4;
+    overflow: hidden;
+}
+
+.book-card .cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.book-card .texts {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.book-card .texts h2 {
+    margin: 0 0 10px;
+    font-size: 1.35rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--ink);
+}
+
+.book-card .texts p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--ink-soft);
+
+    /* 2 qatordan keyin "..." qo'yadi */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ====== Rating ====== */
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.rating .stars {
+    color: var(--star);
+    font-size: 1.15rem;
+    letter-spacing: 4px;
+}
+
+.rating .stars .empty {
+    color: var(--star-empty);
+}
+
+.rating .score {
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+}
+
+/* ====== Prices ====== */
+.prices {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.prices .sale-price {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--ink);
+}
+
+.prices .price {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--ink-soft);
+    text-decoration: line-through;
+}
+
+/* ====== Button ====== */
+.book-card button {
+    margin-top: auto;
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: var(--radius-btn);
+    background: var(--blue);
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+.book-card .prices {
+    margin-bottom: 22px;
+}
+
+.book-card button:hover {
+    background: var(--blue-dark);
+}
+
+.book-card button:focus-visible {
+    outline: 3px solid rgba(47, 79, 224, 0.35);
+    outline-offset: 2px;
+}
+
+
+
+
+
+
+/*  */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header {
+    background-color: #fff;
+}
+
+a {
+    color: black;
+}
+
+
+.btns button {
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+
+}
+
+.count {
+    position: absolute;
+    top: -7px;
+    right: -5px;
+    width: 15px;
+    height: 15px;
+    color: white;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====== Responsive ====== */
+@media (prefers-reduced-motion: reduce) {
+    .book-card {
+        transition: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .navbar {
+        padding: 18px 20px;
+    }
+
+    .container {
+        padding: 28px 18px 56px;
+    }
+
+    .books-container {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+}

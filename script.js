@@ -1984,6 +1984,8 @@
 //   overlay.classList.add("active");
 //   modal.classList.add("active");
 // }
+   
+
 
 // function closeModal() {
 //   overlay.classList.remove("active");
@@ -2009,14 +2011,6 @@
 
 
 
-localStorage.setItem("name","malika")
-localStorage.setItem("age","malika")
-localStorage.setItem("mali","malikjgg")
-
-
-
-
-// localStorage.clear()
 
 
 
