@@ -115,11 +115,14 @@ data.map((item) => {
 
 
 const buyBtn = document.querySelectorAll(".buy-btn")
-
+const countBtn = document.querySelector(".count");
+let count = 0;
 for (let i = 0; i < buyBtn.length; i++) {
-
     buyBtn[i].addEventListener("click", (e) => {
+
         const id = e.target.getAttribute("data-id")
+        count++;
+        countBtn.textContent = count
     })
 
 }
