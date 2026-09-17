@@ -1582,9 +1582,11 @@
 //     let totalPrice = item.massa * item.price;
 //     count += totalPrice
 //     return console.log(totalPrice);
-
 // });
 // console.log(count);
+
+
+
 
 
 
@@ -1619,7 +1621,6 @@
 //     count = 0
 // }
 // console.log(arr);
-
 // let totalScore = 0
 // arr.map((item) => {
 //     if (item > totalScore) {
@@ -1628,6 +1629,10 @@
 //     }
 // })
 // console.log(totalScore);
+
+
+
+
 
 
 
