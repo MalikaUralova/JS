@@ -1,26 +1,32 @@
 /* ====== Tokens (asosiy dizayn bilan bir xil) ====== */
 :root {
-  --bg:          #F5F6F8;
-  --surface:     #FFFFFF;
-  --ink:         #1B1B1F;
-  --ink-soft:    #6B7280;
-  --blue:        #2F4FE0;
-  --blue-dark:   #2440C4;
-  --border:      #EDEFF3;
-  --danger:      #E5484D;
-  --green:       #1FA37A;
+  --bg: #F5F6F8;
+  --surface: #FFFFFF;
+  --ink: #1B1B1F;
+  --ink-soft: #6B7280;
+  --blue: #2F4FE0;
+  --blue-dark: #2440C4;
+  --border: #EDEFF3;
+  --danger: #E5484D;
+  --green: #1FA37A;
 
   --font: "Poppins", -apple-system, "Segoe UI", sans-serif;
 
   --radius-card: 16px;
-  --radius-btn:  10px;
+  --radius-btn: 10px;
   --shadow: 0 4px 20px rgba(17, 24, 39, 0.07);
 }
 
 /* ====== Reset ====== */
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-html, body { margin: 0; padding: 0; }
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background: var(--bg);
@@ -29,11 +35,19 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img { display: block; max-width: 100%; }
+img {
+  display: block;
+  max-width: 100%;
+}
 
-button { font-family: inherit; cursor: pointer; }
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
 
-a { text-decoration: none; }
+a {
+  text-decoration: none;
+}
 
 /* ====== Navbar ====== */
 .navbar {
@@ -56,7 +70,9 @@ a { text-decoration: none; }
   transition: color 0.2s ease;
 }
 
-.navbar__back:hover { color: var(--blue); }
+.navbar__back:hover {
+  color: var(--blue);
+}
 
 /* ====== Layout ====== */
 .container {
@@ -195,7 +211,9 @@ a { text-decoration: none; }
   margin-bottom: 12px;
 }
 
-.summary-discount { color: var(--green); }
+.summary-discount {
+  color: var(--green);
+}
 
 .summary-divider {
   height: 1px;
@@ -222,7 +240,9 @@ a { text-decoration: none; }
   transition: background 0.2s ease;
 }
 
-.checkout-btn:hover { background: var(--blue-dark); }
+.checkout-btn:hover {
+  background: var(--blue-dark);
+}
 
 .checkout-btn:focus-visible {
   outline: 3px solid rgba(47, 79, 224, 0.35);
@@ -234,14 +254,20 @@ a { text-decoration: none; }
   .cart-layout {
     grid-template-columns: 1fr;
   }
+
   .order-summary {
     position: static;
   }
 }
 
 @media (max-width: 560px) {
-  .navbar { padding: 18px 20px; }
-  .container { padding: 24px 18px 56px; }
+  .navbar {
+    padding: 18px 20px;
+  }
+
+  .container {
+    padding: 24px 18px 56px;
+  }
 
   .cart-item {
     grid-template-columns: 56px 1fr;
