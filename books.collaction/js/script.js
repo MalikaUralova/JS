@@ -128,13 +128,11 @@ function getClick(id) {
         const product= data.find(item => item.id === id)
         getData.push(
             {
-                        id: 8,
-        title: "Sukunat Kuchi",
-        description: "Shovqinli dunyoda ichki tinchlikni topish va his-tuyg'ularni boshqarish san'ati.",
-        price: 140,
-        salePrice: 115,
-        rating: 4,
-        image:
+                        id: product.id,
+        title: product.title,
+        price: product.price,
+
+        image:product.image
             }
         )
     }
