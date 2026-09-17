@@ -105,36 +105,42 @@ data.map((item) => {
 })
 
 
-const buyBtn = document.querySelectorAll(".buy-btn")
-const countBtn = document.querySelector(".count");
-let getCount = Number(localStorage.getItem("count"))
+
+
+
+
+
+
+// const buyBtn = document.querySelectorAll(".buy-btn")
+// const countBtn = document.querySelector(".count");
+// let getCount = Number(localStorage.getItem("count"))
 
  
 
 
-for (let i = 0; i < buyBtn.length; i++) {
-    buyBtn[i].addEventListener("click", (e) => {
-        const bookId = e.target.getAttribute("data-id")
-        const filteredData = data.filter((item)=>{
+// for (let i = 0; i < buyBtn.length; i++) {
+//     buyBtn[i].addEventListener("click", (e) => {
+//         const bookId = e.target.getAttribute("data-id")
+//         const filteredData = data.filter((item)=>{
          
-            if ( item.id === Number(bookId) ) {
-                localStorage.setItem("data" , JSON.stringify([item]))
-            }
+//             if ( item.id === Number(bookId) ) {
+//                 localStorage.setItem("data" , JSON.stringify([item]))
+//             }
             
-        })
+//         })
 
         
-        getCount++;
-        localStorage.setItem("count", getCount)    
-        countBtn.textContent =getCount    
-    })
+//         getCount++;
+//         localStorage.setItem("count", getCount)    
+//         countBtn.textContent =getCount    
+//     })
 
-}
+// }
 
 
-    countBtn.textContent =getCount      
+//     countBtn.textContent =getCount      
       
-// console.log(buyBtn);
+// // console.log(buyBtn);
 
 
 
