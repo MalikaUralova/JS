@@ -95,7 +95,7 @@ data.map((item) => {
                     <p class="sale-price">${item.salePrice}  $</p>
                     <p class="price">${item.price}</p>
                 </div>
-                <button onclick="" data-id="${item.id}" class="buy-btn">Sotib olish</button>
+                <button onclick="getClick(${item.id})" data-id="${item.id}" class="buy-btn">Sotib olish</button>
             </div>
         </div>
     `
@@ -106,7 +106,9 @@ data.map((item) => {
 
 
 
-
+function getClick(id) {
+    console.log(id);
+}
 
 
 
