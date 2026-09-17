@@ -964,8 +964,14 @@
 // console.log(str.replaceAll("l", "*"));
 
 
+
+
+
 // 7-misol
 //----------
+
+
+
 
 
 
@@ -975,9 +981,13 @@
 // console.log(str.substring(10, 13))
 
 
+
+
 //9-misol
 // let str = "salom dunyo";
 // console.log(str.replaceAll("s", "S").replace("d", "D"));
+
+
 
 
 
@@ -1005,6 +1015,12 @@
 // let number = carta.slice(-4);
 // let main = "*".repeat(carta.length - 4);
 // console.log(main + number);
+
+
+
+
+
+
 
 
 
@@ -1148,6 +1164,9 @@
 // console.log(arr);
 
 
+
+
+
 //10=misol
 // let mevalar = [] ;
 // mevalar.unshift("tarvuz");
@@ -1167,15 +1186,21 @@
 // console.log(arr);
 
 
+
+
 //12-misol
 // let num = 1;
 // console.log(Array.isArray(num));
 // console.log(num);
 
 
+
+
 //13misol
 // let num = [12,23,34]
 // console.log(num.at(0));
+
+
 
 
 //14-misol
@@ -1184,9 +1209,12 @@
 
 
 
+
+
 //15-misol
 //  let num = "malika"
 // console.log(num.at(-1));
+
 
 
 
@@ -1201,17 +1229,17 @@
 
 
 
-
-
 //7-misol
 // for (let i = 0; i <=30; i++) {//
 //     let row = '       ';
 //     for (let j = 0; j <=i; j++) {//
 //         row += '*';
-
 //     }
 //     console.log(row);//
 // }
+
+
+
 
 
 
@@ -1233,7 +1261,6 @@
 // let num = [1,2,3,4,5,6,7,8,9] ;
 // num.push(10);
 // console.log(num);
-
 
 
 //3-misol
@@ -1435,7 +1462,14 @@
 
 
 
-//OBJECT YARATISH USULI .2.
+
+
+
+
+
+// ───────────────────────────────────────── //
+//            OBJECT YARATISH USULI .2.      //
+// ───────────────────────────────────────── //
 // let user = new Object()
 // user.name = "malika";
 // user.surname = "uralova";
@@ -1443,8 +1477,9 @@
 
 
 
-
-// OBJECTDAN QIYMAT OLISH USULI
+// ───────────────────────────────────────── //
+//         OBJECTDAN QIYMAT OLISH USULI      //
+// ───────────────────────────────────────── //
 // 1-nuqta orqali ( . ) DOT NOTATIONS
 // let user = {
 //     name: "malika",
@@ -1453,6 +1488,9 @@
 //     isDeveloper: true
 // }
 // console.log(user.name);
+
+
+
 
 
 
@@ -1517,9 +1555,11 @@
 
 
 
+
+
+
 //AMALIY MASHQLAR
 //1-do'kondagi mahsulotlarni qo'shish
-
 // const store = [
 //     {
 //         name: "olma",
