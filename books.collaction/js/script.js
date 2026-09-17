@@ -106,11 +106,10 @@ data.map((item) => {
 
 
 
-function getClick(id) {
-    console.log(id);
-}
+const count2 = document.querySelector(".count")
+const getCount = localStorage.getItem("count")
 
-
+count2.textContent = getCount;
 
 
 // const buyBtn = document.querySelectorAll(".buy-btn")
