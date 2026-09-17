@@ -128,14 +128,23 @@ function getClick(id) {
         const product= data.find(item => item.id === id)
         getData.push(
             {
-                        id: product.id,
-        title: product.title,
-        price: product.price,
-
-        image:product.image
+                id: product.id,
+                title: product.title,
+                price: product.price,
+                image:product.image,
+                count: 1
             }
         )
+
+        getData.filter(item=>
+            totalCount+=item.count
+        )
+        count2.textContent = totalCount
     }
+
+    localStorage.setItem("data",JSON.stringify(getData))
+    localStorage.setItem("count", totalCount)
+    alert("Mahsulotingiz savatga qo'shildi!")
 }
 
 
