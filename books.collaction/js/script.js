@@ -111,6 +111,39 @@ const getCount = localStorage.getItem("count")
 
 count2.textContent = getCount;
 
+function getClick(id) {
+    const getData = JSON.parse(localStorage.getItem("data")) || []
+
+    const foundData = getData.find(item => item.id === id)
+    let totalCount=0;
+
+    if (foundData) {
+        foundData.count += 1;
+        getData.filter(item=>
+            totalCount+=item.count
+        )
+
+        count2.textContent = totalCount
+    } else {
+        const product= data.find(item => item.id === id)
+        getData.push(
+            {
+                        id: 8,
+        title: "Sukunat Kuchi",
+        description: "Shovqinli dunyoda ichki tinchlikni topish va his-tuyg'ularni boshqarish san'ati.",
+        price: 140,
+        salePrice: 115,
+        rating: 4,
+        image:
+            }
+        )
+    }
+}
+
+
+
+
+
 
 // const buyBtn = document.querySelectorAll(".buy-btn")
 // const countBtn = document.querySelector(".count");

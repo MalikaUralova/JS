@@ -1,11 +1,11 @@
 const getItem = JSON.parse(localStorage.getItem("data"))
 
 
-const cartItems = document.querySelector (".cart-items")
+const cartItems = document.querySelector(".cart-items")
 
 
-getItem.map( item => {
-    cartItems.innerHTML+=`
+getItem.map(item => {
+    cartItems.innerHTML += `
 
 
                     <div class="cart-item">
