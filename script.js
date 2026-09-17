@@ -1734,6 +1734,7 @@
 
 
 
+
 //FOYDALANUVCHIDAN MALUMOT CHIQARISH
 // let student = {
 //     name: "Malika",
@@ -1743,6 +1744,7 @@
 // for (const i in student) {
 //     console.log(i,student[i]);
 // }
+
 
 
 
@@ -1840,19 +1842,22 @@
 //         email: "sevinch23@gmail.com",
 //         age: 18
 //     }
-
 // ]
 
 
 
 
 
-// const newArr = [];
 
+
+
+
+
+
+// const newArr = [];
 // const addUser = user => {
 //     people.push(user)
 // }
-
 // const deleteUser = email => {
 //     people.map(item => {
 //         if (item.email !== email) {
@@ -1860,7 +1865,6 @@
 //         }
 //     })
 // }
-
 // const updateUser = (email, newData) => {
 //     people.map((item) => {
 //         if (item.email !== email) {
@@ -1870,13 +1874,12 @@
 //         }
 //     })
 // }
-
 // console.log(newArr);
-
 // const listUser = () => {
 //     return console.log(people);
 // }
 // console.log(people);
+
 
 
 
@@ -1889,10 +1892,11 @@
 //     age: 16,
 //     city: "Qarshi"
 // }
-
 // for (const i in str) {
 //     console.log(i, str[i]);
 // }
+
+
 
 
 
@@ -1904,7 +1908,6 @@
 //     tuesday: 30000,
 //     wednesday: 40000
 // }
-
 // let total = 0
 // for (const i in cost) {
 //     total += cost[i]
