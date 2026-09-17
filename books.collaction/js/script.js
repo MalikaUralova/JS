@@ -144,7 +144,8 @@ function getClick(id) {
 
     localStorage.setItem("data",JSON.stringify(getData))
     localStorage.setItem("count", totalCount)
-    alert("Mahsulotingiz savatga qo'shildi!")
+    // alert("Mahsulotingiz savatga qo'shildi!")
+showToast("Mahsulotingiz savatga qo'shildi!");
 }
 
 
