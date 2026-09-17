@@ -74,78 +74,62 @@ const data = [
 ];
 
 
-
 let booksContainer = document.querySelector(".books-container")
 
 data.map((item) => {
     booksContainer.innerHTML += `
-     
         <div class="book-card">
-            <div class="cover">
-                <img src="${item.image}" alt="Atom Odatlar">
-            </div>
-            <div class="texts">
-                <h2>${item.title}</h2>
-                <p>${item.description}</p>
-                <div class="rating">
-                    <span class="stars">★★★★★</span>
-                    <span >${item.rating}</span>
+            <a href="../pages/detail.html?id=${item.id}" class="book-card__link">
+                <div class="cover">
+                    <img src="${item.image}" alt="${item.title}">
                 </div>
-                <div class="prices">
-                    <p class="sale-price">${item.salePrice}  $</p>
-                    <p class="price">${item.price}</p>
+                <div class="texts">
+                    <h2>${item.title}</h2>
+                    <p>${item.description}</p>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span>${item.rating}</span>
+                    </div>
+                    <div class="prices">
+                        <p class="sale-price">${item.salePrice} $</p>
+                        <p class="price">${item.price}</p>
+                    </div>
                 </div>
-                <button onclick="getClick(${item.id})" data-id="${item.id}" class="buy-btn">Sotib olish</button>
-            </div>
+            </a>
+            <button onclick="getClick(${item.id})" data-id="${item.id}" class="buy-btn">Sotib olish</button>
         </div>
     `
-
-
-
 })
-
-
 
 const count2 = document.querySelector(".count")
 const getCount = localStorage.getItem("count")
-
-count2.textContent = getCount;
+count2.textContent = getCount || 0;
 
 function getClick(id) {
     const getData = JSON.parse(localStorage.getItem("data")) || []
 
     const foundData = getData.find(item => item.id === id)
-    let totalCount=0;
+    let totalCount = 0;
 
     if (foundData) {
         foundData.count += 1;
-        getData.filter(item=>
-            totalCount+=item.count
-        )
-
-        count2.textContent = totalCount
     } else {
-        const product= data.find(item => item.id === id)
-        getData.push(
-            {
-                id: product.id,
-                title: product.title,
-                price: product.price,
-                image:product.image,
-                count: 1
-            }
-        )
-
-        getData.filter(item=>
-            totalCount+=item.count
-        )
-        count2.textContent = totalCount
+        const product = data.find(item => item.id === id)
+        getData.push({
+            id: product.id,
+            title: product.title,
+            price: product.price,
+            image: product.image,
+            count: 1
+        })
     }
 
-    localStorage.setItem("data",JSON.stringify(getData))
+    getData.forEach(item => totalCount += item.count)
+
+    count2.textContent = totalCount
+    localStorage.setItem("data", JSON.stringify(getData))
     localStorage.setItem("count", totalCount)
-    // alert("Mahsulotingiz savatga qo'shildi!")
-showToast("Mahsulotingiz savatga qo'shildi!");
+    alert("Mahsulotingiz savatga qo'shildi!")
 }
 
 
