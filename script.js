@@ -1655,10 +1655,14 @@
 //         price: 4000000,
 //     }
 // ]
-
 // products.map(item => {
 //    console.log(`${item.name} mahsulotiga 10% chegirma beriladi: ${item.price >= 2500000 ? item.price * 0.9 : item.price}`);//
 // })
+
+
+
+
+
 
 
 
@@ -1683,18 +1687,16 @@
 //         entered: 4
 //     },
 // ]
-
 // let passenger = 20
-
 // station.forEach(station2 => {
 //     passenger = passenger - station2.cameOut + station2.entered
 // });
-
 // console.log(`Avtobusda qolgan yo'lovchilar soni: ${passenger}`);
-
 // let generalOutput = station.reduce((sum, station2) => sum + station2.cameOut, 0);
 // let average = generalOutput / station.length
 // console.log(`Har bir bekatda o'rtacha chiqqan odam: ${average}`);
+
+
 
 
 
@@ -1720,10 +1722,8 @@
 //         num: 2
 //     }
 // ]
-
 // let generalPrice = basket.reduce((sum, mahsulot) => sum + mahsulot.price * mahsulot.num, 0)
 // console.log(`Savatning umumiy narxi: ${generalPrice} so'm`)
-
 // let money = 20000
 // basket.forEach(product => {
 //     let mainPrice = product.price * product.num
