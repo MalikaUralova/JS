@@ -95,7 +95,7 @@ data.map((item) => {
                     <p class="sale-price">${item.salePrice}  $</p>
                     <p class="price">${item.price}</p>
                 </div>
-                <button data-id="${item.id}" class="buy-btn">Sotib olish</button>
+                <button onclick="" data-id="${item.id}" class="buy-btn">Sotib olish</button>
             </div>
         </div>
     `
