@@ -109,6 +109,8 @@ const buyBtn = document.querySelectorAll(".buy-btn")
 const countBtn = document.querySelector(".count");
 let getCount = Number(localStorage.getItem("count"))
 
+ 
+
 
 for (let i = 0; i < buyBtn.length; i++) {
     buyBtn[i].addEventListener("click", (e) => {
@@ -120,7 +122,7 @@ for (let i = 0; i < buyBtn.length; i++) {
             }
             
         })
-        console.log(filteredData);
+
         
         getCount++;
         localStorage.setItem("count", getCount)    
