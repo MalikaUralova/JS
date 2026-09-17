@@ -70,15 +70,6 @@ const data = [
         salePrice: 115,
         rating: 4,
         image: "https://covers.openlibrary.org/b/isbn/9781577314806-L.jpg"
-    },
-    {
-        id: 9,
-        title: "Kichik Qadamlar",
-        description: "Katta maqsadlarga kichik, barqaror harakatlar orqali erishish strategiyasi.",
-        price: 120,
-        salePrice: 99,
-        rating: 5,
-        image: "https://covers.openlibrary.org/b/isbn/9780358003328-L.jpg"
     }
 ];
 
@@ -116,16 +107,31 @@ data.map((item) => {
 
 const buyBtn = document.querySelectorAll(".buy-btn")
 const countBtn = document.querySelector(".count");
-let count = 0;
+let getCount = Number(localStorage.getItem("count"))
+
+
 for (let i = 0; i < buyBtn.length; i++) {
     buyBtn[i].addEventListener("click", (e) => {
-
-        const id = e.target.getAttribute("data-id")
-        count++;
-        countBtn.textContent = count
+        const bookId = e.target.getAttribute("data-id")
+        const filteredData = data.filter((item)=>{
+         
+            if ( item.id === Number(bookId) ) {
+                localStorage.setItem("data" , JSON.stringify([item]))
+            }
+            
+        })
+        console.log(filteredData);
+        
+        getCount++;
+        localStorage.setItem("count", getCount)    
+        countBtn.textContent =getCount    
     })
 
 }
+
+
+    countBtn.textContent =getCount      
+      
 // console.log(buyBtn);
 
 

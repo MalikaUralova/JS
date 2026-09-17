@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savat — Kitoblar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../books.collaction/css/card.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <span class="navbar__mark">Kitoblar</span>
+        <a href="../books.collaction/index.html" class="navbar__back">← Do'konga qaytish</a>
+    </nav>
+
+    <main class="container">
+
+        <h1 class="page-title">Savat</h1>
+
+        <div class="cart-layout">
+
+            <!-- Savatdagi mahsulotlar -->
+            <section class="cart-items">
+
+                <div class="cart-item">
+                    <div class="cart-item__cover">
+                        <img src="https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg" alt="Atom Odatlar">
+                    </div>
+                    <div class="cart-item__info">
+                        <h2>Atom Odatlar</h2>
+                        <p class="cart-item__price">180 $</p>
+                    </div>
+                    <div class="cart-item__qty">
+                        <button class="qty-btn" aria-label="Kamaytirish">−</button>
+                        <span class="qty-value">1</span>
+                        <button class="qty-btn" aria-label="Oshirish">+</button>
+                    </div>
+                    <p class="cart-item__total">180 $</p>
+                    <button class="remove-btn" aria-label="O'chirish">✕</button>
+                </div>
+
+                <div class="cart-item">
+                    <div class="cart-item__cover">
+                        <img src="https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg" alt="Psixologiya sirlari">
+                    </div>
+                    <div class="cart-item__info">
+                        <h2>Psixologiya sirlari</h2>
+                        <p class="cart-item__price">120 $</p>
+                    </div>
+                    <div class="cart-item__qty">
+                        <button class="qty-btn" aria-label="Kamaytirish">−</button>
+                        <span class="qty-value">2</span>
+                        <button class="qty-btn" aria-label="Oshirish">+</button>
+                    </div>
+                    <p class="cart-item__total">240 $</p>
+                    <button class="remove-btn" aria-label="O'chirish">✕</button>
+                </div>
+
+                <div class="cart-item">
+                    <div class="cart-item__cover">
+                        <img src="https://covers.openlibrary.org/b/isbn/9781476708706-L.jpg" alt="Raqamli Dunyo">
+                    </div>
+                    <div class="cart-item__info">
+                        <h2>Raqamli Dunyo</h2>
+                        <p class="cart-item__price">95 $</p>
+                    </div>
+                    <div class="cart-item__qty">
+                        <button class="qty-btn" aria-label="Kamaytirish">−</button>
+                        <span class="qty-value">1</span>
+                        <button class="qty-btn" aria-label="Oshirish">+</button>
+                    </div>
+                    <p class="cart-item__total">95 $</p>
+                    <button class="remove-btn" aria-label="O'chirish">✕</button>
+                </div>
+
+            </section>
+
+            <!-- Buyurtma xulosasi -->
+            <aside class="order-summary">
+                <h2>Buyurtma</h2>
+
+                <div class="summary-row">
+                    <span>Mahsulotlar narxi</span>
+                    <span>515 $</span>
+                </div>
+                <div class="summary-row">
+                    <span>Chegirma</span>
+                    <span class="summary-discount">−35 $</span>
+                </div>
+                <div class="summary-row">
+                    <span>Yetkazib berish</span>
+                    <span>Bepul</span>
+                </div>
+
+                <div class="summary-divider"></div>
+
+                <div class="summary-row summary-row--total">
+                    <span>Jami</span>
+                    <span>480 $</span>
+                </div>
+
+                <button class="checkout-btn">Buyurtmani rasmiylashtirish</button>
+            </aside>
+
+        </div>
+
+    </main>
+
+    <script src="../books.collaction/js/card.js"></script>
+</body>
+</html>
