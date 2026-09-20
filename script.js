@@ -2050,7 +2050,14 @@
 // const userName = name ?? defaultName;
 // console.log(userName);
 // GUEST
-   
+
+
+
+
+// const name = null;
+// const defaultName = "guest";
+// const userName = name ?? defaultName;
+// console.log(userName);
 
 
 
