@@ -2074,7 +2074,7 @@ function getApiData() {
 
 
 const data = getApiData();
-const title
+const title =data.title ?? "No title";
 
 
 
