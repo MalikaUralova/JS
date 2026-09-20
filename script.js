@@ -2054,10 +2054,11 @@
 
 
 
-const name = 2;
-const defaultName = "guest";
-const userName = name ?? defaultName;
-console.log(userName);
+// const name = 2;
+// const defaultName = "guest";
+// const userName = name ?? defaultName;
+// console.log(userName);
+// 2
 
 
 
