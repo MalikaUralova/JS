@@ -2065,7 +2065,11 @@
 
 
 
-
+function getApiData() {
+    return{
+        title
+    }
+}
 
 
 
