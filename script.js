@@ -2067,7 +2067,7 @@
 
 function getApiData() {
     return{
-        title
+        title: undefined
     }
 }
 
