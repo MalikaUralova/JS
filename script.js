@@ -2088,7 +2088,7 @@
 
 
 
-
+//OPTIOONAL CHAINING BILAN ISHLASH
 // let user = {
 //     profile: {
 //         name: "malika",
@@ -2106,6 +2106,8 @@
 
 
 
+
+//MASSIV BILAN ISHLASH
 // const user = [
 //     { name: "malika", age: 16 },
 //     null,
@@ -2120,8 +2122,11 @@
 
 
 
-
-
+let set = new Set()
+set.add(1)
+set.add(1)
+set.add(3)
+console.log(set);
 
 
 
