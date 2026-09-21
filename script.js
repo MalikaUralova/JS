@@ -2089,10 +2089,18 @@
 
 
 
+let user = {
+    profile: {
+        name: "malika",
+    },
+}
 
-
-
-
+if (user && user.profile && user.profile.name) {
+    console.log(user.profile.name);
+} else {
+    console.log("ism topilmadi");
+}
+malika
 
 
 
