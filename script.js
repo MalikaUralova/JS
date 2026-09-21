@@ -2089,24 +2089,30 @@
 
 
 
-let user = {
-    profile: {
-        name: "malika",
-    },
-}
+// let user = {
+//     profile: {
+//         name: "malika",
+//     },
+// }
 
-if (user && user.profile && user.profile.name) {
-    console.log(user.profile.name);
-} else {
-    console.log("ism topilmadi");
-}
-malika
-
-
+// if (user && user.profile && user.profile.name) {
+//     console.log(user.profile.name);
+// } else {
+//     console.log("ism topilmadi");
+// }
+// malika
 
 
 
 
+
+const user = [
+    { name: "malika", age: 16 },
+    null,
+    { name: "oysha", age: 17 }
+]
+console.log(user?.[0]?.name);
+console.log(user?.[1]?.name);
 
 
 
