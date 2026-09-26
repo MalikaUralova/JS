@@ -2133,13 +2133,13 @@
 
 
 
-//MAP
-// const myMap = new Map();
-// myMap.set(`name`,`malika`);
-// myMap.set(`age`,`16`);
-// myMap.set(true,`bu boolean kalit`);
-// myMap.set({id:1},`bu obyekt kalit`);
-// console.log(myMap);
+MAP
+const myMap = new Map();
+myMap.set(`name`,`malika`);
+myMap.set(`age`,`16`);
+myMap.set(true,`bu boolean kalit`);
+myMap.set({id:1},`bu obyekt kalit`);
+console.log(myMap);
 
 
 
