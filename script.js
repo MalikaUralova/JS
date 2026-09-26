@@ -2121,12 +2121,12 @@
 
 
 
-SET
-let set = new Set()
-set.add(1)
-set.add(1)
-set.add(3)
-console.log(set);
+// SET
+// let set = new Set()
+// set.add(1)
+// set.add(1)
+// set.add(3)
+// console.log(set);
 
 
 
