@@ -2107,14 +2107,14 @@
 
 
 
-//MASSIV BILAN ISHLASH
-// const user = [
-//     { name: "malika", age: 16 },
-//     null,
-//     { name: "oysha", age: 17 }
-// ]
-// console.log(user?.[0]?.name);
-// console.log(user?.[1]?.name);
+MASSIV BILAN ISHLASH
+const user = [
+    { name: "malika", age: 16 },
+    null,
+    { name: "oysha", age: 17 }
+]
+console.log(user?.[0]?.name);
+console.log(user?.[1]?.name);
 
 
 
