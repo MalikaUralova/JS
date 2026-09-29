@@ -2045,21 +2045,21 @@
 
 
 
-// const name = null;
-// const defaultName = "guest";
-// const userName = name ?? defaultName;
-// console.log(userName);
-// GUEST
+const name = null;
+const defaultName = "guest";
+const userName = name ?? defaultName;
+console.log(userName);
+GUEST
 
 
 
 
 
-// const name = 2;
-// const defaultName = "guest";
-// const userName = name ?? defaultName;
-// console.log(userName);
-// 2
+const name = 2;
+const defaultName = "guest";
+const userName = name ?? defaultName;
+console.log(userName);
+2
 
 
 
