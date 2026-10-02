@@ -2177,16 +2177,16 @@ const hours = document.getElementById(`hour`);
 const minuts = document.getElementById(`minute`);
 const seconds = document.getElementById(`second`);
 
-// const clock = () => {
-//     const date = new Date()
-//     const hour = date.getHours()
-//     const minute = date.getMinutes()
-//     const second = date.getSeconds()
+const clock = () => {
+    const date = new Date()
+    const hour = date.getHours()
+    const minute = date.getMinutes()
+    const second = date.getSeconds()
 
-//     hours.textContent = hour
-//     minuts.textContent = minute
-//     seconds.textContent = second
-// }
+    hours.textContent = hour
+    minuts.textContent = minute
+    seconds.textContent = second
+}
 
 setInterval(clock, 1000)
 
