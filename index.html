@@ -1,38 +1,34 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="uz">
-
 <head>
   <meta charset="UTF-8">
-  <title>Tasbeh</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raqamli Soat</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-<button class="modalBtn" id="openModalBtn">
-    modalni ochish
-  </button>
 
-  <div class="overlay" id="overlay"></div>
+  <div class="clock-container">
+    <div class="time-box">
+      <h2 id="hour">00</h2>
+      <span class="label">Soat</span>
+    </div>
 
-  <div class="modal" id="modal">
-    <button class="closeBtn" id="closeModalBtn">&times;</button>
+    <span class="colon">:</span>
 
-    <h2 class="title">Ro'yxatdan o'tish</h2>
-    <p class="subtitle">Davom etish uchun ma'lumotlaringizni kiriting.</p>
+    <div class="time-box">
+      <h2 id="minute">00</h2>
+      <span class="label">Daqiqa</span>
+    </div>
 
-    <form class="form" id="registerForm">
-      <label for="username">Foydalanuvchi nomi</label>
-      <input id="username" type="text" placeholder="Masalan: john_doe">
+    <span class="colon">:</span>
 
-      <label for="email">Elektron pochta</label>
-      <input id="email" type="email" placeholder="example@mail.com">
+    <div class="time-box">
+      <h2 id="second">00</h2>
+      <span class="label">Soniya</span>
+    </div>
+  </div>
 
-      <button type="submit" class="submitBtn">Yuborish</button>
-    </form>
-  </div> 
-
-  <script src="script.js"></script>
-
+  <script src="./script.js"></script>
 </body>
-
-</html> -->
+</html>
