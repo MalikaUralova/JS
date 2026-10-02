@@ -2133,20 +2133,26 @@
 
 
 
-MAP
-const myMap = new Map();
-myMap.set(`name`,`malika`);
-myMap.set(`age`,`16`);
-myMap.set(true,`bu boolean kalit`);
-myMap.set({id:1},`bu obyekt kalit`);
-console.log(myMap);
+// MAP
+// const myMap = new Map();
+// myMap.set(`name`,`malika`);
+// myMap.set(`age`,`16`);
+// myMap.set(true,`bu boolean kalit`);
+// myMap.set({id:1},`bu obyekt kalit`);
+// console.log(myMap);
 
 
 
 
 
-
-
+FUNKSIYANI BOSHQA FUNKSIYAGA ARGUMENT SIFATIDA UZATISH
+function amalBajar(son1,son2,amal) {
+    return amal(son1, son2)
+}
+const yigindi= (a,b) => a+b;
+const kopaytma = (a,b) => a*b;
+console.log(amalBajar(5,3, yigindi));
+console.log(amalBajar(5,3, kopaytma));
 
 
 
