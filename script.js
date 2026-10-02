@@ -2199,7 +2199,7 @@ function Car(name,speed) {
   this.speed = speed,
 
   this.accelerate = function () {
-    console.log(`${this.name}: ${this.speed},${this.speed+10} km/h`);
+    console.log(`${this.name}: ${this.speed},${this.speed+=10} km/h`);
   }
 
     this.break = function () {
@@ -2209,6 +2209,6 @@ function Car(name,speed) {
 
 const bmw = new Car ("BMW", 120)
 const mers = new Car ("Merscedes", 95)
-
 bmw.break()
+mers.accelerate()
 mers.accelerate()
