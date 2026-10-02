@@ -2173,19 +2173,42 @@
 
 
 
-const hours = document.getElementById(`hour`);
-const minuts = document.getElementById(`minute`);
-const seconds = document.getElementById(`second`);
+// const hours = document.getElementById(`hour`);
+// const minuts = document.getElementById(`minute`);
+// const seconds = document.getElementById(`second`);
 
-const clock = () => {
-    const date = new Date()
-    const hour = date.getHours()
-    const minute = date.getMinutes()
-    const second = date.getSeconds()
+// const clock = () => {
+//     const date = new Date()
+//     const hour = date.getHours()
+//     const minute = date.getMinutes()
+//     const second = date.getSeconds()
 
-    hours.textContent = hour
-    minuts.textContent = minute
-    seconds.textContent = second
+//     hours.textContent = hour
+//     minuts.textContent = minute
+//     seconds.textContent = second
+// }
+
+// setInterval(clock, 1000)
+
+
+
+
+
+function Car(name,speed) {
+  this.name = name,
+  this.speed = speed,
+
+  this.accelerate = function () {
+    console.log(`${this.name}: ${this.speed},${this.speed+10} km/h`);
+  }
+
+    this.break = function () {
+    console.log(`${this.name}: ${this.speed},${this.speed-5} km/h`);
+  }
 }
 
-setInterval(clock, 1000)
+const bmw = new Car ("BMW", 120)
+const mers = new Car ("Merscedes", 95)
+
+bmw.break()
+mers.accelerate()
