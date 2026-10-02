@@ -2173,9 +2173,9 @@
 
 
 
-// const hours = document.getElementById(`hour`);
-// const minuts = document.getElementById(`minute`);
-// const seconds = document.getElementById(`second`);
+const hours = document.getElementById(`hour`);
+const minuts = document.getElementById(`minute`);
+const seconds = document.getElementById(`second`);
 
 const clock = () => {
     const date = new Date()
