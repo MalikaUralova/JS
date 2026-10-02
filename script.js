@@ -2161,14 +2161,14 @@
 
 
 //CALL METODI
-const user={
-    firstName:"malika",
-    lastName:"uralova"
-}
-function greeting(greeting,punctuation) {
-    console.log(`${greeting} ${this.firstName} ${this.lastName} ${punctuation}`);
-}
-greeting.call(user,"Assalom alaykum" , "!")
+// const user={
+//     firstName:"malika",
+//     lastName:"uralova"
+// }
+// function greeting(greeting,punctuation) {
+//     console.log(`${greeting} ${this.firstName} ${this.lastName} ${punctuation}`);
+// }
+// greeting.call(user,"Assalom alaykum" , "!")
 
 
 
