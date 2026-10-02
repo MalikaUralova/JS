@@ -2207,8 +2207,9 @@ function Car(name,speed) {
   }
 }
 
+
+
 const bmw = new Car ("BMW", 120)
 const mers = new Car ("Merscedes", 95)
 bmw.break()
-mers.accelerate()
 mers.accelerate()
