@@ -2144,7 +2144,6 @@
 
 
 
-
 // FUNKSIYANI BOSHQA FUNKSIYAGA ARGUMENT SIFATIDA UZATISH
 // function amalBajar(son1,son2,amal) {
 //     return amal(son1, son2)
@@ -2172,11 +2171,9 @@
 
 
 
-
 // const hours = document.getElementById(`hour`);
 // const minuts = document.getElementById(`minute`);
 // const seconds = document.getElementById(`second`);
-
 // const clock = () => {
 //     const date = new Date()
 //     const hour = date.getHours()
@@ -2187,8 +2184,6 @@
 //     minuts.textContent = minute
 //     seconds.textContent = second
 // }
-
-
 // setInterval(clock, 1000)
 
 
@@ -2207,7 +2202,6 @@
 //     console.log(`${this.name}: ${this.speed},${this.speed-5} km/h`);
 //   }
 // }
-
 
 
 // const bmw = new Car ("BMW", 120)
