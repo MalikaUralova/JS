@@ -2204,9 +2204,20 @@
 // }
 
 
-const bmw = new Car ("BMW", 120)
-const mers = new Car ("Merscedes", 95)
-bmw.break()
-mers.accelerate()
-mers.accelerate()
-mers.accelerate()
+// const bmw = new Car ("BMW", 120)
+// const mers = new Car ("Merscedes", 95)
+// bmw.break()
+// mers.accelerate()
+// mers.accelerate()
+// mers.accelerate()
+
+
+
+
+
+let currentDate = new Date()
+console.log(currentDate);
+
+
+
+
