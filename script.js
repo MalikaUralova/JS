@@ -2236,5 +2236,3 @@
 // console.log(user2);
 
 
-localStorage.clear
-HTMLDataListElement.localStor
