@@ -2234,3 +2234,7 @@
 // const user2 = new User("asalxon", 29)
 // console.log(user1);
 // console.log(user2);
+
+
+localStorage.clear
+HTMLDataListElement.localStor
