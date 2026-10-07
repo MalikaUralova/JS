@@ -2216,9 +2216,9 @@
 
 
 
-DATE ni ishlatish
-let currentDate = new Date()
-console.log(currentDate);
+// DATE ni ishlatish
+// let currentDate = new Date()
+// console.log(currentDate);
 
 
 
