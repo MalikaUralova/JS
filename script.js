@@ -2317,7 +2317,7 @@ const switchPlayer = () => {
 
 btnRoll.addEventListener("click", () => {
     if (playing) {
-        const dice = Math.trunc(Math.random() * 6) + 1
+        const diceEl = Math.trunc(Math.random() * 6) + 1
         dice.classList.remove(`hidden`)
         dice.src = `dice-${dice}.png`
     } if (dice !== 1) {
