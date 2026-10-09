@@ -2282,3 +2282,26 @@ let btnRoll = document.querySelector(".btn--roll");
 let btnHold = document.querySelector(".btn--hold");
 let player0EL = document.querySelector(".player--0");
 let player1EL = document.querySelector(".player--1");
+
+
+let playing, score, currentScore, activePlayer 
+
+const init = () => {
+    playing = true
+    score = [0,0]
+    currentScore = 0
+    activePlayer = 0
+
+    scoreZero.textContent = 0
+    scoreOne.textContent = 0
+    current0EL.textContent = 0
+    current1EL.textContent = 0
+
+    dice.classList.add("hidden")
+    player0EL.classList.remove("player--winner")
+}
+
+init()
+btnRoll.addEventListener("click", () => {
+
+})
