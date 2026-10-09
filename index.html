@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="uz">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Raqamli Soat</title>
+  <title>Pig Game</title>
   <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
-  <div class="clock-container">
+  <!-- TIME HTML -->
+  <!-- <div class="clock-container">
     <div class="time-box">
       <h2 id="hour">00</h2>
       <span class="label">Soatlar</span>
@@ -23,9 +26,33 @@
       <h2 id="second">00</h2>
       <span class="label">Soniyalar</span>
     </div>
-  </div>
+  </div> -->
 
+  <main>
+    <section class="player player--0 player--active">
+      <h2 class="name" id="name--0">O'yinchi 1</h2>
+      <p class="score" id="score--0">43</p>
+      <div class="current">
+        <p class="current-label">Jami</p>
+        <p class="current-score" id="current--0">0</p>
+      </div>
+    </section>
+    <section class="player player--1">
+      <h2 class="name" id="name--1">O'yinchi 2</h2>
+      <p class="score" id="score--1">24</p>
+      <div class="current">
+        <p class="current-label">Jami</p>
+        <p class="current-score" id="current--1">0</p>
+      </div>
+    </section>
+
+    <img src="dice-5.png" alt="Playing dice" class="dice" />
+    <button class="btn btn--new">🔄 Yangi o'yin</button>
+    <button class="btn btn--roll">🎲 Aylantirig</button>
+    <button class="btn btn--hold">📥 Saqlang</button>
+  </main>
 
   <script src="./script.js"></script>
 </body>
+
 </html>

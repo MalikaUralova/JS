@@ -2265,11 +2265,11 @@
 //   }
 // }
 
-// const ford = new Car('Ford', 120);
-
+// const ford = new Car('Ford', 120); 
 // ford.accelerate();
 // ford.brake();
 // console.log(ford.speedUS);
 // ford.speedUS = 50;
 // console.log(ford.speed);
+
 
