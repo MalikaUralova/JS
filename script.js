@@ -2279,4 +2279,6 @@ let current0EL = document.querySelector("#current--0");
 let current1EL = document.querySelector("#current--1");
 let btnNew = document.querySelector(".btn--new");
 let btnRoll = document.querySelector(".btn--roll");
-let btnHold = document.querySelector(".btn--hold")
+let btnHold = document.querySelector(".btn--hold");
+let player0EL = document.querySelector(".player--0");
+let player1EL = document.querySelector(".player--1");
