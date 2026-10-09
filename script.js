@@ -2332,7 +2332,7 @@ btnRoll.addEventListener("click", () => {
 })
 
 
-btnHold.addEventListener("click", () =>{
+btnHold.addEventListener("click", () => {
     if (playing) {
         score[activePlayer] += currentScore
         document.getElementById(`score--${activePlayer}`).textContent = score[activePlayer]
@@ -2341,9 +2341,14 @@ btnHold.addEventListener("click", () =>{
             dice.classList.add(`hidden`)
             document.querySelector(`.player--${activePlayer}`).classList.add(`player--winner`)
             document.querySelector(`.player--${activePlayer}`).classList.remove(`player--active`)
-        } else{
+            document.querySelector(`#current--${activePlayer}`).textContent = 0
+
+        } else {
             switchPlayer()
-        }  
-    
+        }
+
     }
 })
+
+
+btnNew.addEventListener("click", init)
