@@ -2277,4 +2277,6 @@ let scoreZero = document.getElementById("score--0");
 let scoreOne = document.querySelector("#score--1");
 let current0EL = document.querySelector("#current--0");
 let current1EL = document.querySelector("#current--1");
-let btnNew = document.querySelector()
+let btnNew = document.querySelector(".btn--new");
+let btnRoll = document.querySelector(".btn--roll");
+let btnHold = document.querySelector(".btn--hold")
