@@ -2276,13 +2276,13 @@
 "use strict"
 let scoreZero = document.getElementById("score--0");
 let scoreOne = document.querySelector("#score--1");
-let current0EL = document.querySelector("#current--0");
-let current1EL = document.querySelector("#current--1");
+let current0El = document.querySelector("#current--0");
+let current1El = document.querySelector("#current--1");
 let btnNew = document.querySelector(".btn--new");
 let btnRoll = document.querySelector(".btn--roll");
 let btnHold = document.querySelector(".btn--hold");
-let player0EL = document.querySelector(".player--0");
-let player1EL = document.querySelector(".player--1");
+let player0El = document.querySelector(".player--0");
+let player1El = document.querySelector(".player--1");
 
 
 let playing, score, currentScore, activePlayer
@@ -2295,14 +2295,14 @@ const init = () => {
 
     scoreZero.textContent = 0
     scoreOne.textContent = 0
-    current0EL.textContent = 0
-    current1EL.textContent = 0
+    current0El.textContent = 0
+    current1El.textContent = 0
 
     dice.classList.add("hidden")
-    player0EL.classList.remove("player--winner")
-    player1EL.classList.remove("player--winner")
-    player0EL.classList.add("player--active")
-    player1EL.classList.remove("player--active")
+    player0El.classList.remove("player--winner")
+    player1El.classList.remove("player--winner")
+    player0El.classList.add("player--active")
+    player1El.classList.remove("player--active")
 }
 
 init()
@@ -2311,8 +2311,8 @@ const switchPlayer = () => {
     currentScore = 0
     document.querySelector(`#current--${activePlayer}`).textContent = currentScore
     activePlayer = activePlayer === 0 ? 1 : 0
-    player0EL.classList.toggle(`player--active`)
-    player1EL.classList.toggle(`player--active`)
+    player0El.classList.toggle(`player--active`)
+    player1El.classList.toggle(`player--active`)
 }
 
 btnRoll.addEventListener("click", () => {
@@ -2320,8 +2320,8 @@ btnRoll.addEventListener("click", () => {
         const diceEl = Math.trunc(Math.random() * 6) + 1
         dice.classList.remove(`hidden`)
         dice.src = `dice-${dice}.png`
-    } if (dice !== 1) {
-        currentScore = + dice
+    } if (diceEl !== 1) {
+        currentScore = + diceEl
         document.querySelector(`#current--${activePlayer}`).textContent = currentScore
     } else{
         switchPlayer()
