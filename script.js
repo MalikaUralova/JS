@@ -2273,6 +2273,7 @@
 // console.log(ford.speed);
 
 
+"use strict"
 let scoreZero = document.getElementById("score--0");
 let scoreOne = document.querySelector("#score--1");
 let current0EL = document.querySelector("#current--0");
@@ -2300,9 +2301,23 @@ const init = () => {
     dice.classList.add("hidden")
     player0EL.classList.remove("player--winner")
     player1EL.classList.remove("player--winner")
+    player0EL.classList.add("player--active")
+    player1EL.classList.remove("player--active")
 }
 
 init()
+
+const switchPlayer = () => {
+    currentScore =0
+    document.querySelector(`#current--${activePlayer}`).textContent = currentScore
+    activePlayer = activePlayer === 0 ? 1 : 0
+    player0EL.classList.toggle(`player--active`)
+    player1EL.classList.toggle(`player--active`)
+}
+
+
+
+
 btnRoll.addEventListener("click", () => {
 
 })
