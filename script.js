@@ -2299,6 +2299,7 @@ const init = () => {
 
     dice.classList.add("hidden")
     player0EL.classList.remove("player--winner")
+    player1EL.classList.remove("player--winner")
 }
 
 init()
