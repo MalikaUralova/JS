@@ -2051,7 +2051,7 @@
 // console.log(userName);
 // GUEST
 
- 
+
 
 
 
@@ -2285,11 +2285,11 @@ let player0EL = document.querySelector(".player--0");
 let player1EL = document.querySelector(".player--1");
 
 
-let playing, score, currentScore, activePlayer 
+let playing, score, currentScore, activePlayer
 
 const init = () => {
     playing = true
-    score = [0,0]
+    score = [0, 0]
     currentScore = 0
     activePlayer = 0
 
@@ -2308,16 +2308,22 @@ const init = () => {
 init()
 
 const switchPlayer = () => {
-    currentScore =0
+    currentScore = 0
     document.querySelector(`#current--${activePlayer}`).textContent = currentScore
     activePlayer = activePlayer === 0 ? 1 : 0
     player0EL.classList.toggle(`player--active`)
     player1EL.classList.toggle(`player--active`)
 }
 
-
-
-
 btnRoll.addEventListener("click", () => {
-
+    if (playing) {
+        const dice = Math.trunc(Math.random() * 6) + 1
+        dice.classList.remove(`hidden`)
+        dice.src = `dice-${dice}.png`
+    } if (dice !== 1) {
+        currentScore = + dice
+        document.querySelector(`#current--${activePlayer}`).textContent = currentScore
+    } else{
+        switchPlayer()
+    }
 })
