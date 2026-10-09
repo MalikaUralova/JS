@@ -5,6 +5,8 @@
 // var surname = 'Uralova';
 // console.log(`Salom ${name} ${surname}! Saytimizga xush kelibsiz!`);
 
+const { act } = require("react");
+
 
 
 // ───────────────────────────────────────── //
@@ -2283,82 +2285,85 @@
 // console.log(ford.speed);
 
 
-"use strict"
-let scoreZero = document.getElementById("score--0");
-let scoreOne = document.querySelector("#score--1");
-let current0El = document.querySelector("#current--0");
-let current1El = document.querySelector("#current--1");
-let btnNew = document.querySelector(".btn--new");
-let btnRoll = document.querySelector(".btn--roll");
-let btnHold = document.querySelector(".btn--hold");
-let player0El = document.querySelector(".player--0");
-let player1El = document.querySelector(".player--1");
-let dice = document.querySelector(".dice")
+// "use strict"
+// let scoreZero = document.getElementById("score--0");
+// let scoreOne = document.querySelector("#score--1");
+// let current0El = document.querySelector("#current--0");
+// let current1El = document.querySelector("#current--1");
+// let btnNew = document.querySelector(".btn--new");
+// let btnRoll = document.querySelector(".btn--roll");
+// let btnHold = document.querySelector(".btn--hold");
+// let player0El = document.querySelector(".player--0");
+// let player1El = document.querySelector(".player--1");
+// let dice = document.querySelector(".dice")
 
 
-let playing, score, currentScore, activePlayer
+// let playing, score, currentScore, activePlayer
 
-const init = () => {
-    playing = true
-    score = [0, 0]
-    currentScore = 0
-    activePlayer = 0
+// const init = () => {
+//     playing = true
+//     score = [0, 0]
+//     currentScore = 0
+//     activePlayer = 0
 
-    scoreZero.textContent = 0
-    scoreOne.textContent = 0
-    current0El.textContent = 0
-    current1El.textContent = 0
+//     scoreZero.textContent = 0
+//     scoreOne.textContent = 0
+//     current0El.textContent = 0
+//     current1El.textContent = 0
 
-    dice.classList.add("hidden")
-    player0El.classList.remove("player--winner")
-    player1El.classList.remove("player--winner")
-    player0El.classList.add("player--active")
-    player1El.classList.remove("player--active")
-}
+//     dice.classList.add("hidden")
+//     player0El.classList.remove("player--winner")
+//     player1El.classList.remove("player--winner")
+//     player0El.classList.add("player--active")
+//     player1El.classList.remove("player--active")
+// }
 
-init()
+// init()
 
-const switchPlayer = () => {
-    currentScore = 0
-    document.querySelector(`#current--${activePlayer}`).textContent = currentScore
-    activePlayer = activePlayer === 0 ? 1 : 0
-    player0El.classList.toggle(`player--active`)
-    player1El.classList.toggle(`player--active`)
-}
+// const switchPlayer = () => {
+//     currentScore = 0
+//     document.querySelector(`#current--${activePlayer}`).textContent = currentScore
+//     activePlayer = activePlayer === 0 ? 1 : 0
+//     player0El.classList.toggle(`player--active`)
+//     player1El.classList.toggle(`player--active`)
+// }
 
-btnRoll.addEventListener("click", () => {
-    if (playing) {
-        const diceEl = Math.trunc(Math.random() * 6) + 1
-        dice.classList.remove(`hidden`)
-        dice.src = `dice-${diceEl}.png`
+// btnRoll.addEventListener("click", () => {
+//     if (playing) {
+//         const diceEl = Math.trunc(Math.random() * 6) + 1
+//         dice.classList.remove(`hidden`)
+//         dice.src = `dice-${diceEl}.png`
 
-        if (diceEl !== 1) {
-            currentScore += diceEl
-            document.querySelector(`#current--${activePlayer}`).textContent = currentScore
-        } else {
-            switchPlayer()
-        }
-    }
-})
-
-
-btnHold.addEventListener("click", () => {
-    if (playing) {
-        score[activePlayer] += currentScore
-        document.getElementById(`score--${activePlayer}`).textContent = score[activePlayer]
-        if (score[activePlayer] >= 20) {
-            playing = false
-            dice.classList.add(`hidden`)
-            document.querySelector(`.player--${activePlayer}`).classList.add(`player--winner`)
-            document.querySelector(`.player--${activePlayer}`).classList.remove(`player--active`)
-            document.querySelector(`#current--${activePlayer}`).textContent = 0
-
-        } else {
-            switchPlayer()
-        }
-
-    }
-})
+//         if (diceEl !== 1) {
+//             currentScore += diceEl
+//             document.querySelector(`#current--${activePlayer}`).textContent = currentScore
+//         } else {
+//             switchPlayer()
+//         }
+//     }
+// })
 
 
-btnNew.addEventListener("click", init)
+// btnHold.addEventListener("click", () => {
+//     if (playing) {
+//         score[activePlayer] += currentScore
+//         document.getElementById(`score--${activePlayer}`).textContent = score[activePlayer]
+//         if (score[activePlayer] >= 20) {
+//             playing = false
+//             dice.classList.add(`hidden`)
+//             document.querySelector(`.player--${activePlayer}`).classList.add(`player--winner`)
+//             document.querySelector(`.player--${activePlayer}`).classList.remove(`player--active`)
+//             document.querySelector(`#current--${activePlayer}`).textContent = 0
+
+//         } else {
+//             switchPlayer()
+//         }
+
+//     }
+// })
+
+// btnNew.addEventListener("click", init)
+
+
+
+

@@ -67,7 +67,7 @@ body {
 
 
 
-
+/* 
 
  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
@@ -93,7 +93,6 @@ body {
   justify-content: center;
 }
 
-/* LAYOUT */
 main {
   position: relative;
   width: 100rem;
@@ -116,7 +115,6 @@ main {
   transition: all 0.75s;
 }
 
-/* ELEMENTS */
 .name {
   position: relative;
   font-size: 4rem;
@@ -170,7 +168,7 @@ main {
   font-size: 3.5rem;
 }
 
-/* ABSOLUTE POSITIONED ELEMENTS */
+
 .btn {
   position: absolute;
   left: 50%;
@@ -239,4 +237,4 @@ main {
 
 .hidden {
   display: none;
-}
+} */
