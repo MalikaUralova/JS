@@ -2283,6 +2283,7 @@ let btnRoll = document.querySelector(".btn--roll");
 let btnHold = document.querySelector(".btn--hold");
 let player0El = document.querySelector(".player--0");
 let player1El = document.querySelector(".player--1");
+let dice = document.querySelector(".dice")
 
 
 let playing, score, currentScore, activePlayer
@@ -2319,11 +2320,15 @@ btnRoll.addEventListener("click", () => {
     if (playing) {
         const diceEl = Math.trunc(Math.random() * 6) + 1
         dice.classList.remove(`hidden`)
-        dice.src = `dice-${dice}.png`
-    } if (diceEl !== 1) {
-        currentScore = + diceEl
-        document.querySelector(`#current--${activePlayer}`).textContent = currentScore
-    } else{
-        switchPlayer()
+        dice.src = `dice-${diceEl}.png`
+
+        if (diceEl !== 1) {
+            currentScore += diceEl
+            document.querySelector(`#current--${activePlayer}`).textContent = currentScore
+        } else {
+            switchPlayer()
+        }
     }
 })
+
+
