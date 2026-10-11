@@ -2381,6 +2381,20 @@ const { act } = require("react");
 // }
 // const student={}
 // student.__proto__=person
-// student.greet
+// student.greet()
 
 
+
+
+
+
+
+
+Object.CREATE meros olish yangi usuli
+let person={
+    greet:function () {
+        console.log("Hello, Malika");
+    }
+}
+const student = Object.create(person)
+student.greet();
