@@ -2390,11 +2390,11 @@ const { act } = require("react");
 
 
 
-Object.CREATE meros olish yangi usuli
-let person={
-    greet:function () {
-        console.log("Hello, Malika");
-    }
-}
-const student = Object.create(person)
-student.greet();
+// OBJECT.CREATE meros olish yangi usuli
+// let person={
+//     greet:function () {
+//         console.log("Hello, Malika");
+//     }
+// }
+// const student = Object.create(person)
+// student.greet();
