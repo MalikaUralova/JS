@@ -2343,7 +2343,6 @@ const { act } = require("react");
 //     }
 // })
 
-
 // btnHold.addEventListener("click", () => {
 //     if (playing) {
 //         score[activePlayer] += currentScore
@@ -2365,5 +2364,23 @@ const { act } = require("react");
 // btnNew.addEventListener("click", init)
 
 
+
+
+
+
+
+
+
+
+
+
+let person={
+    greet:function () {
+        console.log("Hello");
+    }
+}
+const student={}
+student.__photo__=person
+student.greet
 
 
