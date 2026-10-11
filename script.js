@@ -2373,14 +2373,14 @@ const { act } = require("react");
 
 
 
-
-let person={
-    greet:function () {
-        console.log("Hello");
-    }
-}
-const student={}
-student.__photo__=person
-student.greet
+// PROTO meros olish eski usuli
+// let person={
+//     greet:function () {
+//         console.log("Hello");
+//     }
+// }
+// const student={}
+// student.__proto__=person
+// student.greet
 
 
