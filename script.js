@@ -2425,13 +2425,13 @@
 //    console.log(`${this.speed} tezligi ${this.speed += 20}`) 
 // }
 
-Car.prototype.brake = function () {
-    console.log(`${this.speed} tezligi ${this.speed -= 10}`);
-}
-function EV( make, speed,charge) {
-   Car.call(this,make, speed) 
-   this.charge=charge
-}
+// Car.prototype.brake = function () {
+//     console.log(`${this.speed} tezligi ${this.speed -= 10}`);
+// }
+// function EV( make, speed,charge) {
+//    Car.call(this,make, speed) 
+//    this.charge=charge
+// }
 
 // EV.prototype= Object.create(Car.prototype)
 // EV.prototype.constructor=EV
