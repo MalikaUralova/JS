@@ -2415,15 +2415,15 @@
 
 
 
-HOMEWORK
-function Car(make, speed) {
-    this.make = make,
-    this.speed = speed
-}
+// HOMEWORK
+// function Car(make, speed) {
+//     this.make = make,
+//     this.speed = speed
+// }
 
-Car.prototype.accelerate = function () {
-   console.log(`${this.speed} tezligi ${this.speed += 20}`) 
-}
+// Car.prototype.accelerate = function () {
+//    console.log(`${this.speed} tezligi ${this.speed += 20}`) 
+// }
 
 // Car.prototype.brake = function () {
 //     console.log(`${this.speed} tezligi ${this.speed -= 10}`);
