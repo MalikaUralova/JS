@@ -2441,7 +2441,7 @@
 
 // const electroCar = new EV("BMW", 200, 90)
 
-// electroCar.accelerate()
-// electroCar.brake()
-// electroCar.chargeBattery()
-// console.log(electroCar);
+electroCar.accelerate()
+electroCar.brake()
+electroCar.chargeBattery()
+console.log(electroCar);
