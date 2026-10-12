@@ -2433,11 +2433,11 @@
 //    this.charge=charge
 // }
 
-// EV.prototype= Object.create(Car.prototype)
-// EV.prototype.constructor=EV
-// EV.prototype.chargeBattery=function (chargeTo) {
-//    console.log(`${this.charge} zaryadi ${this.charge -= 1}`);  
-// }
+EV.prototype= Object.create(Car.prototype)
+EV.prototype.constructor=EV
+EV.prototype.chargeBattery=function (chargeTo) {
+   console.log(`${this.charge} zaryadi ${this.charge -= 1}`);  
+}
 
 // const electroCar = new EV("BMW", 200, 90)
 
