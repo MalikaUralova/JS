@@ -2568,3 +2568,46 @@
 //     seconds.textContent = second
 // }
 // setInterval(clock, 1000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// FUNKSIYANI BOSHQA FUNKSIYAGA ARGUMENT SIFATIDA UZATISH
+function amalBajar(son1,son2,amal) {
+    return amal(son1, son2)
+}
