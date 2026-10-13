@@ -931,8 +931,6 @@
 
 
 //homework
-
-
 // //1-misol
 // let name = "malika"
 // console.log(name.toUpperCase() , name.lengt)
@@ -2536,16 +2534,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 //CALL METODI
 // const user={
 //     firstName:"malika",
@@ -2578,35 +2566,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // FUNKSIYANI BOSHQA FUNKSIYAGA ARGUMENT SIFATIDA UZATISH
 // function amalBajar(son1,son2,amal) {
 //     return amal(son1, son2)
@@ -2615,3 +2574,10 @@
 // const kopaytma = (a,b) => a*b;
 // console.log(amalBajar(5,3, yigindi));
 // console.log(amalBajar(5,3, kopaytma));
+
+
+
+
+
+
+
