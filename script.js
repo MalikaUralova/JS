@@ -2517,3 +2517,4 @@
 MAP
 const myMap = new Map();
 myMap.set(`name`,`malika`);
+myMap.set(`age`,`16`);
