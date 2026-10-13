@@ -2475,3 +2475,21 @@
 //     }
 // }
 // console.log(`Musbat sonlar yig'indisi: ${num}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const name = null;
+
