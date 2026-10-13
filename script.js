@@ -2560,6 +2560,6 @@ const minuts = document.getElementById(`minute`);
 const seconds = document.getElementById(`second`);
 const clock = () => {
     const date = new Date()
-
+    const hour = date.getHours()
 }
 setInterval(clock, 1000)
