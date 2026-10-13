@@ -2555,3 +2555,5 @@ function greeting(greeting,punctuation) {
     console.log(`${greeting} ${this.firstName} ${this.lastName} ${punctuation}`);
 }
 greeting.call(user,"Assalom alaykum" , "!")
+const hours = document.getElementById(`hour`);
+const minuts = document.getElementById(`minute`);
