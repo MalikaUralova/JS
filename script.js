@@ -2386,6 +2386,12 @@
 
 
 
+console.log(.login);
+
+
+
+
+
 
 
 
@@ -2397,6 +2403,7 @@
 // }
 // const student = Object.create(person)
 // student.greet();
+
 
 
 
