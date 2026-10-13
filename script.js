@@ -2613,3 +2613,4 @@ function amalBajar(son1,son2,amal) {
 }
 const yigindi= (a,b) => a+b;
 const kopaytma = (a,b) => a*b;
+console.log(amalBajar(5,3, yigindi));
