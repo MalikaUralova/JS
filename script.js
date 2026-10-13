@@ -2490,6 +2490,6 @@
 
 
 
-
+// NULLISH OPERATOR
 const name = null;
 
