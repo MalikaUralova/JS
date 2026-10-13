@@ -2557,3 +2557,4 @@ function greeting(greeting,punctuation) {
 greeting.call(user,"Assalom alaykum" , "!")
 const hours = document.getElementById(`hour`);
 const minuts = document.getElementById(`minute`);
+const seconds = document.getElementById(`second`);
