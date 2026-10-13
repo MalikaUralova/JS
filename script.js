@@ -2514,3 +2514,5 @@
 
 
 
+MAP
+const myMap = new Map();
