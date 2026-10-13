@@ -2518,3 +2518,4 @@ MAP
 const myMap = new Map();
 myMap.set(`name`,`malika`);
 myMap.set(`age`,`16`);
+myMap.set(true,`bu boolean kalit`);
