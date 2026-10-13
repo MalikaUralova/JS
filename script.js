@@ -2561,5 +2561,6 @@ const seconds = document.getElementById(`second`);
 const clock = () => {
     const date = new Date()
     const hour = date.getHours()
+    const minute = date.getMinutes()
 }
 setInterval(clock, 1000)
