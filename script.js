@@ -2611,3 +2611,4 @@
 function amalBajar(son1,son2,amal) {
     return amal(son1, son2)
 }
+const yigindi= (a,b) => a+b;
