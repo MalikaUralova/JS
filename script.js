@@ -2521,3 +2521,33 @@
 // myMap.set(true,`bu boolean kalit`);
 // myMap.set({id:1},`bu obyekt kalit`);
 // console.log(myMap);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//CALL METODI
+const user={
+    firstName:"malika",
+    lastName:"uralova"
+}
