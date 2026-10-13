@@ -2554,3 +2554,4 @@ const user={
 function greeting(greeting,punctuation) {
     console.log(`${greeting} ${this.firstName} ${this.lastName} ${punctuation}`);
 }
+greeting.call(user,"Assalom alaykum" , "!")
