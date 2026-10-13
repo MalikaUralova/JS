@@ -2516,3 +2516,4 @@
 
 MAP
 const myMap = new Map();
+myMap.set(`name`,`malika`);
