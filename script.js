@@ -2416,36 +2416,36 @@
 
 
 
-// HOMEWORK
-// function Car(make, speed) {
-//     this.make = make,
-//     this.speed = speed
-// }
+HOMEWORK
+function Car(make, speed) {
+    this.make = make,
+    this.speed = speed
+}
 
-// Car.prototype.accelerate = function () {
-//    console.log(`${this.speed} tezligi ${this.speed += 20}`) 
-// }
+Car.prototype.accelerate = function () {
+   console.log(`${this.speed} tezligi ${this.speed += 20}`) 
+}
 
-// Car.prototype.brake = function () {
-//     console.log(`${this.speed} tezligi ${this.speed -= 10}`);
-// }
-// function EV( make, speed,charge) {
-//    Car.call(this,make, speed) 
-//    this.charge=charge
-// }
+Car.prototype.brake = function () {
+    console.log(`${this.speed} tezligi ${this.speed -= 10}`);
+}
+function EV( make, speed,charge) {
+   Car.call(this,make, speed) 
+   this.charge=charge
+}
 
-// EV.prototype= Object.create(Car.prototype)
-// EV.prototype.constructor=EV
-// EV.prototype.chargeBattery=function (chargeTo) {
-//    console.log(`${this.charge} zaryadi ${this.charge -= 1}`);  
-// }
+EV.prototype= Object.create(Car.prototype)
+EV.prototype.constructor=EV
+EV.prototype.chargeBattery=function (chargeTo) {
+   console.log(`${this.charge} zaryadi ${this.charge -= 1}`);  
+}
 
-// const electroCar = new EV("BMW", 200, 90)
+const electroCar = new EV("BMW", 200, 90)
 
-// electroCar.accelerate()
-// electroCar.brake()
-// electroCar.chargeBattery()
-// console.log(electroCar);
+electroCar.accelerate()
+electroCar.brake()
+electroCar.chargeBattery()
+console.log(electroCar);
 
 
 
