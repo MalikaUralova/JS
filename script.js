@@ -2416,58 +2416,58 @@
 
 
 
-HOMEWORK
-function Car(make, speed) {
-    this.make = make,
-    this.speed = speed
-}
-
-Car.prototype.accelerate = function () {
-   console.log(`${this.speed} tezligi ${this.speed += 20}`) 
-}
-
-Car.prototype.brake = function () {
-    console.log(`${this.speed} tezligi ${this.speed -= 10}`);
-}
-function EV( make, speed,charge) {
-   Car.call(this,make, speed) 
-   this.charge=charge
-}
-
-EV.prototype= Object.create(Car.prototype)
-EV.prototype.constructor=EV
-EV.prototype.chargeBattery=function (chargeTo) {
-   console.log(`${this.charge} zaryadi ${this.charge -= 1}`);  
-}
-
-const electroCar = new EV("BMW", 200, 90)
-
-electroCar.accelerate()
-electroCar.brake()
-electroCar.chargeBattery()
-console.log(electroCar);
-
-
-
-
-
-
-
-
-
-
-
-
-
-// MUSBAT SONLAR YIG'INDISI
-// const arr = [12, -5, 8, -3, 20, 0];
-// let num = 0;
-// for (const i of arr) {
-//     if (i > 0) {
-//         num += i;
-//     }
+// HOMEWORK
+// function Car(make, speed) {
+//     this.make = make,
+//     this.speed = speed
 // }
-// console.log(`Musbat sonlar yig'indisi: ${num}`);
+
+// Car.prototype.accelerate = function () {
+//    console.log(`${this.speed} tezligi ${this.speed += 20}`) 
+// }
+
+// Car.prototype.brake = function () {
+//     console.log(`${this.speed} tezligi ${this.speed -= 10}`);
+// }
+// function EV( make, speed,charge) {
+//    Car.call(this,make, speed) 
+//    this.charge=charge
+// }
+
+// EV.prototype= Object.create(Car.prototype)
+// EV.prototype.constructor=EV
+// EV.prototype.chargeBattery=function (chargeTo) {
+//    console.log(`${this.charge} zaryadi ${this.charge -= 1}`);  
+// }
+
+// const electroCar = new EV("BMW", 200, 90)
+
+// electroCar.accelerate()
+// electroCar.brake()
+// electroCar.chargeBattery()
+// console.log(electroCar);
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // MUSBAT SONLAR YIG'INDISI
+// // const arr = [12, -5, 8, -3, 20, 0];
+// // let num = 0;
+// // for (const i of arr) {
+// //     if (i > 0) {
+// //         num += i;
+// //     }
+// // }
+// // console.log(`Musbat sonlar yig'indisi: ${num}`);
 
 
 
@@ -2483,12 +2483,12 @@ console.log(electroCar);
 
 
 
-// NULLISH OPERATOR
-// const name = null;
-// const defaultName = "guest";
-// const userName = name ?? defaultName;
-// console.log(userName);
-// GUEST
+// // NULLISH OPERATOR
+// // const name = null;
+// // const defaultName = "guest";
+// // const userName = name ?? defaultName;
+// // console.log(userName);
+// // GUEST
 
 
 
@@ -2507,13 +2507,13 @@ console.log(electroCar);
 
 
 
-// MAP
-// const myMap = new Map();
-// myMap.set(`name`,`malika`);
-// myMap.set(`age`,`16`);
-// myMap.set(true,`bu boolean kalit`);
-// myMap.set({id:1},`bu obyekt kalit`);
-// console.log(myMap);
+// // MAP
+// // const myMap = new Map();
+// // myMap.set(`name`,`malika`);
+// // myMap.set(`age`,`16`);
+// // myMap.set(true,`bu boolean kalit`);
+// // myMap.set({id:1},`bu obyekt kalit`);
+// // console.log(myMap);
 
 
 
