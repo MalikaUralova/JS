@@ -2358,6 +2358,9 @@
 
 
 
+localStorage.console.log();
+
+
 
 
 
