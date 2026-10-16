@@ -2569,10 +2569,3 @@
 // const kopaytma = (a,b) => a*b;
 // console.log(amalBajar(5,3, yigindi));
 // console.log(amalBajar(5,3, kopaytma));
-
-
-
-
-
-
-
