@@ -2527,8 +2527,6 @@
 
 
 
-
-
 //CALL METODI
 // const user={
 //     firstName:"malika",
