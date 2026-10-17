@@ -2530,6 +2530,7 @@
 //CALL METODI
 // const user={
 //     firstName:"malika",
+
 //     lastName:"uralova"
 // }
 // function greeting(greeting,punctuation) {
@@ -2567,3 +2568,20 @@
 // const kopaytma = (a,b) => a*b;
 // console.log(amalBajar(5,3, yigindi));
 // console.log(amalBajar(5,3, kopaytma));
+
+
+
+
+
+
+
+
+
+
+
+
+
+for (let i = 0; i <=30; i++) {//
+    let row = '       ';
+
+}
