@@ -2662,3 +2662,5 @@ const deleteUser = email => {
         }
     })
 }
+const updateUser = (email, newData) => {
+    people.map((item) => {
