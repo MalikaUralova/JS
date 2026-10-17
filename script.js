@@ -2671,3 +2671,4 @@ const updateUser = (email, newData) => {
         }
     })
 }
+console.log(newArr);
