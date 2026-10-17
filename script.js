@@ -2605,3 +2605,4 @@ for (const i of arr) {
         num += i;
     }
 }
+console.log(`Musbat sonlar yig'indisi: ${num}`); 
