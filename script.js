@@ -2694,3 +2694,4 @@ function User(name,age) {
 }
 const user1 = new User("oysha", 16)
 const user2 = new User("asalxon", 29)
+console.log(user1);
