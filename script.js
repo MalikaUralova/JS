@@ -2632,3 +2632,6 @@ let cost = {
     wednesday: 40000
 }
 let total = 0
+for (const i in cost) {
+    
+}
