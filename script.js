@@ -2631,3 +2631,4 @@ let cost = {
     tuesday: 30000,
     wednesday: 40000
 }
+let total = 0
