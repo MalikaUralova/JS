@@ -2633,5 +2633,6 @@ let cost = {
 }
 let total = 0
 for (const i in cost) {
-    
+    total += cost[i]
 }
+console.log(`Umumiy xarajat ${total}`);
