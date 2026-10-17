@@ -2676,3 +2676,18 @@
 //     return console.log(people);
 // }
 // console.log(people);
+
+
+
+
+
+
+
+
+
+
+
+
+function User(name,age) {
+  
+}
