@@ -2655,3 +2655,6 @@ const newArr = [];
 const addUser = user => {
     people.push(user)
 }
+const deleteUser = email => {
+
+}
