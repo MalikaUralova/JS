@@ -2601,5 +2601,7 @@
 const arr = [12, -5, 8, -3, 20, 0];
 let num = 0;
 for (const i of arr) {
-
+    if (i > 0) {
+       
+    }
 }
