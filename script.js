@@ -2636,3 +2636,19 @@
 //     total += cost[i]
 // }
 // console.log(`Umumiy xarajat ${total}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const newArr = [];
