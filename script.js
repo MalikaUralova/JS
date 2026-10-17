@@ -2689,5 +2689,6 @@
 
 
 function User(name,age) {
-  
+    this.name = name,
+    
 }
