@@ -2652,3 +2652,6 @@
 
 
 const newArr = [];
+const addUser = user => {
+    people.push(user)
+}
