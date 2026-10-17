@@ -2606,3 +2606,28 @@
 //     }
 // }
 // console.log(`Musbat sonlar yig'indisi: ${num}`); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let cost = {
+    monday: 20000,
+    tuesday: 30000,
+    wednesday: 40000
+}
