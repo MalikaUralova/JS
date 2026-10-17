@@ -2673,4 +2673,5 @@ const updateUser = (email, newData) => {
 }
 console.log(newArr);
 const listUser = () => {
-    
+    return console.log(people);
+}
