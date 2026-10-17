@@ -2664,6 +2664,10 @@ const deleteUser = email => {
 }
 const updateUser = (email, newData) => {
     people.map((item) => {
-
+        if (item.email !== email) {
+            newArr.push(item)
+        }else{
+            newArr.push(newData)
+        }
     })
 }
