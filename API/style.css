@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.country-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.country-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+}
+
+.card-header {
+    background: rgba(255, 255, 255, 0.06);
+    padding: 30px 20px 20px 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+.country-title h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #f8fafc;
+    margin-bottom: 2px;
+}
+
+.country-title span {
+    font-size: 13px;
+    color: #94a3b8;
+    font-weight: 400;
+}
+
+
+.card-body {
+    padding: 10px 24px 20px 24px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.info-row:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #94a3b8;
+}
+
+.info-value {
+    font-size: 14px;
+    font-weight: 600;
+    color: #f1f5f9;
+    text-align: right;
+}
+
+.info-value .highlight {
+    color: #38bdf8;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.loading {
+    width: 100px;
+    height: 100px;
+    border: 10px dotted white;
+    border-bottom: 10px dotted transparent;
+    border-radius: 50%;
+    animation: loading infinite 2s;
+    margin: 0 auto;
+}
+
+@keyframes loading {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+} 

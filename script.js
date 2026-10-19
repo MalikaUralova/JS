@@ -2626,6 +2626,8 @@
 
 
 
+
+
 // let cost = {
 //     monday: 20000,
 //     tuesday: 30000,
@@ -2636,9 +2638,6 @@
 //     total += cost[i]
 // }
 // console.log(`Umumiy xarajat ${total}`);
-
-
-
 
 
 
@@ -2696,3 +2695,15 @@
 // const user2 = new User("asalxon", 29)
 // console.log(user1);
 // console.log(user2);
+
+
+
+
+
+
+
+
+
+const xhr = new XMLHttpRequest()
+console.log(xhr);
+
