@@ -2459,15 +2459,15 @@
 
 
 
-// // MUSBAT SONLAR YIG'INDISI
-// // const arr = [12, -5, 8, -3, 20, 0];
-// // let num = 0;
-// // for (const i of arr) {
-// //     if (i > 0) {
-// //         num += i;
-// //     }
-// // }
-// // console.log(`Musbat sonlar yig'indisi: ${num}`);
+// MUSBAT SONLAR YIG'INDISI
+// const arr = [12, -5, 8, -3, 20, 0];
+// let num = 0;
+// for (const i of arr) {
+//     if (i > 0) {
+//         num += i;
+//     }
+// }
+// console.log(`Musbat sonlar yig'indisi: ${num}`);
 
 
 
@@ -2483,12 +2483,12 @@
 
 
 
-// // NULLISH OPERATOR
-// // const name = null;
-// // const defaultName = "guest";
-// // const userName = name ?? defaultName;
-// // console.log(userName);
-// // GUEST
+// NULLISH OPERATOR
+// const name = null;
+// const defaultName = "guest";
+// const userName = name ?? defaultName;
+// console.log(userName);
+// GUEST
 
 
 
