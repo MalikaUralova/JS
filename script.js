@@ -2582,6 +2582,9 @@
 
 
 
+
+
+
 // for (let i = 0; i <=30; i++) {//
 //     let row = '       ';
 //     for (let j = 0; j <=i; j++) {//
@@ -2700,6 +2703,24 @@
 
 
 
+
+
+
+
+
+
+
+fetch("https://jsonplaceholder.typicode.com/photos")
+.then((response)=>{
+    return response.json()
+})
+.then((data)=>{
+    return console.log(data)
+})
+
+.catch((error)=>{
+    console.log("Xato");
+})
 
 
 
