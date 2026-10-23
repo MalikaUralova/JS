@@ -2710,17 +2710,20 @@
 
 
 
-fetch("https://jsonplaceholder.typicode.com/photos")
-.then((response)=>{
-    return response.json()
-})
-.then((data)=>{
-    return console.log(data)
-})
+// fetch("https://jsonplaceholder.typicode.com/photos")
+// .then((response)=>{
+//     return response.json()
+// })
+// .then((data)=>{
+//     return console.log(data)
+// })
 
-.catch((error)=>{
-    console.log("Xato ");
-})
+// .catch((error)=>{
+//     console.log("Xato");
+// })
+
+
+
 
 
 
