@@ -2719,7 +2719,7 @@ fetch("https://jsonplaceholder.typicode.com/photos")
 })
 
 .catch((error)=>{
-    console.log("Xato");
+    console.log("Xato ");
 })
 
 
