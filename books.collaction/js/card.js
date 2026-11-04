@@ -46,26 +46,26 @@ if (!totalPrice || !cartItems) {
     });
 
     if (subtotalPrice) subtotalPrice.textContent = `${price2} $`;
-    totalPrice.textContent = `${price2} $`; // chegirma bo'lsa, shu yerda ayirib qo'shing
+    totalPrice.textContent = `${price2} $`; 
 }
 
 
 
 
 
-// const getData = JSON.parse(localStorage.getItem("data"))
+const getData = JSON.parse(localStorage.getItem("data"))
 
-// console.log(getData);
+console.log(getData);
 
-// const totalPrice = document.querySelector(".total-price")
-// const cartItems = document.querySelector(".cart-items")
+const totalPrice = document.querySelector(".total-price")
+const cartItems = document.querySelector(".cart-items")
 
-// let price2 = 0;
-// getData.map(item => {
+let price2 = 0;
+getData.map(item => {
 
-//     const { title, image, price, count } = item;
-//     totalPrice.textContent = `${price2 += price} so'm`
-//     cartItems.innerHTML += `
+    const { title, image, price, count } = item;
+    totalPrice.textContent = `${price2 += price} so'm`
+    cartItems.innerHTML += `
 
 
 //                     <div class="cart-item">

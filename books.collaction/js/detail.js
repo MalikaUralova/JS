@@ -45,7 +45,7 @@ if (book) {
     const discountPercent = Math.round(((book.price - book.salePrice) / book.price) * 100)
     discountTag.textContent = `-${discountPercent}%`
 
-    // Miqdor tugmalari
+
     qtyMinus.addEventListener("click", () => {
         if (quantity > 1) {
             quantity--
@@ -58,7 +58,6 @@ if (book) {
         qtyValue.textContent = quantity
     })
 
-    // Savatga qo'shish
     buyBtn.addEventListener("click", () => {
         const getData = JSON.parse(localStorage.getItem("data")) || []
         const foundData = getData.find(item => item.id === book.id)
@@ -83,7 +82,6 @@ if (book) {
         alert("Mahsulotingiz savatga qo'shildi!")
     })
 
-    // O'xshash kitoblar
     const related = data.filter(item => item.id !== book.id).slice(0, 4)
     related.forEach(item => {
         relatedList.innerHTML += `
@@ -99,7 +97,7 @@ if (book) {
     document.querySelector(".book-detail").innerHTML = `<p>Kitob topilmadi.</p>`
 }
 
-// Tab almashtirish
+
 const tabBtns = document.querySelectorAll(".book-tabs__btn")
 const tabContents = document.querySelectorAll(".book-tabs__content")
 
