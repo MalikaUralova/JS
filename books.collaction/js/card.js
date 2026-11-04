@@ -68,13 +68,13 @@ if (!totalPrice || !cartItems) {
 //     cartItems.innerHTML += `
 
 
-                    <div class="cart-item">
-                    <div class="cart-item__cover">
-                        <img src="${image}" alt="Atom Odatlar">
-                    </div>
-                    <div class="cart-item__info">
-                        <h2>${title}</h2>
-                        <p class="cart-item__price">${price} $</p>
+//                     <div class="cart-item">
+//                     <div class="cart-item__cover">
+//                         <img src="${image}" alt="Atom Odatlar">
+//                     </div>
+//                     <div class="cart-item__info">
+//                         <h2>${title}</h2>
+//                         <p class="cart-item__price">${price} $</p>
 //                     </div>
 //                     <div class="cart-item__qty">
 //                         <button class="qty-btn" aria-label="Kamaytirish">−</button>
