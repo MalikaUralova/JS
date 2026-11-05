@@ -69,6 +69,6 @@ const data = [
         price: 140,
         salePrice: 115,
         rating: 4,
-        image: "https://covers.openlibrary.org/b/isbn/9781577314806-L.jpg"
+        image: "https://covers.openlibrary.org/b/isbn/9781577314806-L.jpg"t
     }
 ];
