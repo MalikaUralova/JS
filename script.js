@@ -2654,26 +2654,26 @@
 
 
 
-// const newArr = [];
-// const addUser = user => {
-//     people.push(user)
-// }
-// const deleteUser = email => {
-//     people.map(item => {
-//         if (item.email !== email) {
-//             newArr.push(item)
-//         }
-//     })
-// }
-// const updateUser = (email, newData) => {
-//     people.map((item) => {
-//         if (item.email !== email) {
-//             newArr.push(item)
-//         }else{
-//             newArr.push(newData)
-//         }
-//     })
-// }
+const newArr = [];
+const addUser = user => {
+    people.push(user)
+}
+const deleteUser = email => {
+    people.map(item => {
+        if (item.email !== email) {
+            newArr.push(item)
+        }
+    })
+}
+const updateUser = (email, newData) => {
+    people.map((item) => {
+        if (item.email !== email) {
+            newArr.push(item)
+        }else{
+            newArr.push(newData)
+        }
+    })
+}
 // console.log(newArr);
 // const listUser = () => {
 //     return console.log(people);
