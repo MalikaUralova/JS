@@ -1979,19 +1979,19 @@
 // let countText = document.getElementById("count");
 // let todayText = document.getElementById("today");
 // let totalText = document.getElementById("total");
-// function addCount() {
-//   count = count + 1;
-//   today = today + 1;
-//   total = total + 1;
-//   updateText();
-// }
-// function minusCount() {
-//   if (count > 0) {
-//     count = count - 1;
-//   }
-//   updateText();
-// }
-// function updateText() {
+function addCount() {
+  count = count + 1;
+  today = today + 1;
+  total = total + 1;
+  updateText();
+}
+function minusCount() {
+  if (count > 0) {
+    count = count - 1;
+  }
+  updateText();
+}
+function updateText() {
 //   countText.innerHTML = count;
 //   todayText.innerHTML = today;
 //   totalText.innerHTML = total;
