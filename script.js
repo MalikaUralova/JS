@@ -2061,18 +2061,18 @@
 
 
 
-// function getApiData() {
-//     return{
-//         title: undefined,
-//         description:null
-//     }
-// }
-// const data = getApiData();
-// const title =data.title ?? "No title";
-// const description = data.description ?? "No Description";
-// console.log(title);
-// console.log(description);
-// No title
+function getApiData() {
+    return{
+        title: undefined,
+        description:null
+    }
+}
+const data = getApiData();
+const title =data.title ?? "No title";
+const description = data.description ?? "No Description";
+console.log(title);
+console.log(description);
+No title
 // No Description
 
 
