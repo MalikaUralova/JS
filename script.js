@@ -1991,7 +1991,7 @@
 //   }
 //   updateText();
 // }
-function updateText() {
+// function updateText() {
   countText.innerHTML = count;
   todayText.innerHTML = today;
   totalText.innerHTML = total;
@@ -2000,8 +2000,8 @@ document.getElementById("circleBtn").addEventListener("click", addCount);
 document.getElementById("minusBtn").addEventListener("click", minusCount);
 document.addEventListener("keydown", function(e) {
   if (e.code === "Space") {
-    addCount();
-  }
+//     addCount();
+//   }
 // });
 
 
