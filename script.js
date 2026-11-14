@@ -2021,18 +2021,18 @@
 //   overlay.classList.add("active");
 //   modal.classList.add("active");
 // }
-// function closeModal() {
-//   overlay.classList.remove("active");
-//   modal.classList.remove("active");
-// }
-// openModalBtn.addEventListener("click", openModal);
-// closeModalBtn.addEventListener("click", closeModal);
-// overlay.addEventListener("click", closeModal);
-// registerForm.addEventListene*r("submit", function (e) {
-//   e.preventDefault();
-//   closeModal();
-//   registerForm.reset();
-// });
+function closeModal() {
+  overlay.classList.remove("active");
+  modal.classList.remove("active");
+}
+openModalBtn.addEventListener("click", openModal);
+closeModalBtn.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
+registerForm.addEventListene*r("submit", function (e) {
+  e.preventDefault();
+  closeModal();
+  registerForm.reset();
+});
 
 
 
