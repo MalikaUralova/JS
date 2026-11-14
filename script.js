@@ -2184,20 +2184,20 @@
 
 
 
-// function Car(name,speed) {
-//   this.name = name,
-//   this.speed = speed,
-//   this.accelerate = function () {
-//     console.log(`${this.name}: ${this.speed},${this.speed+=10} km/h`);
-//   }
-//     this.break = function () {
-//     console.log(`${this.name}: ${this.speed},${this.speed-5} km/h`);
-//   }
-// }
-// const bmw = new Car ("BMW", 120)
-// const mers = new Car ("Merscedes", 95)
-// bmw.break()
-// mers.accelerate()
+function Car(name,speed) {
+  this.name = name,
+  this.speed = speed,
+  this.accelerate = function () {
+    console.log(`${this.name}: ${this.speed},${this.speed+=10} km/h`);
+  }
+    this.break = function () {
+    console.log(`${this.name}: ${this.speed},${this.speed-5} km/h`);
+  }
+}
+const bmw = new Car ("BMW", 120)
+const mers = new Car ("Merscedes", 95)
+bmw.break()
+mers.accelerate()
 
 
 
