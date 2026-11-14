@@ -2044,11 +2044,11 @@
 
 
 
-// const name = null;
-// const defaultName = "guest";
-// const userName = name ?? defaultName;
-// console.log(userName);
-// GUEST
+const name = null;
+const defaultName = "guest";
+const userName = name ?? defaultName;
+console.log(userName);
+GUEST
 
 
 
@@ -2061,19 +2061,19 @@
 
 
 
-// function getApiData() {
-//     return{
-//         title: undefined,
-//         description:null
-//     }
-// }
-// const data = getApiData();
-// const title =data.title ?? "No title";
-// const description = data.description ?? "No Description";
-// console.log(title);
-// console.log(description);
-// No title
-// No Description
+function getApiData() {
+    return{
+        title: undefined,
+        description:null
+    }
+}
+const data = getApiData();
+const title =data.title ?? "No title";
+const description = data.description ?? "No Description";
+console.log(title);
+console.log(description);
+No title
+No Description
 
 
 
@@ -2082,19 +2082,19 @@
 
 
 
-//OPTIOONAL CHAINING BILAN ISHLASH
-// let user = {
-//     profile: {
-//         name: "malika",
-//     },
-// }
+OPTIOONAL CHAINING BILAN ISHLASH
+let user = {
+    profile: {
+        name: "malika",
+    },
+}
 
-// if (user && user.profile && user.profile.name) {
-//     console.log(user.profile.name);
-// } else {
-//     console.log("ism topilmadi");
-// }
-// malika
+if (user && user.profile && user.profile.name) {
+    console.log(user.profile.name);
+} else {
+    console.log("ism topilmadi");
+}
+malika
 
 
 
