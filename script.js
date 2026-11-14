@@ -2277,17 +2277,17 @@
 // console.log(ford.speed);
 
 
-// "use strict"
-// let scoreZero = document.getElementById("score--0");
-// let scoreOne = document.querySelector("#score--1");
-// let current0El = document.querySelector("#current--0");
-// let current1El = document.querySelector("#current--1");
-// let btnNew = document.querySelector(".btn--new");
-// let btnRoll = document.querySelector(".btn--roll");
-// let btnHold = document.querySelector(".btn--hold");
-// let player0El = document.querySelector(".player--0");
-// let player1El = document.querySelector(".player--1");
-// let dice = document.querySelector(".dice")
+"use strict"
+let scoreZero = document.getElementById("score--0");
+let scoreOne = document.querySelector("#score--1");
+let current0El = document.querySelector("#current--0");
+let current1El = document.querySelector("#current--1");
+let btnNew = document.querySelector(".btn--new");
+let btnRoll = document.querySelector(".btn--roll");
+let btnHold = document.querySelector(".btn--hold");
+let player0El = document.querySelector(".player--0");
+let player1El = document.querySelector(".player--1");
+let dice = document.querySelector(".dice")
 
 
 // let playing, score, currentScore, activePlayer
