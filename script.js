@@ -2528,29 +2528,29 @@
 
 
 
-//CALL METODI
-// const user={
-//     firstName:"malika",
+CALL METODI
+const user={
+    firstName:"malika",
 
-//     lastName:"uralova"
-// }
-// function greeting(greeting,punctuation) {
-//     console.log(`${greeting} ${this.firstName} ${this.lastName} ${punctuation}`);
-// }
-// greeting.call(user,"Assalom alaykum" , "!")
-// const hours = document.getElementById(`hour`);
-// const minuts = document.getElementById(`minute`);
-// const seconds = document.getElementById(`second`);
-// const clock = () => {
-//     const date = new Date()
-//     const hour = date.getHours()
-//     const minute = date.getMinutes()
-//     const second = date.getSeconds()
-//     hours.textContent = hour
-//     minuts.textContent = minute
-//     seconds.textContent = second
-// }
-// setInterval(clock, 1000)
+    lastName:"uralova"
+}
+function greeting(greeting,punctuation) {
+    console.log(`${greeting} ${this.firstName} ${this.lastName} ${punctuation}`);
+}
+greeting.call(user,"Assalom alaykum" , "!")
+const hours = document.getElementById(`hour`);
+const minuts = document.getElementById(`minute`);
+const seconds = document.getElementById(`second`);
+const clock = () => {
+    const date = new Date()
+    const hour = date.getHours()
+    const minute = date.getMinutes()
+    const second = date.getSeconds()
+    hours.textContent = hour
+    minuts.textContent = minute
+    seconds.textContent = second
+}
+setInterval(clock, 1000)
 
 
 
