@@ -1800,13 +1800,13 @@
 //     }
 // ];
 
-let count = 0;
-let scores = []
+// let count = 0;
+// let scores = []
 
-for (let i = 0; i < teams.length; i++) {
-    count = (teams[i].win * 3) + (teams[i].tie * 1) + (teams[i].lose * 0);
-    scores.push(count)
-}
+// for (let i = 0; i < teams.length; i++) {
+//     count = (teams[i].win * 3) + (teams[i].tie * 1) + (teams[i].lose * 0);
+//     scores.push(count)
+// }
 
 // let count2 = 0;
 
@@ -2012,27 +2012,27 @@ for (let i = 0; i < teams.length; i++) {
 
 
 
-// const openModalBtn = document.getElementById("openModalBtn");
-// const closeModalBtn = document.getElementById("closeModalBtn");
-// const overlay = document.getElementById("overlay");
-// const modal = document.getElementById("modal");
-// const registerForm = document.getElementById("registerForm");
-// function openModal() {
-//   overlay.classList.add("active");
-//   modal.classList.add("active");
-// }
-// function closeModal() {
-//   overlay.classList.remove("active");
-//   modal.classList.remove("active");
-// }
-// openModalBtn.addEventListener("click", openModal);
-// closeModalBtn.addEventListener("click", closeModal);
-// overlay.addEventListener("click", closeModal);
-// registerForm.addEventListene*r("submit", function (e) {
-//   e.preventDefault();
-//   closeModal();
-//   registerForm.reset();
-// });
+const openModalBtn = document.getElementById("openModalBtn");
+const closeModalBtn = document.getElementById("closeModalBtn");
+const overlay = document.getElementById("overlay");
+const modal = document.getElementById("modal");
+const registerForm = document.getElementById("registerForm");
+function openModal() {
+  overlay.classList.add("active");
+  modal.classList.add("active");
+}
+function closeModal() {
+  overlay.classList.remove("active");
+  modal.classList.remove("active");
+}
+openModalBtn.addEventListener("click", openModal);
+closeModalBtn.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
+registerForm.addEventListene*r("submit", function (e) {
+  e.preventDefault();
+  closeModal();
+  registerForm.reset();
+});
 
 
 
