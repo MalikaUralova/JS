@@ -1886,14 +1886,14 @@
 
 
 //MALUMOT CHIQARISH
-let str = {
-    name: "malika",
-    age: 16,
-    city: "Qarshi"
-}
-for (const i in str) {
-    console.log(i, str[i]);
-}
+// let str = {
+//     name: "malika",
+//     age: 16,
+//     city: "Qarshi"
+// }
+// for (const i in str) {
+//     console.log(i, str[i]);
+// }
 
 
 
