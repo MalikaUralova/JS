@@ -2689,8 +2689,6 @@
 
 
 
-
-
 // function User(name,age) {
 //     this.name = name,
 //     this.age = age
@@ -2700,6 +2698,7 @@
 // console.log(user1);
 // console.log(user2);
 
+9860 1901 1061 7957
 
 
 
