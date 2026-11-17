@@ -1,4 +1,3 @@
-/* ====== Tokens ====== */
 :root {
     --bg: #F5F6F8;
     --surface: #FFFFFF;
@@ -17,7 +16,6 @@
     --shadow-lift: 0 10px 30px rgba(17, 24, 39, 0.13);
 }
 
-/* ====== Reset ====== */
 * {
     box-sizing: border-box;
 }
@@ -53,7 +51,6 @@ button {
 
 
 
-/* ====== Layout ====== */
 .container {
     max-width: 1240px;
     margin: 0 auto;
@@ -66,7 +63,6 @@ button {
     gap: 32px;
 }
 
-/* ====== Card ====== */
 .book-card {
     background: var(--surface);
     border-radius: var(--radius-card);
@@ -114,15 +110,12 @@ button {
     font-size: 0.95rem;
     line-height: 1.55;
     color: var(--ink-soft);
-
-    /* 2 qatordan keyin "..." qo'yadi */
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
-/* ====== Rating ====== */
 .rating {
     display: flex;
     align-items: center;
@@ -145,7 +138,6 @@ button {
     color: var(--ink-soft);
 }
 
-/* ====== Prices ====== */
 .prices {
     display: flex;
     align-items: baseline;
@@ -167,7 +159,6 @@ button {
     text-decoration: line-through;
 }
 
-/* ====== Button ====== */
 .book-card button {
     margin-top: auto;
     width: 100%;
@@ -199,7 +190,7 @@ button {
 
 
 
-/*  */
+
 
 .navbar {
     display: flex;
@@ -241,21 +232,6 @@ a {
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ====== Responsive ====== */
 @media (prefers-reduced-motion: reduce) {
     .book-card {
         transition: none;
