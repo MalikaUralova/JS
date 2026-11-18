@@ -132,12 +132,12 @@ button {
 .rating .stars .empty {
     color: var(--star-empty);
     
-/* }
+}
 
 .rating .score {
     font-size: 0.95rem;
     color: var(--ink-soft);
-} */
+}
 
 .prices {
     display: flex;
