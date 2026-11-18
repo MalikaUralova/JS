@@ -127,16 +127,17 @@ button {
     color: var(--star);
     font-size: 1.15rem;
     letter-spacing: 4px;
-}
+} 
 
 .rating .stars .empty {
     color: var(--star-empty);
-}
+    
+/* }
 
 .rating .score {
     font-size: 0.95rem;
     color: var(--ink-soft);
-}
+} */
 
 .prices {
     display: flex;
