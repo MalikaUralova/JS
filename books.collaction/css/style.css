@@ -28,7 +28,7 @@ body {
 
 body {
     background: var(--bg);
-    color: var(--ink);
+    color: var(--ink); 
     font-family: var(--font);
     -webkit-font-smoothing: antialiased;
 }
@@ -131,7 +131,6 @@ button {
 
 .rating .stars .empty {
     color: var(--star-empty);
-    
 }
 
 .rating .score {
@@ -142,7 +141,7 @@ button {
 .prices {
     display: flex;
     align-items: baseline;
-    gap: 12px;
+    gap: 12px; 
     margin-top: 16px;
 }
 
