@@ -16,7 +16,6 @@ body {
     padding: 0 20px 60px;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -52,7 +51,6 @@ body {
     background: #e2e6fb;
 }
 
-/* Breadcrumb */
 .breadcrumb {
     display: flex;
     gap: 8px;
@@ -76,7 +74,6 @@ body {
     font-weight: 600;
 }
 
-/* Book detail */
 .book-detail {
     display: flex;
     gap: 44px;
@@ -115,13 +112,14 @@ body {
 .book-detail__img:hover {
     transform: scale(1.02);
 }
-
+/* 
 .book-detail__info {
     flex: 1;
     display: flex;
     flex-direction: column;
+    
     gap: 16px;
-}
+} */
 
 .book-detail__title {
     font-size: 30px;
@@ -155,7 +153,7 @@ body {
     color: #555;
     line-height: 1.7;
     font-size: 15px;
-}
+}                                                                                                                                                       
 
 .book-detail__prices {
     display: flex;
