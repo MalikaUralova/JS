@@ -112,14 +112,14 @@ body {
 .book-detail__img:hover {
     transform: scale(1.02);
 }
-/* 
+
 .book-detail__info {
     flex: 1;
     display: flex;
     flex-direction: column;
     
     gap: 16px;
-} */
+}
 
 .book-detail__title {
     font-size: 30px;
