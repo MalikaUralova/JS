@@ -279,7 +279,8 @@ body {
     cursor: pointer;
     border-bottom: 2px solid transparent;
     transition: color 0.2s, border-color 0.2s;
-}
+} 
+
 
 .book-tabs__btn.active {
     color: #2563eb;
