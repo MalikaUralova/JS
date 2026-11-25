@@ -52,7 +52,7 @@ button {
 
 
 .container {
-    max-width: 1240px;
+    /* max-width: 1240px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -60,7 +60,7 @@ button {
 .books-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 32px;
+    gap: 32px; */
 }
 
 .book-card {
