@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --bg: #F5F6F8;
     --surface: #FFFFFF;
     --ink: #1B1B1F;
@@ -14,7 +14,9 @@
     --radius-btn: 10px;
     --shadow: 0 4px 20px rgba(17, 24, 39, 0.07);
     --shadow-lift: 0 10px 30px rgba(17, 24, 39, 0.13);
-}
+} */
+
+
 
 * {
     box-sizing: border-box;
