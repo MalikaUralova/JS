@@ -6,6 +6,7 @@
     --blue: #2F4FE0;
     --blue-dark: #2440C4;
     --star: #F5A623;
+    line-gap-override: calc(--ink-soft);
     --star-empty: #D9DCE3;
 
     --font: "Poppins", -apple-system, "Segoe UI", sans-serif;
